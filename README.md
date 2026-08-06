@@ -1,6 +1,6 @@
 # AMIP — AMM Manufacturing Intelligence Platform
 
-> End-to-end **Data Engineering + Data Science + Full-Stack** platform simulating a real **CNC machining workshop**.
+> End-to-end  platform simulating a real **CNC machining workshop**.
 > Generates a realistic industrial dataset (~1.09M rows), loads it into **PostgreSQL**, transforms it into a **Data Warehouse star schema**, serves it through a **FastAPI** REST API with **7 trained ML models**, and visualizes it with a **React** frontend and a **Streamlit** BI dashboard.
 
 ![Database](https://img.shields.io/badge/PostgreSQL-16-blue) ![API](https://img.shields.io/badge/API-FastAPI-brightgreen) ![ML](https://img.shields.io/badge/ML-XGBoost-orange) ![Frontend](https://img.shields.io/badge/Frontend-React%2019-blueviolet) ![Dashboard](https://img.shields.io/badge/Dashboard-Streamlit-red) ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED)
