@@ -1,0 +1,44 @@
+{
+  "ml01_scrap": {
+    "trained": true,
+    "accuracy": 0.491,
+    "auc": 0.494,
+    "samples": 24852,
+    "features": 22
+  },
+  "ml02_machining_time": {
+    "trained": true,
+    "mae": 3.6,
+    "rmse": 4.2,
+    "samples": 25000
+  },
+  "ml03_predictive_maint": {
+    "trained": true,
+    "mae": 2.1,
+    "rmse": 3.0,
+    "samples": 2822
+  },
+  "ml04_failure_pred": {
+    "trained": true,
+    "anomaly_rate": 0.05,
+    "samples": 2211,
+    "type": "IsolationForest"
+  },
+  "ml05_tool_wear": {
+    "trained": true,
+    "mae": 0.7,
+    "rmse": 1.0,
+    "samples": 25000
+  },
+  "ml06_prod_duration": {
+    "trained": true,
+    "mae": 38.2,
+    "rmse": 49.3,
+    "samples": 7439
+  },
+  "ml07_inventory": {
+    "trained": true,
+    "items": 31,
+    "note": "Trend projection (linear consumption rate)"
+  }
+}

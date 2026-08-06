@@ -1,0 +1,7 @@
+secteur_id,code,nom,description
+1,T01,Tournage,Secteur de tournage CNC
+2,T02,Fraisage,Secteur de fraisage CNC
+3,T03,Usinage CNC,Secteur d''usinage sur centre
+4,T04,Controle qualite,Secteur de controle qualite
+5,T05,Maintenance,Secteur de maintenance
+6,T06,Stock,Secteur de stockage

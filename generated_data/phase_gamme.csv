@@ -1,0 +1,2268 @@
+phase_gamme_id,gamme_id,numero_phase,designation,machine_id,outil_id,programme_id,temps_usinage_prevu,temps_reglage_prevu,exigence_technique
+1,1,1,Phase 1 - Réglement / Montage,9,49,154,8,8,Perpendicularité 0.02mm
+2,1,2,Phase 2 - Fraisage,9,49,72,12,6,Surface Ra 3.2µm
+3,1,3,Phase 3 - Perçage,4,126,200,7,10,Alésage H7
+4,1,4,Phase 4 - Ébavurage,8,5,19,8,1,Rayon R0.2 max
+5,2,1,Phase 1 - Réglement / Montage,1,104,61,5,19,Parallélisme 0.01mm
+6,2,2,Phase 2 - Perçage,4,19,19,9,9,Diamètre ±0.02mm
+7,2,3,Phase 3 - Fraisage,6,63,360,18,3,Parallélisme 0.03mm
+8,2,4,Phase 4 - Fraisage,9,25,234,49,5,Surface Ra 3.2µm
+9,2,5,Phase 5 - Perçage,3,30,255,24,5,Diamètre ±0.02mm
+10,2,6,Phase 6 - Contrôle qualité,4,87,378,17,4,PDT 100%
+11,3,1,Phase 1 - Réglement / Montage,6,140,71,7,11,Centrage ±0.02mm
+12,3,2,Phase 2 - Fraisage,9,17,62,27,5,Profondeur ±0.05mm
+13,3,3,Phase 3 - Tournage,5,142,85,38,6,Surface Ra 1.6µm
+14,3,4,Phase 4 - Ébavurage,9,97,399,5,1,Rayon R0.2 max
+15,4,1,Phase 1 - Débit / Tronçonnage,1,46,46,14,7,Planarite 0.3mm
+16,4,2,Phase 2 - Fraisage,9,33,106,19,13,Planéité 0.02mm
+17,4,3,Phase 3 - Fraisage,9,62,90,49,14,Surface Ra 3.2µm
+18,4,4,Phase 4 - Fraisage,9,23,322,29,8,Profondeur ±0.05mm
+19,4,5,Phase 5 - Ébavurage,7,50,61,11,1,
+20,5,1,Phase 1 - Débit / Tronçonnage,11,130,113,10,8,Longueur ±1mm
+21,5,2,Phase 2 - Tournage,2,29,77,53,10,Diamètre ±0.01mm
+22,5,3,Phase 3 - Tournage,1,14,331,33,7,Cylindricité 0.02mm
+23,5,4,Phase 4 - Fraisage,9,117,23,16,14,Surface Ra 3.2µm
+24,5,5,Phase 5 - Contrôle qualité,5,41,15,20,6,PDT 100%
+25,6,1,Phase 1 - Débit / Tronçonnage,7,114,304,12,4,
+26,6,2,Phase 2 - Tournage,5,59,399,17,8,Cylindricité 0.02mm
+27,6,3,Phase 3 - Tournage,7,52,193,24,4,Diamètre ±0.01mm
+28,6,4,Phase 4 - Fraisage,6,112,75,23,12,Profondeur ±0.05mm
+29,6,5,Phase 5 - Ébavurage,3,35,235,6,3,Rayon R0.2 max
+30,7,1,Phase 1 - Débit / Tronçonnage,5,9,355,12,2,Planarite 0.3mm
+31,7,2,Phase 2 - Tournage,7,118,215,20,15,Concentricité 0.01mm
+32,7,3,Phase 3 - Tournage,5,41,327,49,5,Cylindricité 0.02mm
+33,7,4,Phase 4 - Tournage,10,126,111,47,10,Diamètre ±0.01mm
+34,7,5,Phase 5 - Ébavurage,4,64,127,8,4,
+35,8,1,Phase 1 - Débit / Tronçonnage,12,39,294,3,5,Cote brute ±0.5mm
+36,8,2,Phase 2 - Tournage,7,130,18,37,11,Diamètre ±0.01mm
+37,8,3,Phase 3 - Fraisage,6,116,254,25,4,Surface Ra 3.2µm
+38,8,4,Phase 4 - Contrôle qualité,4,56,68,16,4,Mesure 3 points
+39,9,1,Phase 1 - Réglement / Montage,2,5,246,6,10,
+40,9,2,Phase 2 - Perçage,3,117,238,9,8,Perpendicularité 0.05mm
+41,9,3,Phase 3 - Contrôle qualité,3,119,361,5,8,PDT 100%
+42,10,1,Phase 1 - Débit / Tronçonnage,3,136,17,7,5,Planarite 0.3mm
+43,10,2,Phase 2 - Perçage,4,21,318,15,2,Alésage H7
+44,10,3,Phase 3 - Contrôle qualité,2,99,188,19,6,PDT 100%
+45,11,1,Phase 1 - Débit / Tronçonnage,5,144,361,4,6,Longueur ±1mm
+46,11,2,Phase 2 - Tournage,5,62,277,17,13,Diamètre ±0.01mm
+47,11,3,Phase 3 - Contrôle qualité,6,54,386,12,4,Contrôle dimensionnel
+48,12,1,Phase 1 - Réglement / Montage,11,109,142,2,7,Perpendicularité 0.02mm
+49,12,2,Phase 2 - Fraisage,9,129,270,17,10,Planéité 0.02mm
+50,12,3,Phase 3 - Fraisage,9,17,97,39,4,Surface Ra 3.2µm
+51,12,4,Phase 4 - Ébavurage,5,74,40,4,2,Rayon R0.2 max
+52,13,1,Phase 1 - Débit / Tronçonnage,5,128,78,6,6,Cote brute ±0.5mm
+53,13,2,Phase 2 - Tournage,10,34,243,32,9,Diamètre ±0.01mm
+54,13,3,Phase 3 - Contrôle qualité,1,75,97,7,2,Mesure 3 points
+55,14,1,Phase 1 - Réglement / Montage,11,86,211,7,15,
+56,14,2,Phase 2 - Fraisage,9,118,156,46,5,Planéité 0.02mm
+57,14,3,Phase 3 - Tournage,5,59,248,33,7,Surface Ra 1.6µm
+58,14,4,Phase 4 - Ébavurage,10,117,86,12,2,
+59,15,1,Phase 1 - Réglement / Montage,5,45,363,4,10,Parallélisme 0.01mm
+60,15,2,Phase 2 - Tournage,5,148,65,38,7,Concentricité 0.01mm
+61,15,3,Phase 3 - Tournage,10,9,341,30,8,Cylindricité 0.02mm
+62,15,4,Phase 4 - Fraisage,6,137,155,17,3,Profondeur ±0.05mm
+63,15,5,Phase 5 - Rectification,5,118,164,12,3,Parallélisme 0.01mm
+64,15,6,Phase 6 - Contrôle qualité,10,122,149,9,8,
+65,16,1,Phase 1 - Débit / Tronçonnage,2,123,21,5,7,Cote brute ±0.5mm
+66,16,2,Phase 2 - Tournage,7,57,229,32,4,Concentricité 0.01mm
+67,16,3,Phase 3 - Tournage,2,150,270,24,15,Concentricité 0.01mm
+68,16,4,Phase 4 - Tournage,1,138,229,53,13,Surface Ra 1.6µm
+69,16,5,Phase 5 - Rectification,4,50,252,18,3,Parallélisme 0.01mm
+70,16,6,Phase 6 - Fraisage,9,95,198,33,3,Planéité 0.02mm
+71,16,7,Phase 7 - Ébavurage,10,115,288,4,2,
+72,17,1,Phase 1 - Réglement / Montage,4,114,148,4,18,
+73,17,2,Phase 2 - Tournage,10,23,74,23,7,Diamètre ±0.01mm
+74,17,3,Phase 3 - Rectification,11,86,34,26,9,Surface Ra 0.8µm
+75,17,4,Phase 4 - Ébavurage,9,70,213,5,5,Rayon R0.2 max
+76,18,1,Phase 1 - Réglement / Montage,5,52,96,8,14,
+77,18,2,Phase 2 - Tournage,5,150,156,41,11,Diamètre ±0.01mm
+78,18,3,Phase 3 - Tournage,1,40,135,29,13,Diamètre ±0.01mm
+79,18,4,Phase 4 - Tournage,5,107,92,41,14,Cylindricité 0.02mm
+80,18,5,Phase 5 - Ébavurage,10,127,35,12,3,
+81,19,1,Phase 1 - Débit / Tronçonnage,4,67,322,13,5,Cote brute ±0.5mm
+82,19,2,Phase 2 - Fraisage,6,67,84,47,3,Parallélisme 0.03mm
+83,19,3,Phase 3 - Tournage,2,92,84,13,7,Concentricité 0.01mm
+84,19,4,Phase 4 - Ébavurage,3,13,149,7,5,
+85,20,1,Phase 1 - Réglement / Montage,11,50,393,4,8,Parallélisme 0.01mm
+86,20,2,Phase 2 - Fraisage,9,78,139,33,4,Planéité 0.02mm
+87,20,3,Phase 3 - Contrôle qualité,1,36,266,14,4,
+88,21,1,Phase 1 - Débit / Tronçonnage,5,27,112,5,6,Longueur ±1mm
+89,21,2,Phase 2 - Perçage,3,107,236,7,3,Perpendicularité 0.05mm
+90,21,3,Phase 3 - Rectification,8,90,160,30,8,Cylindricité 0.005mm
+91,21,4,Phase 4 - Contrôle qualité,6,134,391,15,3,Contrôle dimensionnel
+92,22,1,Phase 1 - Débit / Tronçonnage,2,57,66,14,3,Longueur ±1mm
+93,22,2,Phase 2 - Tournage,2,34,41,37,14,Surface Ra 1.6µm
+94,22,3,Phase 3 - Ébavurage,8,111,22,6,1,Pas d'arêtes vives
+95,23,1,Phase 1 - Réglement / Montage,11,16,241,3,13,Centrage ±0.02mm
+96,23,2,Phase 2 - Tournage,1,25,64,48,6,Cylindricité 0.02mm
+97,23,3,Phase 3 - Tournage,5,8,47,19,14,Concentricité 0.01mm
+98,23,4,Phase 4 - Rectification,3,91,83,24,6,Surface Ra 0.8µm
+99,23,5,Phase 5 - Ébavurage,6,4,271,6,2,Rayon R0.2 max
+100,24,1,Phase 1 - Débit / Tronçonnage,11,2,372,4,3,
+101,24,2,Phase 2 - Fraisage,6,113,345,16,5,Planéité 0.02mm
+102,24,3,Phase 3 - Rectification,4,55,264,15,9,Surface Ra 0.8µm
+103,24,4,Phase 4 - Perçage,8,32,239,8,10,Perpendicularité 0.05mm
+104,24,5,Phase 5 - Ébavurage,3,74,286,3,1,Rayon R0.2 max
+105,25,1,Phase 1 - Débit / Tronçonnage,4,73,234,12,7,Planarite 0.3mm
+106,25,2,Phase 2 - Perçage,11,58,284,18,6,Taraudage M6
+107,25,3,Phase 3 - Tournage,1,122,348,33,5,Surface Ra 1.6µm
+108,25,4,Phase 4 - Rectification,8,27,203,22,4,Surface Ra 0.8µm
+109,25,5,Phase 5 - Ébavurage,4,27,380,5,1,Rayon R0.2 max
+110,26,1,Phase 1 - Réglement / Montage,3,52,305,8,8,Parallélisme 0.01mm
+111,26,2,Phase 2 - Perçage,11,72,392,23,6,Taraudage M6
+112,26,3,Phase 3 - Fraisage,9,125,262,27,5,Profondeur ±0.05mm
+113,26,4,Phase 4 - Tournage,5,126,255,24,13,Cylindricité 0.02mm
+114,26,5,Phase 5 - Ébavurage,1,18,256,3,2,Rayon R0.2 max
+115,27,1,Phase 1 - Réglement / Montage,3,40,156,3,7,
+116,27,2,Phase 2 - Perçage,4,76,339,20,9,Alésage H7
+117,27,3,Phase 3 - Contrôle qualité,11,140,10,6,5,PDT 100%
+118,28,1,Phase 1 - Débit / Tronçonnage,3,97,227,10,2,Cote brute ±0.5mm
+119,28,2,Phase 2 - Tournage,5,43,252,37,5,Concentricité 0.01mm
+120,28,3,Phase 3 - Perçage,11,29,292,20,10,Taraudage M6
+121,28,4,Phase 4 - Fraisage,6,130,29,35,7,Profondeur ±0.05mm
+122,28,5,Phase 5 - Fraisage,9,91,393,28,8,Surface Ra 3.2µm
+123,28,6,Phase 6 - Ébavurage,1,33,188,8,5,Pas d'arêtes vives
+124,29,1,Phase 1 - Réglement / Montage,9,88,195,3,18,Perpendicularité 0.02mm
+125,29,2,Phase 2 - Rectification,4,90,29,29,6,Cylindricité 0.005mm
+126,29,3,Phase 3 - Tournage,5,22,353,14,7,Surface Ra 1.6µm
+127,29,4,Phase 4 - Ébavurage,1,138,167,3,4,
+128,30,1,Phase 1 - Réglement / Montage,6,132,216,6,5,
+129,30,2,Phase 2 - Fraisage,9,97,293,34,8,Surface Ra 3.2µm
+130,30,3,Phase 3 - Contrôle qualité,2,53,173,20,6,Contrôle dimensionnel
+131,31,1,Phase 1 - Débit / Tronçonnage,10,94,224,6,5,Cote brute ±0.5mm
+132,31,2,Phase 2 - Perçage,4,74,136,6,6,Taraudage M6
+133,31,3,Phase 3 - Perçage,3,149,49,23,7,Alésage H7
+134,31,4,Phase 4 - Tournage,10,122,219,23,8,Surface Ra 1.6µm
+135,31,5,Phase 5 - Fraisage,9,130,154,37,13,Planéité 0.02mm
+136,31,6,Phase 6 - Tournage,7,65,320,42,10,Cylindricité 0.02mm
+137,31,7,Phase 7 - Contrôle qualité,9,133,96,20,3,
+138,32,1,Phase 1 - Débit / Tronçonnage,11,112,290,14,7,Cote brute ±0.5mm
+139,32,2,Phase 2 - Fraisage,9,119,76,25,5,Planéité 0.02mm
+140,32,3,Phase 3 - Perçage,11,82,33,25,5,Taraudage M6
+141,32,4,Phase 4 - Ébavurage,10,42,132,12,2,Rayon R0.2 max
+142,33,1,Phase 1 - Débit / Tronçonnage,5,50,15,6,8,Planarite 0.3mm
+143,33,2,Phase 2 - Fraisage,9,109,332,12,6,Parallélisme 0.03mm
+144,33,3,Phase 3 - Tournage,1,67,143,52,11,Cylindricité 0.02mm
+145,33,4,Phase 4 - Fraisage,6,125,11,13,4,Planéité 0.02mm
+146,33,5,Phase 5 - Fraisage,6,105,187,15,9,Parallélisme 0.03mm
+147,33,6,Phase 6 - Ébavurage,6,129,62,11,5,
+148,34,1,Phase 1 - Débit / Tronçonnage,2,61,308,4,8,Planarite 0.3mm
+149,34,2,Phase 2 - Tournage,10,100,384,57,6,Diamètre ±0.01mm
+150,34,3,Phase 3 - Tournage,1,45,110,27,10,Diamètre ±0.01mm
+151,34,4,Phase 4 - Ébavurage,6,15,252,11,3,
+152,35,1,Phase 1 - Réglement / Montage,3,140,217,9,12,Perpendicularité 0.02mm
+153,35,2,Phase 2 - Perçage,4,93,244,16,6,Diamètre ±0.02mm
+154,35,3,Phase 3 - Fraisage,6,14,354,25,7,Profondeur ±0.05mm
+155,35,4,Phase 4 - Ébavurage,3,32,274,6,4,Rayon R0.2 max
+156,36,1,Phase 1 - Débit / Tronçonnage,4,66,155,4,8,Longueur ±1mm
+157,36,2,Phase 2 - Tournage,2,113,324,30,15,Diamètre ±0.01mm
+158,36,3,Phase 3 - Perçage,8,21,400,20,9,Taraudage M6
+159,36,4,Phase 4 - Rectification,3,109,52,13,7,Surface Ra 0.8µm
+160,36,5,Phase 5 - Fraisage,9,117,356,11,15,Surface Ra 3.2µm
+161,36,6,Phase 6 - Fraisage,6,114,329,18,3,Profondeur ±0.05mm
+162,36,7,Phase 7 - Ébavurage,10,81,295,4,1,Pas d'arêtes vives
+163,37,1,Phase 1 - Débit / Tronçonnage,5,106,164,10,5,Longueur ±1mm
+164,37,2,Phase 2 - Tournage,10,84,145,22,4,Diamètre ±0.01mm
+165,37,3,Phase 3 - Fraisage,9,97,293,24,3,Surface Ra 3.2µm
+166,37,4,Phase 4 - Rectification,9,59,46,22,6,Parallélisme 0.01mm
+167,37,5,Phase 5 - Contrôle qualité,5,13,206,18,6,Contrôle dimensionnel
+168,38,1,Phase 1 - Débit / Tronçonnage,3,44,291,4,2,
+169,38,2,Phase 2 - Perçage,11,127,61,12,5,Perpendicularité 0.05mm
+170,38,3,Phase 3 - Rectification,10,74,383,23,9,Cylindricité 0.005mm
+171,38,4,Phase 4 - Fraisage,6,56,145,22,9,Parallélisme 0.03mm
+172,38,5,Phase 5 - Fraisage,6,8,149,26,6,Profondeur ±0.05mm
+173,38,6,Phase 6 - Contrôle qualité,3,150,351,19,2,PDT 100%
+174,39,1,Phase 1 - Débit / Tronçonnage,3,102,352,6,7,
+175,39,2,Phase 2 - Perçage,8,19,49,22,2,Diamètre ±0.02mm
+176,39,3,Phase 3 - Tournage,2,121,182,48,13,Surface Ra 1.6µm
+177,39,4,Phase 4 - Tournage,10,98,155,35,13,Concentricité 0.01mm
+178,39,5,Phase 5 - Ébavurage,11,11,298,5,3,Pas d'arêtes vives
+179,40,1,Phase 1 - Réglement / Montage,3,120,68,3,15,
+180,40,2,Phase 2 - Tournage,1,81,23,18,10,Concentricité 0.01mm
+181,40,3,Phase 3 - Contrôle qualité,4,73,135,13,6,Contrôle dimensionnel
+182,41,1,Phase 1 - Débit / Tronçonnage,5,81,378,10,8,Longueur ±1mm
+183,41,2,Phase 2 - Fraisage,9,14,97,19,3,Parallélisme 0.03mm
+184,41,3,Phase 3 - Ébavurage,8,67,84,10,4,Pas d'arêtes vives
+185,42,1,Phase 1 - Réglement / Montage,8,11,227,7,20,
+186,42,2,Phase 2 - Fraisage,6,32,179,15,6,Planéité 0.02mm
+187,42,3,Phase 3 - Tournage,2,131,140,46,13,Cylindricité 0.02mm
+188,42,4,Phase 4 - Fraisage,6,135,393,46,5,Profondeur ±0.05mm
+189,42,5,Phase 5 - Rectification,7,128,347,11,8,Surface Ra 0.8µm
+190,42,6,Phase 6 - Ébavurage,9,32,202,8,5,Pas d'arêtes vives
+191,43,1,Phase 1 - Réglement / Montage,5,8,42,9,20,
+192,43,2,Phase 2 - Fraisage,9,2,169,12,13,Profondeur ±0.05mm
+193,43,3,Phase 3 - Tournage,10,34,109,13,15,Concentricité 0.01mm
+194,43,4,Phase 4 - Tournage,1,19,281,48,9,Surface Ra 1.6µm
+195,43,5,Phase 5 - Ébavurage,5,62,395,9,1,Pas d'arêtes vives
+196,44,1,Phase 1 - Réglement / Montage,5,100,400,8,14,Parallélisme 0.01mm
+197,44,2,Phase 2 - Tournage,7,111,377,29,13,Cylindricité 0.02mm
+198,44,3,Phase 3 - Fraisage,6,95,263,22,10,Profondeur ±0.05mm
+199,44,4,Phase 4 - Perçage,11,69,289,24,8,Diamètre ±0.02mm
+200,44,5,Phase 5 - Contrôle qualité,3,48,223,18,2,PDT 100%
+201,45,1,Phase 1 - Réglement / Montage,8,58,332,4,20,Centrage ±0.02mm
+202,45,2,Phase 2 - Tournage,7,21,245,29,5,Cylindricité 0.02mm
+203,45,3,Phase 3 - Perçage,8,64,268,18,6,Diamètre ±0.02mm
+204,45,4,Phase 4 - Fraisage,6,132,56,42,9,Profondeur ±0.05mm
+205,45,5,Phase 5 - Ébavurage,9,146,130,8,3,
+206,46,1,Phase 1 - Débit / Tronçonnage,11,5,59,14,7,
+207,46,2,Phase 2 - Tournage,2,101,24,15,9,Concentricité 0.01mm
+208,46,3,Phase 3 - Tournage,7,116,320,26,8,Cylindricité 0.02mm
+209,46,4,Phase 4 - Ébavurage,2,67,345,4,4,
+210,47,1,Phase 1 - Débit / Tronçonnage,4,30,7,5,7,
+211,47,2,Phase 2 - Fraisage,9,125,156,49,12,Planéité 0.02mm
+212,47,3,Phase 3 - Perçage,11,78,45,9,4,Diamètre ±0.02mm
+213,47,4,Phase 4 - Tournage,1,49,14,23,10,Cylindricité 0.02mm
+214,47,5,Phase 5 - Contrôle qualité,4,138,98,7,4,
+215,48,1,Phase 1 - Débit / Tronçonnage,4,6,60,5,3,
+216,48,2,Phase 2 - Rectification,8,6,231,26,6,Cylindricité 0.005mm
+217,48,3,Phase 3 - Tournage,7,14,171,10,4,Diamètre ±0.01mm
+218,48,4,Phase 4 - Contrôle qualité,8,149,306,14,2,
+219,49,1,Phase 1 - Débit / Tronçonnage,11,125,119,14,2,Cote brute ±0.5mm
+220,49,2,Phase 2 - Fraisage,9,142,33,27,13,Profondeur ±0.05mm
+221,49,3,Phase 3 - Rectification,2,127,319,28,8,
+222,49,4,Phase 4 - Contrôle qualité,1,42,148,11,5,Contrôle dimensionnel
+223,50,1,Phase 1 - Débit / Tronçonnage,11,57,301,13,4,
+224,50,2,Phase 2 - Tournage,5,100,214,53,13,Concentricité 0.01mm
+225,50,3,Phase 3 - Perçage,4,54,145,7,9,Perpendicularité 0.05mm
+226,50,4,Phase 4 - Ébavurage,5,126,52,9,4,Rayon R0.2 max
+227,51,1,Phase 1 - Débit / Tronçonnage,11,13,10,8,4,Planarite 0.3mm
+228,51,2,Phase 2 - Perçage,4,129,17,7,7,Taraudage M6
+229,51,3,Phase 3 - Tournage,2,31,288,24,10,Concentricité 0.01mm
+230,51,4,Phase 4 - Rectification,3,12,395,25,7,Cylindricité 0.005mm
+231,51,5,Phase 5 - Perçage,3,13,225,19,3,Diamètre ±0.02mm
+232,51,6,Phase 6 - Perçage,3,144,22,21,3,Perpendicularité 0.05mm
+233,51,7,Phase 7 - Contrôle qualité,7,93,81,14,7,
+234,52,1,Phase 1 - Réglement / Montage,8,26,79,7,15,Parallélisme 0.01mm
+235,52,2,Phase 2 - Tournage,2,113,213,59,15,Surface Ra 1.6µm
+236,52,3,Phase 3 - Ébavurage,8,88,147,11,2,Pas d'arêtes vives
+237,53,1,Phase 1 - Débit / Tronçonnage,4,93,323,13,3,Longueur ±1mm
+238,53,2,Phase 2 - Perçage,11,59,71,18,8,Taraudage M6
+239,53,3,Phase 3 - Rectification,11,93,16,22,5,Surface Ra 0.8µm
+240,53,4,Phase 4 - Perçage,3,22,174,15,8,Perpendicularité 0.05mm
+241,53,5,Phase 5 - Ébavurage,4,10,339,5,5,Pas d'arêtes vives
+242,54,1,Phase 1 - Réglement / Montage,9,134,152,8,17,Perpendicularité 0.02mm
+243,54,2,Phase 2 - Perçage,8,89,5,13,10,Perpendicularité 0.05mm
+244,54,3,Phase 3 - Perçage,11,53,279,24,9,Alésage H7
+245,54,4,Phase 4 - Contrôle qualité,9,104,398,11,4,PDT 100%
+246,55,1,Phase 1 - Débit / Tronçonnage,3,100,372,14,7,Longueur ±1mm
+247,55,2,Phase 2 - Fraisage,9,55,48,42,11,Planéité 0.02mm
+248,55,3,Phase 3 - Fraisage,6,6,15,44,12,Planéité 0.02mm
+249,55,4,Phase 4 - Tournage,5,109,259,17,14,Surface Ra 1.6µm
+250,55,5,Phase 5 - Contrôle qualité,10,130,182,8,2,PDT 100%
+251,56,1,Phase 1 - Débit / Tronçonnage,12,2,233,8,3,Longueur ±1mm
+252,56,2,Phase 2 - Fraisage,9,147,345,18,14,Profondeur ±0.05mm
+253,56,3,Phase 3 - Fraisage,6,27,168,43,12,Parallélisme 0.03mm
+254,56,4,Phase 4 - Perçage,8,117,51,9,8,Taraudage M6
+255,56,5,Phase 5 - Ébavurage,1,109,67,10,2,Rayon R0.2 max
+256,57,1,Phase 1 - Débit / Tronçonnage,11,104,302,11,6,
+257,57,2,Phase 2 - Perçage,11,109,226,20,8,Perpendicularité 0.05mm
+258,57,3,Phase 3 - Tournage,2,125,365,39,5,Surface Ra 1.6µm
+259,57,4,Phase 4 - Contrôle qualité,8,122,17,10,6,Contrôle dimensionnel
+260,58,1,Phase 1 - Réglement / Montage,2,105,57,3,16,Perpendicularité 0.02mm
+261,58,2,Phase 2 - Tournage,2,31,191,29,8,Concentricité 0.01mm
+262,58,3,Phase 3 - Tournage,1,37,73,60,12,Diamètre ±0.01mm
+263,58,4,Phase 4 - Ébavurage,10,73,111,5,4,Pas d'arêtes vives
+264,59,1,Phase 1 - Débit / Tronçonnage,3,18,23,9,5,Planarite 0.3mm
+265,59,2,Phase 2 - Fraisage,9,97,244,48,5,Parallélisme 0.03mm
+266,59,3,Phase 3 - Fraisage,9,116,342,38,5,Planéité 0.02mm
+267,59,4,Phase 4 - Tournage,10,105,199,24,9,Concentricité 0.01mm
+268,59,5,Phase 5 - Fraisage,9,72,331,15,5,Surface Ra 3.2µm
+269,59,6,Phase 6 - Fraisage,9,144,331,17,13,Surface Ra 3.2µm
+270,59,7,Phase 7 - Ébavurage,6,139,296,3,5,
+271,60,1,Phase 1 - Débit / Tronçonnage,8,129,10,4,7,Longueur ±1mm
+272,60,2,Phase 2 - Rectification,10,53,126,30,10,Surface Ra 0.8µm
+273,60,3,Phase 3 - Contrôle qualité,6,83,206,6,5,PDT 100%
+274,61,1,Phase 1 - Débit / Tronçonnage,5,107,13,11,4,
+275,61,2,Phase 2 - Tournage,1,26,278,20,7,Cylindricité 0.02mm
+276,61,3,Phase 3 - Tournage,1,40,158,36,13,Cylindricité 0.02mm
+277,61,4,Phase 4 - Ébavurage,3,47,14,3,3,Rayon R0.2 max
+278,62,1,Phase 1 - Débit / Tronçonnage,5,106,166,7,5,Cote brute ±0.5mm
+279,62,2,Phase 2 - Tournage,2,61,253,42,15,Diamètre ±0.01mm
+280,62,3,Phase 3 - Rectification,10,16,163,22,9,Surface Ra 0.8µm
+281,62,4,Phase 4 - Fraisage,9,60,10,27,11,Surface Ra 3.2µm
+282,62,5,Phase 5 - Ébavurage,11,33,156,12,4,Rayon R0.2 max
+283,63,1,Phase 1 - Débit / Tronçonnage,11,53,73,8,6,Longueur ±1mm
+284,63,2,Phase 2 - Perçage,11,143,232,6,2,Taraudage M6
+285,63,3,Phase 3 - Rectification,6,75,335,13,3,Surface Ra 0.8µm
+286,63,4,Phase 4 - Rectification,8,70,307,16,9,Parallélisme 0.01mm
+287,63,5,Phase 5 - Perçage,4,150,262,14,2,Perpendicularité 0.05mm
+288,63,6,Phase 6 - Contrôle qualité,6,18,154,7,5,PDT 100%
+289,64,1,Phase 1 - Réglement / Montage,11,72,222,5,15,Perpendicularité 0.02mm
+290,64,2,Phase 2 - Fraisage,9,70,126,30,8,Parallélisme 0.03mm
+291,64,3,Phase 3 - Fraisage,9,5,355,18,13,Surface Ra 3.2µm
+292,64,4,Phase 4 - Contrôle qualité,1,3,345,10,5,
+293,65,1,Phase 1 - Réglement / Montage,11,21,333,3,5,
+294,65,2,Phase 2 - Perçage,8,97,308,16,8,Perpendicularité 0.05mm
+295,65,3,Phase 3 - Perçage,3,32,237,16,5,Taraudage M6
+296,65,4,Phase 4 - Ébavurage,1,72,349,8,2,Pas d'arêtes vives
+297,66,1,Phase 1 - Réglement / Montage,9,78,368,5,12,
+298,66,2,Phase 2 - Rectification,1,72,253,30,6,Surface Ra 0.8µm
+299,66,3,Phase 3 - Tournage,7,29,143,46,11,Diamètre ±0.01mm
+300,66,4,Phase 4 - Tournage,2,145,345,53,12,Cylindricité 0.02mm
+301,66,5,Phase 5 - Tournage,2,17,66,26,12,Cylindricité 0.02mm
+302,66,6,Phase 6 - Contrôle qualité,10,50,348,5,7,Contrôle dimensionnel
+303,67,1,Phase 1 - Réglement / Montage,8,1,219,2,15,
+304,67,2,Phase 2 - Perçage,11,71,63,21,9,Taraudage M6
+305,67,3,Phase 3 - Fraisage,6,58,25,27,9,Profondeur ±0.05mm
+306,67,4,Phase 4 - Ébavurage,4,50,172,4,5,Pas d'arêtes vives
+307,68,1,Phase 1 - Réglement / Montage,7,109,39,5,11,Parallélisme 0.01mm
+308,68,2,Phase 2 - Tournage,1,25,15,40,9,Surface Ra 1.6µm
+309,68,3,Phase 3 - Fraisage,9,65,127,16,10,Parallélisme 0.03mm
+310,68,4,Phase 4 - Rectification,1,86,267,15,4,
+311,68,5,Phase 5 - Perçage,11,149,64,7,2,Diamètre ±0.02mm
+312,68,6,Phase 6 - Ébavurage,2,33,32,10,1,Rayon R0.2 max
+313,69,1,Phase 1 - Réglement / Montage,4,17,53,2,6,Perpendicularité 0.02mm
+314,69,2,Phase 2 - Perçage,11,25,317,18,5,Diamètre ±0.02mm
+315,69,3,Phase 3 - Fraisage,9,110,318,49,4,Planéité 0.02mm
+316,69,4,Phase 4 - Contrôle qualité,9,7,233,15,6,Mesure 3 points
+317,70,1,Phase 1 - Débit / Tronçonnage,1,18,304,15,8,Longueur ±1mm
+318,70,2,Phase 2 - Rectification,5,131,132,19,9,
+319,70,3,Phase 3 - Perçage,11,48,125,9,2,Diamètre ±0.02mm
+320,70,4,Phase 4 - Tournage,10,112,263,51,15,Concentricité 0.01mm
+321,70,5,Phase 5 - Tournage,10,38,76,40,7,Concentricité 0.01mm
+322,70,6,Phase 6 - Ébavurage,1,133,301,5,1,Pas d'arêtes vives
+323,71,1,Phase 1 - Réglement / Montage,11,14,217,7,11,Parallélisme 0.01mm
+324,71,2,Phase 2 - Fraisage,6,18,175,22,13,Profondeur ±0.05mm
+325,71,3,Phase 3 - Perçage,11,85,297,23,7,Alésage H7
+326,71,4,Phase 4 - Ébavurage,5,27,233,3,4,Pas d'arêtes vives
+327,72,1,Phase 1 - Réglement / Montage,9,58,355,5,19,Parallélisme 0.01mm
+328,72,2,Phase 2 - Tournage,5,97,106,35,5,Surface Ra 1.6µm
+329,72,3,Phase 3 - Fraisage,6,92,16,45,4,Parallélisme 0.03mm
+330,72,4,Phase 4 - Ébavurage,7,150,392,8,1,Pas d'arêtes vives
+331,73,1,Phase 1 - Débit / Tronçonnage,10,45,113,7,7,Longueur ±1mm
+332,73,2,Phase 2 - Fraisage,6,46,101,11,5,Planéité 0.02mm
+333,73,3,Phase 3 - Rectification,1,36,195,28,4,Parallélisme 0.01mm
+334,73,4,Phase 4 - Contrôle qualité,10,117,123,16,8,Contrôle dimensionnel
+335,74,1,Phase 1 - Réglement / Montage,11,112,365,3,8,Parallélisme 0.01mm
+336,74,2,Phase 2 - Perçage,4,49,99,22,8,Alésage H7
+337,74,3,Phase 3 - Ébavurage,4,63,24,12,5,Pas d'arêtes vives
+338,75,1,Phase 1 - Réglement / Montage,10,39,168,5,6,Perpendicularité 0.02mm
+339,75,2,Phase 2 - Perçage,11,54,373,7,9,Diamètre ±0.02mm
+340,75,3,Phase 3 - Ébavurage,4,131,192,10,5,Rayon R0.2 max
+341,76,1,Phase 1 - Débit / Tronçonnage,3,135,356,10,7,
+342,76,2,Phase 2 - Fraisage,9,150,333,12,6,Parallélisme 0.03mm
+343,76,3,Phase 3 - Rectification,8,61,203,14,7,
+344,76,4,Phase 4 - Perçage,4,96,131,22,3,Perpendicularité 0.05mm
+345,76,5,Phase 5 - Contrôle qualité,10,114,266,16,3,PDT 100%
+346,77,1,Phase 1 - Débit / Tronçonnage,12,87,219,10,5,
+347,77,2,Phase 2 - Fraisage,9,82,140,34,3,Parallélisme 0.03mm
+348,77,3,Phase 3 - Fraisage,9,20,184,15,7,Surface Ra 3.2µm
+349,77,4,Phase 4 - Perçage,4,26,61,7,7,Diamètre ±0.02mm
+350,77,5,Phase 5 - Contrôle qualité,3,51,346,15,4,Contrôle dimensionnel
+351,78,1,Phase 1 - Réglement / Montage,9,71,98,4,13,Centrage ±0.02mm
+352,78,2,Phase 2 - Perçage,8,89,207,17,2,Taraudage M6
+353,78,3,Phase 3 - Fraisage,6,102,117,24,14,Parallélisme 0.03mm
+354,78,4,Phase 4 - Fraisage,9,119,175,15,8,Parallélisme 0.03mm
+355,78,5,Phase 5 - Fraisage,9,54,225,38,11,Surface Ra 3.2µm
+356,78,6,Phase 6 - Ébavurage,6,33,157,3,4,
+357,79,1,Phase 1 - Réglement / Montage,3,58,215,8,17,Perpendicularité 0.02mm
+358,79,2,Phase 2 - Tournage,1,146,17,18,5,Concentricité 0.01mm
+359,79,3,Phase 3 - Fraisage,9,98,105,35,4,Profondeur ±0.05mm
+360,79,4,Phase 4 - Ébavurage,2,85,292,10,3,Pas d'arêtes vives
+361,80,1,Phase 1 - Débit / Tronçonnage,11,46,17,14,6,
+362,80,2,Phase 2 - Tournage,2,18,198,28,6,Cylindricité 0.02mm
+363,80,3,Phase 3 - Tournage,10,18,233,13,8,Surface Ra 1.6µm
+364,80,4,Phase 4 - Tournage,7,101,81,17,5,Diamètre ±0.01mm
+365,80,5,Phase 5 - Ébavurage,2,100,106,5,2,Rayon R0.2 max
+366,81,1,Phase 1 - Débit / Tronçonnage,8,41,310,12,4,Longueur ±1mm
+367,81,2,Phase 2 - Fraisage,9,71,104,10,5,Profondeur ±0.05mm
+368,81,3,Phase 3 - Tournage,7,64,270,31,12,Diamètre ±0.01mm
+369,81,4,Phase 4 - Fraisage,6,24,148,39,8,Planéité 0.02mm
+370,81,5,Phase 5 - Fraisage,6,107,128,21,12,Profondeur ±0.05mm
+371,81,6,Phase 6 - Ébavurage,9,47,358,12,1,Rayon R0.2 max
+372,82,1,Phase 1 - Réglement / Montage,1,62,81,6,14,Centrage ±0.02mm
+373,82,2,Phase 2 - Perçage,4,127,211,22,3,Alésage H7
+374,82,3,Phase 3 - Ébavurage,2,130,393,8,4,Rayon R0.2 max
+375,83,1,Phase 1 - Débit / Tronçonnage,7,130,23,10,2,Cote brute ±0.5mm
+376,83,2,Phase 2 - Fraisage,9,98,176,35,6,Profondeur ±0.05mm
+377,83,3,Phase 3 - Tournage,5,30,364,18,8,Diamètre ±0.01mm
+378,83,4,Phase 4 - Fraisage,6,22,281,25,14,Profondeur ±0.05mm
+379,83,5,Phase 5 - Ébavurage,10,42,88,3,5,Pas d'arêtes vives
+380,84,1,Phase 1 - Débit / Tronçonnage,2,137,380,9,3,Cote brute ±0.5mm
+381,84,2,Phase 2 - Perçage,3,70,79,19,7,Perpendicularité 0.05mm
+382,84,3,Phase 3 - Tournage,1,137,111,38,14,Surface Ra 1.6µm
+383,84,4,Phase 4 - Contrôle qualité,11,27,200,14,5,PDT 100%
+384,85,1,Phase 1 - Réglement / Montage,1,97,393,5,12,Perpendicularité 0.02mm
+385,85,2,Phase 2 - Rectification,7,24,9,21,3,Surface Ra 0.8µm
+386,85,3,Phase 3 - Fraisage,6,17,113,16,15,Parallélisme 0.03mm
+387,85,4,Phase 4 - Perçage,3,107,263,8,7,Alésage H7
+388,85,5,Phase 5 - Fraisage,6,54,278,35,9,Surface Ra 3.2µm
+389,85,6,Phase 6 - Tournage,1,92,166,21,3,Diamètre ±0.01mm
+390,85,7,Phase 7 - Contrôle qualité,1,100,109,19,3,PDT 100%
+391,86,1,Phase 1 - Réglement / Montage,10,95,23,3,11,
+392,86,2,Phase 2 - Tournage,10,128,53,55,11,Cylindricité 0.02mm
+393,86,3,Phase 3 - Tournage,1,84,324,54,9,Cylindricité 0.02mm
+394,86,4,Phase 4 - Tournage,5,124,35,31,3,Diamètre ±0.01mm
+395,86,5,Phase 5 - Fraisage,6,129,301,10,6,Surface Ra 3.2µm
+396,86,6,Phase 6 - Contrôle qualité,2,80,122,18,8,Mesure 3 points
+397,87,1,Phase 1 - Réglement / Montage,1,36,192,9,14,Parallélisme 0.01mm
+398,87,2,Phase 2 - Tournage,2,10,122,56,12,Diamètre ±0.01mm
+399,87,3,Phase 3 - Perçage,8,35,143,15,2,Taraudage M6
+400,87,4,Phase 4 - Fraisage,9,7,118,31,8,Parallélisme 0.03mm
+401,87,5,Phase 5 - Tournage,1,64,352,54,14,Cylindricité 0.02mm
+402,87,6,Phase 6 - Contrôle qualité,4,134,165,10,5,PDT 100%
+403,88,1,Phase 1 - Débit / Tronçonnage,8,18,99,3,7,Longueur ±1mm
+404,88,2,Phase 2 - Rectification,5,24,89,26,6,Cylindricité 0.005mm
+405,88,3,Phase 3 - Fraisage,9,120,160,20,14,Parallélisme 0.03mm
+406,88,4,Phase 4 - Ébavurage,5,64,156,7,5,Rayon R0.2 max
+407,89,1,Phase 1 - Réglement / Montage,7,70,247,3,16,
+408,89,2,Phase 2 - Fraisage,9,113,217,42,12,Profondeur ±0.05mm
+409,89,3,Phase 3 - Perçage,11,6,391,17,8,Diamètre ±0.02mm
+410,89,4,Phase 4 - Contrôle qualité,10,138,79,10,4,
+411,90,1,Phase 1 - Débit / Tronçonnage,8,73,193,11,6,
+412,90,2,Phase 2 - Tournage,2,121,101,19,6,Surface Ra 1.6µm
+413,90,3,Phase 3 - Tournage,10,96,252,35,9,Diamètre ±0.01mm
+414,90,4,Phase 4 - Rectification,3,99,251,17,4,
+415,90,5,Phase 5 - Contrôle qualité,2,99,290,10,3,
+416,91,1,Phase 1 - Réglement / Montage,3,131,364,9,16,Centrage ±0.02mm
+417,91,2,Phase 2 - Fraisage,9,64,125,40,3,Planéité 0.02mm
+418,91,3,Phase 3 - Fraisage,6,38,134,48,10,Parallélisme 0.03mm
+419,91,4,Phase 4 - Ébavurage,6,149,340,5,1,Pas d'arêtes vives
+420,92,1,Phase 1 - Réglement / Montage,9,99,204,3,11,
+421,92,2,Phase 2 - Tournage,7,65,355,29,11,Diamètre ±0.01mm
+422,92,3,Phase 3 - Fraisage,9,23,56,50,12,Planéité 0.02mm
+423,92,4,Phase 4 - Perçage,8,54,384,17,6,Diamètre ±0.02mm
+424,92,5,Phase 5 - Contrôle qualité,8,1,50,7,8,
+425,93,1,Phase 1 - Réglement / Montage,9,74,376,8,10,Parallélisme 0.01mm
+426,93,2,Phase 2 - Fraisage,6,51,250,21,11,Surface Ra 3.2µm
+427,93,3,Phase 3 - Ébavurage,7,48,103,3,2,Pas d'arêtes vives
+428,94,1,Phase 1 - Débit / Tronçonnage,4,113,321,12,2,Longueur ±1mm
+429,94,2,Phase 2 - Tournage,1,97,64,27,4,Concentricité 0.01mm
+430,94,3,Phase 3 - Ébavurage,7,123,249,4,1,Pas d'arêtes vives
+431,95,1,Phase 1 - Débit / Tronçonnage,1,150,22,4,3,Cote brute ±0.5mm
+432,95,2,Phase 2 - Fraisage,9,125,243,31,12,Profondeur ±0.05mm
+433,95,3,Phase 3 - Fraisage,9,81,123,33,13,Profondeur ±0.05mm
+434,95,4,Phase 4 - Fraisage,6,92,170,16,3,Profondeur ±0.05mm
+435,95,5,Phase 5 - Perçage,11,36,14,24,3,Alésage H7
+436,95,6,Phase 6 - Contrôle qualité,7,95,232,20,6,
+437,96,1,Phase 1 - Réglement / Montage,1,83,9,7,6,Perpendicularité 0.02mm
+438,96,2,Phase 2 - Perçage,4,125,205,24,3,Alésage H7
+439,96,3,Phase 3 - Fraisage,9,26,376,34,7,Parallélisme 0.03mm
+440,96,4,Phase 4 - Perçage,3,33,255,7,6,Taraudage M6
+441,96,5,Phase 5 - Ébavurage,8,30,247,11,2,Pas d'arêtes vives
+442,97,1,Phase 1 - Débit / Tronçonnage,2,28,223,14,2,Longueur ±1mm
+443,97,2,Phase 2 - Rectification,3,99,393,16,6,Parallélisme 0.01mm
+444,97,3,Phase 3 - Fraisage,6,35,274,50,14,Profondeur ±0.05mm
+445,97,4,Phase 4 - Ébavurage,3,58,295,12,1,
+446,98,1,Phase 1 - Débit / Tronçonnage,4,144,224,15,3,Longueur ±1mm
+447,98,2,Phase 2 - Tournage,5,23,58,15,8,Cylindricité 0.02mm
+448,98,3,Phase 3 - Perçage,3,147,189,9,7,Taraudage M6
+449,98,4,Phase 4 - Contrôle qualité,1,80,32,11,8,
+450,99,1,Phase 1 - Réglement / Montage,3,94,348,4,12,Centrage ±0.02mm
+451,99,2,Phase 2 - Fraisage,9,81,75,28,6,Profondeur ±0.05mm
+452,99,3,Phase 3 - Perçage,4,73,75,6,7,Alésage H7
+453,99,4,Phase 4 - Fraisage,6,71,362,46,10,Parallélisme 0.03mm
+454,99,5,Phase 5 - Fraisage,9,16,171,19,14,Parallélisme 0.03mm
+455,99,6,Phase 6 - Contrôle qualité,7,14,398,10,8,
+456,100,1,Phase 1 - Réglement / Montage,10,41,12,10,17,Perpendicularité 0.02mm
+457,100,2,Phase 2 - Fraisage,9,90,388,35,9,Surface Ra 3.2µm
+458,100,3,Phase 3 - Fraisage,9,73,357,22,14,Profondeur ±0.05mm
+459,100,4,Phase 4 - Ébavurage,3,149,28,7,4,
+460,101,1,Phase 1 - Débit / Tronçonnage,5,114,357,10,4,Longueur ±1mm
+461,101,2,Phase 2 - Tournage,2,3,186,56,12,Surface Ra 1.6µm
+462,101,3,Phase 3 - Perçage,4,97,219,10,2,Diamètre ±0.02mm
+463,101,4,Phase 4 - Ébavurage,8,46,27,4,5,
+464,102,1,Phase 1 - Débit / Tronçonnage,4,39,322,14,5,Longueur ±1mm
+465,102,2,Phase 2 - Tournage,2,102,251,29,14,Cylindricité 0.02mm
+466,102,3,Phase 3 - Fraisage,9,23,399,39,13,Profondeur ±0.05mm
+467,102,4,Phase 4 - Ébavurage,9,114,189,3,1,Pas d'arêtes vives
+468,103,1,Phase 1 - Débit / Tronçonnage,8,131,116,3,6,
+469,103,2,Phase 2 - Tournage,1,47,197,40,13,Diamètre ±0.01mm
+470,103,3,Phase 3 - Ébavurage,5,26,167,4,5,Pas d'arêtes vives
+471,104,1,Phase 1 - Débit / Tronçonnage,1,101,285,11,8,
+472,104,2,Phase 2 - Tournage,10,138,366,60,13,Surface Ra 1.6µm
+473,104,3,Phase 3 - Perçage,4,31,93,24,4,Diamètre ±0.02mm
+474,104,4,Phase 4 - Fraisage,9,32,21,18,12,Parallélisme 0.03mm
+475,104,5,Phase 5 - Contrôle qualité,2,144,132,6,2,PDT 100%
+476,105,1,Phase 1 - Réglement / Montage,3,140,88,8,5,Parallélisme 0.01mm
+477,105,2,Phase 2 - Tournage,10,76,338,44,10,Cylindricité 0.02mm
+478,105,3,Phase 3 - Fraisage,9,134,181,48,11,Parallélisme 0.03mm
+479,105,4,Phase 4 - Perçage,3,61,19,11,4,Alésage H7
+480,105,5,Phase 5 - Perçage,4,35,309,22,5,Alésage H7
+481,105,6,Phase 6 - Ébavurage,6,109,39,11,3,Rayon R0.2 max
+482,106,1,Phase 1 - Débit / Tronçonnage,5,103,234,4,4,
+483,106,2,Phase 2 - Rectification,5,138,105,10,7,Cylindricité 0.005mm
+484,106,3,Phase 3 - Perçage,4,108,79,15,8,Taraudage M6
+485,106,4,Phase 4 - Tournage,10,64,40,27,4,Surface Ra 1.6µm
+486,106,5,Phase 5 - Contrôle qualité,4,17,169,7,4,Contrôle dimensionnel
+487,107,1,Phase 1 - Réglement / Montage,5,58,141,2,8,
+488,107,2,Phase 2 - Rectification,7,97,54,11,5,Parallélisme 0.01mm
+489,107,3,Phase 3 - Fraisage,9,25,271,32,14,Planéité 0.02mm
+490,107,4,Phase 4 - Contrôle qualité,6,26,25,10,4,
+491,108,1,Phase 1 - Débit / Tronçonnage,11,142,305,9,5,Longueur ±1mm
+492,108,2,Phase 2 - Tournage,10,40,337,18,5,Diamètre ±0.01mm
+493,108,3,Phase 3 - Fraisage,9,14,372,50,8,Parallélisme 0.03mm
+494,108,4,Phase 4 - Contrôle qualité,4,118,94,19,4,
+495,109,1,Phase 1 - Réglement / Montage,10,110,267,5,14,Centrage ±0.02mm
+496,109,2,Phase 2 - Rectification,4,81,47,28,4,Surface Ra 0.8µm
+497,109,3,Phase 3 - Perçage,3,43,295,6,3,Alésage H7
+498,109,4,Phase 4 - Contrôle qualité,8,3,218,9,5,
+499,110,1,Phase 1 - Réglement / Montage,9,137,358,3,17,Centrage ±0.02mm
+500,110,2,Phase 2 - Fraisage,6,109,360,44,14,Planéité 0.02mm
+501,110,3,Phase 3 - Tournage,10,11,311,38,5,Cylindricité 0.02mm
+502,110,4,Phase 4 - Ébavurage,3,35,264,8,1,Rayon R0.2 max
+503,111,1,Phase 1 - Débit / Tronçonnage,5,96,58,8,7,Longueur ±1mm
+504,111,2,Phase 2 - Perçage,3,75,154,20,6,Alésage H7
+505,111,3,Phase 3 - Tournage,10,101,112,29,13,Surface Ra 1.6µm
+506,111,4,Phase 4 - Rectification,6,125,30,19,3,
+507,111,5,Phase 5 - Ébavurage,3,28,3,8,2,Rayon R0.2 max
+508,112,1,Phase 1 - Débit / Tronçonnage,2,111,252,6,2,Longueur ±1mm
+509,112,2,Phase 2 - Fraisage,9,2,80,26,6,Profondeur ±0.05mm
+510,112,3,Phase 3 - Fraisage,9,94,220,21,11,Planéité 0.02mm
+511,112,4,Phase 4 - Tournage,7,113,83,18,8,Diamètre ±0.01mm
+512,112,5,Phase 5 - Ébavurage,7,29,98,7,1,Pas d'arêtes vives
+513,113,1,Phase 1 - Débit / Tronçonnage,3,9,83,13,3,
+514,113,2,Phase 2 - Rectification,10,31,216,23,10,Cylindricité 0.005mm
+515,113,3,Phase 3 - Tournage,7,129,372,57,9,Cylindricité 0.02mm
+516,113,4,Phase 4 - Ébavurage,2,6,65,5,3,
+517,114,1,Phase 1 - Débit / Tronçonnage,7,14,348,8,5,Cote brute ±0.5mm
+518,114,2,Phase 2 - Fraisage,9,73,249,15,15,Profondeur ±0.05mm
+519,114,3,Phase 3 - Tournage,2,131,96,25,7,Surface Ra 1.6µm
+520,114,4,Phase 4 - Contrôle qualité,7,110,102,20,7,PDT 100%
+521,115,1,Phase 1 - Réglement / Montage,11,47,97,4,12,Centrage ±0.02mm
+522,115,2,Phase 2 - Tournage,1,71,99,19,9,Surface Ra 1.6µm
+523,115,3,Phase 3 - Fraisage,6,14,195,36,11,Planéité 0.02mm
+524,115,4,Phase 4 - Perçage,4,57,173,18,9,Diamètre ±0.02mm
+525,115,5,Phase 5 - Fraisage,6,78,57,27,8,Planéité 0.02mm
+526,115,6,Phase 6 - Rectification,4,64,164,9,5,Surface Ra 0.8µm
+527,115,7,Phase 7 - Ébavurage,9,83,109,7,4,Rayon R0.2 max
+528,116,1,Phase 1 - Réglement / Montage,2,111,95,6,20,Perpendicularité 0.02mm
+529,116,2,Phase 2 - Fraisage,6,25,343,10,13,Parallélisme 0.03mm
+530,116,3,Phase 3 - Tournage,5,136,310,33,6,Concentricité 0.01mm
+531,116,4,Phase 4 - Tournage,7,23,55,18,13,Surface Ra 1.6µm
+532,116,5,Phase 5 - Ébavurage,9,49,99,10,1,Pas d'arêtes vives
+533,117,1,Phase 1 - Réglement / Montage,6,88,155,9,11,Parallélisme 0.01mm
+534,117,2,Phase 2 - Tournage,2,108,282,55,7,Concentricité 0.01mm
+535,117,3,Phase 3 - Rectification,8,31,224,10,10,
+536,117,4,Phase 4 - Fraisage,6,43,307,27,14,Parallélisme 0.03mm
+537,117,5,Phase 5 - Ébavurage,6,16,356,6,4,Rayon R0.2 max
+538,118,1,Phase 1 - Réglement / Montage,11,20,85,9,17,
+539,118,2,Phase 2 - Fraisage,9,53,95,10,5,Parallélisme 0.03mm
+540,118,3,Phase 3 - Fraisage,6,132,234,42,14,Planéité 0.02mm
+541,118,4,Phase 4 - Ébavurage,7,76,363,7,5,Pas d'arêtes vives
+542,119,1,Phase 1 - Débit / Tronçonnage,1,137,122,7,2,Longueur ±1mm
+543,119,2,Phase 2 - Rectification,10,35,139,9,6,Cylindricité 0.005mm
+544,119,3,Phase 3 - Fraisage,6,89,324,48,8,Planéité 0.02mm
+545,119,4,Phase 4 - Tournage,10,68,370,18,9,Concentricité 0.01mm
+546,119,5,Phase 5 - Ébavurage,1,3,183,6,3,Pas d'arêtes vives
+547,120,1,Phase 1 - Débit / Tronçonnage,1,138,337,15,8,Cote brute ±0.5mm
+548,120,2,Phase 2 - Perçage,11,66,321,25,10,Perpendicularité 0.05mm
+549,120,3,Phase 3 - Contrôle qualité,7,84,138,11,6,
+550,121,1,Phase 1 - Débit / Tronçonnage,7,112,189,5,5,Cote brute ±0.5mm
+551,121,2,Phase 2 - Fraisage,9,48,91,22,12,Profondeur ±0.05mm
+552,121,3,Phase 3 - Rectification,5,73,11,17,5,Cylindricité 0.005mm
+553,121,4,Phase 4 - Perçage,4,18,74,7,8,Perpendicularité 0.05mm
+554,121,5,Phase 5 - Ébavurage,9,104,52,11,2,
+555,122,1,Phase 1 - Réglement / Montage,1,26,194,8,5,Centrage ±0.02mm
+556,122,2,Phase 2 - Perçage,3,34,128,7,6,Perpendicularité 0.05mm
+557,122,3,Phase 3 - Rectification,6,4,5,11,8,Surface Ra 0.8µm
+558,122,4,Phase 4 - Tournage,7,145,228,20,7,Concentricité 0.01mm
+559,122,5,Phase 5 - Fraisage,6,15,279,27,13,Surface Ra 3.2µm
+560,122,6,Phase 6 - Ébavurage,1,27,279,7,1,
+561,123,1,Phase 1 - Réglement / Montage,4,37,1,5,5,Parallélisme 0.01mm
+562,123,2,Phase 2 - Fraisage,6,91,336,28,6,Profondeur ±0.05mm
+563,123,3,Phase 3 - Contrôle qualité,2,126,87,8,3,PDT 100%
+564,124,1,Phase 1 - Réglement / Montage,10,92,40,7,8,Perpendicularité 0.02mm
+565,124,2,Phase 2 - Rectification,2,12,310,12,5,
+566,124,3,Phase 3 - Fraisage,6,109,77,29,12,Planéité 0.02mm
+567,124,4,Phase 4 - Fraisage,6,70,256,33,7,Surface Ra 3.2µm
+568,124,5,Phase 5 - Contrôle qualité,5,38,164,9,5,
+569,125,1,Phase 1 - Réglement / Montage,8,18,58,8,13,Parallélisme 0.01mm
+570,125,2,Phase 2 - Tournage,2,47,393,34,8,Concentricité 0.01mm
+571,125,3,Phase 3 - Fraisage,9,106,309,50,8,Parallélisme 0.03mm
+572,125,4,Phase 4 - Perçage,4,99,215,22,9,Taraudage M6
+573,125,5,Phase 5 - Contrôle qualité,7,99,43,18,6,Mesure 3 points
+574,126,1,Phase 1 - Réglement / Montage,7,93,2,5,5,Perpendicularité 0.02mm
+575,126,2,Phase 2 - Fraisage,6,29,31,32,8,Parallélisme 0.03mm
+576,126,3,Phase 3 - Tournage,2,142,216,25,6,Cylindricité 0.02mm
+577,126,4,Phase 4 - Tournage,2,31,357,55,5,Diamètre ±0.01mm
+578,126,5,Phase 5 - Perçage,11,96,28,8,3,Taraudage M6
+579,126,6,Phase 6 - Contrôle qualité,5,8,76,16,3,PDT 100%
+580,127,1,Phase 1 - Débit / Tronçonnage,1,146,214,5,8,Longueur ±1mm
+581,127,2,Phase 2 - Fraisage,6,136,358,29,10,Profondeur ±0.05mm
+582,127,3,Phase 3 - Contrôle qualité,8,4,147,8,3,PDT 100%
+583,128,1,Phase 1 - Réglement / Montage,1,45,258,4,5,
+584,128,2,Phase 2 - Perçage,11,142,365,13,10,Alésage H7
+585,128,3,Phase 3 - Perçage,11,41,140,7,10,Taraudage M6
+586,128,4,Phase 4 - Rectification,5,55,206,27,3,Cylindricité 0.005mm
+587,128,5,Phase 5 - Ébavurage,11,20,355,10,4,Rayon R0.2 max
+588,129,1,Phase 1 - Réglement / Montage,4,98,85,2,16,
+589,129,2,Phase 2 - Tournage,1,27,40,33,12,Concentricité 0.01mm
+590,129,3,Phase 3 - Tournage,5,42,278,16,4,Cylindricité 0.02mm
+591,129,4,Phase 4 - Contrôle qualité,10,49,283,11,7,PDT 100%
+592,130,1,Phase 1 - Débit / Tronçonnage,2,146,290,3,6,
+593,130,2,Phase 2 - Tournage,5,24,159,10,8,Concentricité 0.01mm
+594,130,3,Phase 3 - Rectification,11,50,162,20,8,Cylindricité 0.005mm
+595,130,4,Phase 4 - Perçage,3,85,209,21,3,Perpendicularité 0.05mm
+596,130,5,Phase 5 - Tournage,7,123,301,12,7,Cylindricité 0.02mm
+597,130,6,Phase 6 - Tournage,7,21,321,15,14,Cylindricité 0.02mm
+598,130,7,Phase 7 - Contrôle qualité,9,37,394,10,6,Contrôle dimensionnel
+599,131,1,Phase 1 - Débit / Tronçonnage,5,87,149,8,6,
+600,131,2,Phase 2 - Tournage,7,62,107,49,12,Surface Ra 1.6µm
+601,131,3,Phase 3 - Rectification,6,128,50,8,5,Parallélisme 0.01mm
+602,131,4,Phase 4 - Contrôle qualité,2,128,49,19,4,Mesure 3 points
+603,132,1,Phase 1 - Réglement / Montage,5,18,144,7,16,Centrage ±0.02mm
+604,132,2,Phase 2 - Tournage,7,67,243,26,15,Diamètre ±0.01mm
+605,132,3,Phase 3 - Fraisage,6,32,292,41,3,Planéité 0.02mm
+606,132,4,Phase 4 - Perçage,11,105,318,9,9,Alésage H7
+607,132,5,Phase 5 - Fraisage,9,96,43,36,11,Profondeur ±0.05mm
+608,132,6,Phase 6 - Ébavurage,9,11,318,3,2,
+609,133,1,Phase 1 - Réglement / Montage,1,40,54,6,17,Parallélisme 0.01mm
+610,133,2,Phase 2 - Fraisage,6,58,199,39,13,Surface Ra 3.2µm
+611,133,3,Phase 3 - Fraisage,9,137,239,16,4,Parallélisme 0.03mm
+612,133,4,Phase 4 - Perçage,11,111,103,17,7,Diamètre ±0.02mm
+613,133,5,Phase 5 - Tournage,10,125,109,54,14,Diamètre ±0.01mm
+614,133,6,Phase 6 - Ébavurage,8,10,280,5,4,Pas d'arêtes vives
+615,134,1,Phase 1 - Réglement / Montage,3,146,17,8,6,Perpendicularité 0.02mm
+616,134,2,Phase 2 - Perçage,11,55,28,11,2,Taraudage M6
+617,134,3,Phase 3 - Tournage,2,22,73,14,7,Diamètre ±0.01mm
+618,134,4,Phase 4 - Ébavurage,8,108,269,6,3,Pas d'arêtes vives
+619,135,1,Phase 1 - Réglement / Montage,2,110,176,6,10,Parallélisme 0.01mm
+620,135,2,Phase 2 - Fraisage,9,124,244,44,14,Parallélisme 0.03mm
+621,135,3,Phase 3 - Rectification,4,91,355,26,9,Surface Ra 0.8µm
+622,135,4,Phase 4 - Fraisage,6,20,371,47,12,Parallélisme 0.03mm
+623,135,5,Phase 5 - Ébavurage,3,4,78,10,2,Rayon R0.2 max
+624,136,1,Phase 1 - Réglement / Montage,2,105,135,10,5,
+625,136,2,Phase 2 - Rectification,5,116,328,26,4,Surface Ra 0.8µm
+626,136,3,Phase 3 - Ébavurage,7,108,357,11,2,
+627,137,1,Phase 1 - Débit / Tronçonnage,3,54,98,13,6,Cote brute ±0.5mm
+628,137,2,Phase 2 - Fraisage,9,5,155,29,11,Surface Ra 3.2µm
+629,137,3,Phase 3 - Perçage,11,106,211,16,7,Taraudage M6
+630,137,4,Phase 4 - Fraisage,9,30,91,39,9,Planéité 0.02mm
+631,137,5,Phase 5 - Tournage,10,42,278,37,9,Concentricité 0.01mm
+632,137,6,Phase 6 - Contrôle qualité,9,112,325,14,7,PDT 100%
+633,138,1,Phase 1 - Réglement / Montage,2,23,333,2,18,Centrage ±0.02mm
+634,138,2,Phase 2 - Fraisage,6,114,258,47,15,Surface Ra 3.2µm
+635,138,3,Phase 3 - Perçage,11,55,115,19,10,Taraudage M6
+636,138,4,Phase 4 - Ébavurage,8,32,180,10,4,
+637,139,1,Phase 1 - Réglement / Montage,4,2,192,5,14,Perpendicularité 0.02mm
+638,139,2,Phase 2 - Perçage,8,79,213,12,2,Taraudage M6
+639,139,3,Phase 3 - Tournage,1,40,192,43,14,Concentricité 0.01mm
+640,139,4,Phase 4 - Ébavurage,6,111,124,11,4,Pas d'arêtes vives
+641,140,1,Phase 1 - Réglement / Montage,4,14,296,8,9,
+642,140,2,Phase 2 - Rectification,5,104,163,24,5,
+643,140,3,Phase 3 - Tournage,2,130,61,50,12,Diamètre ±0.01mm
+644,140,4,Phase 4 - Perçage,8,142,82,15,5,Diamètre ±0.02mm
+645,140,5,Phase 5 - Ébavurage,4,3,322,12,2,Pas d'arêtes vives
+646,141,1,Phase 1 - Réglement / Montage,11,21,293,8,5,Parallélisme 0.01mm
+647,141,2,Phase 2 - Rectification,9,92,96,15,6,Parallélisme 0.01mm
+648,141,3,Phase 3 - Ébavurage,7,97,395,7,1,Rayon R0.2 max
+649,142,1,Phase 1 - Débit / Tronçonnage,5,6,327,12,8,Cote brute ±0.5mm
+650,142,2,Phase 2 - Tournage,10,32,55,19,7,Concentricité 0.01mm
+651,142,3,Phase 3 - Rectification,2,20,254,19,6,
+652,142,4,Phase 4 - Tournage,1,106,38,41,13,Surface Ra 1.6µm
+653,142,5,Phase 5 - Tournage,7,97,161,50,10,Cylindricité 0.02mm
+654,142,6,Phase 6 - Ébavurage,1,46,338,12,5,Pas d'arêtes vives
+655,143,1,Phase 1 - Débit / Tronçonnage,3,89,248,12,6,Cote brute ±0.5mm
+656,143,2,Phase 2 - Tournage,5,32,99,48,3,Surface Ra 1.6µm
+657,143,3,Phase 3 - Fraisage,6,56,187,17,6,Surface Ra 3.2µm
+658,143,4,Phase 4 - Tournage,2,22,373,54,5,Concentricité 0.01mm
+659,143,5,Phase 5 - Ébavurage,7,24,179,11,3,Rayon R0.2 max
+660,144,1,Phase 1 - Réglement / Montage,8,112,263,8,11,Perpendicularité 0.02mm
+661,144,2,Phase 2 - Tournage,5,101,53,47,15,Concentricité 0.01mm
+662,144,3,Phase 3 - Tournage,2,125,222,38,9,Concentricité 0.01mm
+663,144,4,Phase 4 - Contrôle qualité,6,28,311,17,5,Mesure 3 points
+664,145,1,Phase 1 - Réglement / Montage,3,17,231,4,6,Perpendicularité 0.02mm
+665,145,2,Phase 2 - Fraisage,9,136,181,35,3,Surface Ra 3.2µm
+666,145,3,Phase 3 - Tournage,5,110,96,32,6,Surface Ra 1.6µm
+667,145,4,Phase 4 - Ébavurage,3,96,75,8,1,Pas d'arêtes vives
+668,146,1,Phase 1 - Débit / Tronçonnage,1,85,110,10,6,Planarite 0.3mm
+669,146,2,Phase 2 - Rectification,11,17,198,17,6,Cylindricité 0.005mm
+670,146,3,Phase 3 - Tournage,5,20,294,51,9,Diamètre ±0.01mm
+671,146,4,Phase 4 - Ébavurage,3,51,101,3,4,Rayon R0.2 max
+672,147,1,Phase 1 - Débit / Tronçonnage,10,108,62,4,5,Longueur ±1mm
+673,147,2,Phase 2 - Fraisage,9,61,296,11,7,Surface Ra 3.2µm
+674,147,3,Phase 3 - Fraisage,6,119,146,18,9,Surface Ra 3.2µm
+675,147,4,Phase 4 - Contrôle qualité,11,11,173,5,2,
+676,148,1,Phase 1 - Débit / Tronçonnage,4,78,141,8,8,Planarite 0.3mm
+677,148,2,Phase 2 - Fraisage,9,127,314,13,9,Planéité 0.02mm
+678,148,3,Phase 3 - Perçage,11,127,329,8,7,Diamètre ±0.02mm
+679,148,4,Phase 4 - Ébavurage,1,3,72,4,3,
+680,149,1,Phase 1 - Réglement / Montage,7,44,46,5,16,Centrage ±0.02mm
+681,149,2,Phase 2 - Rectification,1,67,23,11,3,Parallélisme 0.01mm
+682,149,3,Phase 3 - Ébavurage,3,98,139,5,2,
+683,150,1,Phase 1 - Débit / Tronçonnage,5,82,76,15,6,
+684,150,2,Phase 2 - Fraisage,6,134,271,25,12,Profondeur ±0.05mm
+685,150,3,Phase 3 - Fraisage,9,83,396,40,6,Surface Ra 3.2µm
+686,150,4,Phase 4 - Tournage,5,22,181,45,6,Cylindricité 0.02mm
+687,150,5,Phase 5 - Contrôle qualité,2,127,31,11,2,Mesure 3 points
+688,151,1,Phase 1 - Débit / Tronçonnage,4,49,250,4,4,Longueur ±1mm
+689,151,2,Phase 2 - Perçage,8,80,363,19,4,Diamètre ±0.02mm
+690,151,3,Phase 3 - Rectification,7,94,198,22,6,
+691,151,4,Phase 4 - Tournage,5,109,85,53,7,Surface Ra 1.6µm
+692,151,5,Phase 5 - Tournage,1,29,124,11,10,Cylindricité 0.02mm
+693,151,6,Phase 6 - Tournage,7,136,232,32,7,Surface Ra 1.6µm
+694,151,7,Phase 7 - Contrôle qualité,2,91,221,11,3,
+695,152,1,Phase 1 - Réglement / Montage,11,86,28,9,13,Perpendicularité 0.02mm
+696,152,2,Phase 2 - Tournage,7,109,100,28,6,Diamètre ±0.01mm
+697,152,3,Phase 3 - Tournage,5,136,312,41,11,Diamètre ±0.01mm
+698,152,4,Phase 4 - Ébavurage,1,64,57,6,1,Pas d'arêtes vives
+699,153,1,Phase 1 - Réglement / Montage,6,69,123,3,8,Perpendicularité 0.02mm
+700,153,2,Phase 2 - Tournage,10,104,201,35,4,Cylindricité 0.02mm
+701,153,3,Phase 3 - Perçage,8,127,106,10,5,Alésage H7
+702,153,4,Phase 4 - Contrôle qualité,6,74,376,5,2,Mesure 3 points
+703,154,1,Phase 1 - Réglement / Montage,6,123,379,6,12,Parallélisme 0.01mm
+704,154,2,Phase 2 - Tournage,1,43,96,31,10,Cylindricité 0.02mm
+705,154,3,Phase 3 - Contrôle qualité,9,122,220,15,2,Mesure 3 points
+706,155,1,Phase 1 - Réglement / Montage,2,44,348,2,16,
+707,155,2,Phase 2 - Fraisage,9,64,242,17,3,Surface Ra 3.2µm
+708,155,3,Phase 3 - Contrôle qualité,10,59,269,10,8,Mesure 3 points
+709,156,1,Phase 1 - Réglement / Montage,2,78,377,7,19,
+710,156,2,Phase 2 - Perçage,8,125,130,16,9,Diamètre ±0.02mm
+711,156,3,Phase 3 - Perçage,8,86,266,24,9,Diamètre ±0.02mm
+712,156,4,Phase 4 - Ébavurage,11,6,76,9,2,
+713,157,1,Phase 1 - Réglement / Montage,3,128,16,5,18,Perpendicularité 0.02mm
+714,157,2,Phase 2 - Tournage,1,50,194,50,4,Concentricité 0.01mm
+715,157,3,Phase 3 - Perçage,11,135,90,13,7,Alésage H7
+716,157,4,Phase 4 - Ébavurage,4,71,159,6,1,
+717,158,1,Phase 1 - Réglement / Montage,3,32,222,9,16,Perpendicularité 0.02mm
+718,158,2,Phase 2 - Tournage,1,128,351,19,10,Cylindricité 0.02mm
+719,158,3,Phase 3 - Fraisage,9,143,341,20,7,Profondeur ±0.05mm
+720,158,4,Phase 4 - Ébavurage,10,4,233,3,2,Rayon R0.2 max
+721,159,1,Phase 1 - Réglement / Montage,2,14,251,6,5,
+722,159,2,Phase 2 - Fraisage,6,13,129,18,8,Planéité 0.02mm
+723,159,3,Phase 3 - Contrôle qualité,11,144,80,7,7,Contrôle dimensionnel
+724,160,1,Phase 1 - Débit / Tronçonnage,7,111,300,4,4,Longueur ±1mm
+725,160,2,Phase 2 - Tournage,5,64,348,50,9,Diamètre ±0.01mm
+726,160,3,Phase 3 - Fraisage,6,67,155,48,7,Parallélisme 0.03mm
+727,160,4,Phase 4 - Fraisage,9,149,72,22,7,Parallélisme 0.03mm
+728,160,5,Phase 5 - Fraisage,6,78,157,15,7,Profondeur ±0.05mm
+729,160,6,Phase 6 - Fraisage,9,112,50,18,11,Profondeur ±0.05mm
+730,160,7,Phase 7 - Contrôle qualité,11,92,240,16,5,
+731,161,1,Phase 1 - Débit / Tronçonnage,4,119,15,11,2,
+732,161,2,Phase 2 - Tournage,2,78,125,47,11,Concentricité 0.01mm
+733,161,3,Phase 3 - Tournage,10,145,151,13,15,Diamètre ±0.01mm
+734,161,4,Phase 4 - Ébavurage,9,2,237,11,4,Pas d'arêtes vives
+735,162,1,Phase 1 - Débit / Tronçonnage,10,28,171,12,2,Planarite 0.3mm
+736,162,2,Phase 2 - Fraisage,9,16,63,47,13,Surface Ra 3.2µm
+737,162,3,Phase 3 - Perçage,4,144,380,20,4,Perpendicularité 0.05mm
+738,162,4,Phase 4 - Contrôle qualité,9,40,155,14,7,PDT 100%
+739,163,1,Phase 1 - Réglement / Montage,6,52,59,3,5,Parallélisme 0.01mm
+740,163,2,Phase 2 - Fraisage,6,134,50,25,6,Surface Ra 3.2µm
+741,163,3,Phase 3 - Fraisage,9,101,29,17,7,Profondeur ±0.05mm
+742,163,4,Phase 4 - Fraisage,6,61,280,26,12,Profondeur ±0.05mm
+743,163,5,Phase 5 - Contrôle qualité,6,32,222,9,7,PDT 100%
+744,164,1,Phase 1 - Débit / Tronçonnage,7,44,262,14,7,Longueur ±1mm
+745,164,2,Phase 2 - Fraisage,9,75,342,16,12,Profondeur ±0.05mm
+746,164,3,Phase 3 - Fraisage,9,101,198,16,10,Profondeur ±0.05mm
+747,164,4,Phase 4 - Perçage,4,8,146,19,3,Taraudage M6
+748,164,5,Phase 5 - Tournage,5,9,331,51,13,Diamètre ±0.01mm
+749,164,6,Phase 6 - Ébavurage,3,36,240,10,3,Pas d'arêtes vives
+750,165,1,Phase 1 - Réglement / Montage,3,129,258,5,16,
+751,165,2,Phase 2 - Fraisage,6,39,181,46,8,Profondeur ±0.05mm
+752,165,3,Phase 3 - Contrôle qualité,5,72,391,14,5,PDT 100%
+753,166,1,Phase 1 - Réglement / Montage,9,124,193,9,10,Perpendicularité 0.02mm
+754,166,2,Phase 2 - Tournage,5,149,179,47,12,Diamètre ±0.01mm
+755,166,3,Phase 3 - Ébavurage,1,41,119,4,1,Rayon R0.2 max
+756,167,1,Phase 1 - Réglement / Montage,8,83,390,5,12,Centrage ±0.02mm
+757,167,2,Phase 2 - Rectification,5,99,387,21,4,Surface Ra 0.8µm
+758,167,3,Phase 3 - Fraisage,6,10,384,14,10,Planéité 0.02mm
+759,167,4,Phase 4 - Fraisage,6,45,165,16,14,Profondeur ±0.05mm
+760,167,5,Phase 5 - Ébavurage,9,147,285,6,2,Rayon R0.2 max
+761,168,1,Phase 1 - Débit / Tronçonnage,10,58,104,14,3,
+762,168,2,Phase 2 - Perçage,4,23,299,5,3,Perpendicularité 0.05mm
+763,168,3,Phase 3 - Tournage,2,2,185,59,9,Surface Ra 1.6µm
+764,168,4,Phase 4 - Ébavurage,9,136,255,6,2,
+765,169,1,Phase 1 - Réglement / Montage,11,91,183,10,9,Centrage ±0.02mm
+766,169,2,Phase 2 - Fraisage,9,19,292,15,5,Planéité 0.02mm
+767,169,3,Phase 3 - Ébavurage,8,60,27,12,5,Rayon R0.2 max
+768,170,1,Phase 1 - Débit / Tronçonnage,10,65,200,14,4,Cote brute ±0.5mm
+769,170,2,Phase 2 - Perçage,4,74,39,22,5,Alésage H7
+770,170,3,Phase 3 - Fraisage,6,140,358,17,12,Profondeur ±0.05mm
+771,170,4,Phase 4 - Contrôle qualité,10,8,17,15,5,Contrôle dimensionnel
+772,171,1,Phase 1 - Débit / Tronçonnage,1,36,105,11,8,Planarite 0.3mm
+773,171,2,Phase 2 - Rectification,9,16,121,23,4,Surface Ra 0.8µm
+774,171,3,Phase 3 - Fraisage,6,107,307,49,4,Profondeur ±0.05mm
+775,171,4,Phase 4 - Rectification,10,11,54,9,10,Cylindricité 0.005mm
+776,171,5,Phase 5 - Contrôle qualité,4,123,156,12,2,PDT 100%
+777,172,1,Phase 1 - Débit / Tronçonnage,7,137,312,9,7,Cote brute ±0.5mm
+778,172,2,Phase 2 - Fraisage,6,100,393,34,14,Parallélisme 0.03mm
+779,172,3,Phase 3 - Ébavurage,4,141,71,4,4,Pas d'arêtes vives
+780,173,1,Phase 1 - Réglement / Montage,3,91,100,7,18,Centrage ±0.02mm
+781,173,2,Phase 2 - Tournage,1,3,117,36,14,Surface Ra 1.6µm
+782,173,3,Phase 3 - Contrôle qualité,1,64,30,7,2,Mesure 3 points
+783,174,1,Phase 1 - Débit / Tronçonnage,10,12,161,8,6,Longueur ±1mm
+784,174,2,Phase 2 - Rectification,5,102,246,29,4,Surface Ra 0.8µm
+785,174,3,Phase 3 - Tournage,10,53,254,55,14,Concentricité 0.01mm
+786,174,4,Phase 4 - Contrôle qualité,7,114,366,14,4,Contrôle dimensionnel
+787,175,1,Phase 1 - Réglement / Montage,7,135,137,7,8,Centrage ±0.02mm
+788,175,2,Phase 2 - Fraisage,9,125,144,15,6,Parallélisme 0.03mm
+789,175,3,Phase 3 - Perçage,4,79,380,22,5,Diamètre ±0.02mm
+790,175,4,Phase 4 - Fraisage,6,10,121,38,13,Profondeur ±0.05mm
+791,175,5,Phase 5 - Contrôle qualité,1,128,18,13,4,
+792,176,1,Phase 1 - Débit / Tronçonnage,2,16,143,12,5,
+793,176,2,Phase 2 - Tournage,7,99,228,12,6,Cylindricité 0.02mm
+794,176,3,Phase 3 - Fraisage,9,137,27,29,3,Planéité 0.02mm
+795,176,4,Phase 4 - Rectification,6,87,135,26,6,Surface Ra 0.8µm
+796,176,5,Phase 5 - Fraisage,9,110,374,13,15,Surface Ra 3.2µm
+797,176,6,Phase 6 - Contrôle qualité,9,74,274,19,5,Contrôle dimensionnel
+798,177,1,Phase 1 - Débit / Tronçonnage,4,120,382,6,3,Cote brute ±0.5mm
+799,177,2,Phase 2 - Tournage,5,22,128,59,11,Concentricité 0.01mm
+800,177,3,Phase 3 - Fraisage,9,10,316,27,8,Planéité 0.02mm
+801,177,4,Phase 4 - Contrôle qualité,9,4,64,14,6,Contrôle dimensionnel
+802,178,1,Phase 1 - Réglement / Montage,5,114,237,2,19,Centrage ±0.02mm
+803,178,2,Phase 2 - Fraisage,9,123,327,45,6,Profondeur ±0.05mm
+804,178,3,Phase 3 - Tournage,1,71,313,45,8,Surface Ra 1.6µm
+805,178,4,Phase 4 - Ébavurage,10,71,133,10,2,Pas d'arêtes vives
+806,179,1,Phase 1 - Réglement / Montage,5,13,120,3,6,Parallélisme 0.01mm
+807,179,2,Phase 2 - Perçage,11,149,163,6,10,Perpendicularité 0.05mm
+808,179,3,Phase 3 - Tournage,5,66,9,53,8,Surface Ra 1.6µm
+809,179,4,Phase 4 - Fraisage,9,28,40,42,10,Surface Ra 3.2µm
+810,179,5,Phase 5 - Contrôle qualité,7,53,167,16,8,
+811,180,1,Phase 1 - Débit / Tronçonnage,4,73,74,3,4,Planarite 0.3mm
+812,180,2,Phase 2 - Fraisage,9,96,241,28,12,Surface Ra 3.2µm
+813,180,3,Phase 3 - Tournage,1,75,77,47,3,Surface Ra 1.6µm
+814,180,4,Phase 4 - Fraisage,9,131,367,42,15,Planéité 0.02mm
+815,180,5,Phase 5 - Contrôle qualité,4,150,17,9,5,PDT 100%
+816,181,1,Phase 1 - Réglement / Montage,7,145,258,10,18,Centrage ±0.02mm
+817,181,2,Phase 2 - Perçage,3,121,338,21,10,Taraudage M6
+818,181,3,Phase 3 - Tournage,2,148,151,25,8,Cylindricité 0.02mm
+819,181,4,Phase 4 - Perçage,8,60,234,15,3,Perpendicularité 0.05mm
+820,181,5,Phase 5 - Fraisage,9,93,41,32,11,Surface Ra 3.2µm
+821,181,6,Phase 6 - Rectification,9,124,310,15,10,
+822,181,7,Phase 7 - Ébavurage,5,138,126,9,5,
+823,182,1,Phase 1 - Débit / Tronçonnage,10,74,175,8,2,Cote brute ±0.5mm
+824,182,2,Phase 2 - Fraisage,6,148,254,50,15,Parallélisme 0.03mm
+825,182,3,Phase 3 - Contrôle qualité,8,4,86,8,5,Contrôle dimensionnel
+826,183,1,Phase 1 - Réglement / Montage,8,26,65,2,18,Centrage ±0.02mm
+827,183,2,Phase 2 - Perçage,3,34,264,21,8,Taraudage M6
+828,183,3,Phase 3 - Fraisage,9,143,124,28,4,Planéité 0.02mm
+829,183,4,Phase 4 - Contrôle qualité,3,28,370,6,2,Contrôle dimensionnel
+830,184,1,Phase 1 - Réglement / Montage,4,116,380,8,14,
+831,184,2,Phase 2 - Perçage,4,131,43,9,2,Alésage H7
+832,184,3,Phase 3 - Perçage,11,98,165,19,4,Alésage H7
+833,184,4,Phase 4 - Rectification,2,60,153,23,8,Surface Ra 0.8µm
+834,184,5,Phase 5 - Fraisage,9,74,166,34,8,Parallélisme 0.03mm
+835,184,6,Phase 6 - Contrôle qualité,1,54,221,13,6,Contrôle dimensionnel
+836,185,1,Phase 1 - Débit / Tronçonnage,10,43,61,7,4,
+837,185,2,Phase 2 - Fraisage,6,74,133,48,15,Surface Ra 3.2µm
+838,185,3,Phase 3 - Rectification,9,72,73,11,6,Cylindricité 0.005mm
+839,185,4,Phase 4 - Tournage,1,139,276,22,3,Diamètre ±0.01mm
+840,185,5,Phase 5 - Contrôle qualité,1,95,105,14,6,
+841,186,1,Phase 1 - Réglement / Montage,11,33,233,6,8,Centrage ±0.02mm
+842,186,2,Phase 2 - Fraisage,9,127,135,15,5,Planéité 0.02mm
+843,186,3,Phase 3 - Contrôle qualité,2,91,41,12,7,PDT 100%
+844,187,1,Phase 1 - Débit / Tronçonnage,11,86,142,10,7,Cote brute ±0.5mm
+845,187,2,Phase 2 - Perçage,8,10,222,8,10,Alésage H7
+846,187,3,Phase 3 - Tournage,10,10,325,50,3,Cylindricité 0.02mm
+847,187,4,Phase 4 - Tournage,7,57,345,22,7,Diamètre ±0.01mm
+848,187,5,Phase 5 - Ébavurage,5,128,145,5,2,
+849,188,1,Phase 1 - Réglement / Montage,11,55,2,8,7,
+850,188,2,Phase 2 - Fraisage,6,46,20,36,14,Planéité 0.02mm
+851,188,3,Phase 3 - Fraisage,6,90,248,43,13,Parallélisme 0.03mm
+852,188,4,Phase 4 - Perçage,4,75,343,20,9,Taraudage M6
+853,188,5,Phase 5 - Contrôle qualité,11,124,152,8,3,PDT 100%
+854,189,1,Phase 1 - Réglement / Montage,10,108,229,7,12,
+855,189,2,Phase 2 - Tournage,7,82,339,17,8,Diamètre ±0.01mm
+856,189,3,Phase 3 - Perçage,11,126,308,18,5,Diamètre ±0.02mm
+857,189,4,Phase 4 - Tournage,10,56,210,13,11,Concentricité 0.01mm
+858,189,5,Phase 5 - Tournage,5,106,201,38,9,Diamètre ±0.01mm
+859,189,6,Phase 6 - Ébavurage,1,69,249,6,3,
+860,190,1,Phase 1 - Réglement / Montage,10,115,210,5,10,Parallélisme 0.01mm
+861,190,2,Phase 2 - Perçage,3,85,67,24,10,Diamètre ±0.02mm
+862,190,3,Phase 3 - Rectification,1,98,47,30,8,Parallélisme 0.01mm
+863,190,4,Phase 4 - Perçage,3,13,266,11,7,Perpendicularité 0.05mm
+864,190,5,Phase 5 - Rectification,11,102,368,15,7,Cylindricité 0.005mm
+865,190,6,Phase 6 - Rectification,3,106,111,25,6,Surface Ra 0.8µm
+866,190,7,Phase 7 - Ébavurage,1,135,53,11,4,Rayon R0.2 max
+867,191,1,Phase 1 - Débit / Tronçonnage,10,78,13,6,7,Longueur ±1mm
+868,191,2,Phase 2 - Tournage,1,97,336,35,5,Concentricité 0.01mm
+869,191,3,Phase 3 - Perçage,3,19,259,18,2,Diamètre ±0.02mm
+870,191,4,Phase 4 - Perçage,4,25,377,23,8,Perpendicularité 0.05mm
+871,191,5,Phase 5 - Perçage,8,83,218,21,2,Alésage H7
+872,191,6,Phase 6 - Tournage,2,26,136,51,12,Diamètre ±0.01mm
+873,191,7,Phase 7 - Ébavurage,4,24,114,9,5,Rayon R0.2 max
+874,192,1,Phase 1 - Débit / Tronçonnage,11,130,126,9,2,
+875,192,2,Phase 2 - Perçage,8,140,366,8,9,Perpendicularité 0.05mm
+876,192,3,Phase 3 - Fraisage,6,102,395,24,10,Planéité 0.02mm
+877,192,4,Phase 4 - Fraisage,6,80,171,19,15,Surface Ra 3.2µm
+878,192,5,Phase 5 - Ébavurage,5,54,251,12,2,Pas d'arêtes vives
+879,193,1,Phase 1 - Débit / Tronçonnage,12,122,268,14,8,Longueur ±1mm
+880,193,2,Phase 2 - Tournage,7,65,211,29,14,Concentricité 0.01mm
+881,193,3,Phase 3 - Perçage,3,83,353,23,8,Diamètre ±0.02mm
+882,193,4,Phase 4 - Ébavurage,7,144,251,11,4,Rayon R0.2 max
+883,194,1,Phase 1 - Réglement / Montage,7,83,237,9,7,Centrage ±0.02mm
+884,194,2,Phase 2 - Fraisage,6,97,66,10,5,Surface Ra 3.2µm
+885,194,3,Phase 3 - Tournage,7,30,20,37,10,Cylindricité 0.02mm
+886,194,4,Phase 4 - Fraisage,9,36,384,45,9,Profondeur ±0.05mm
+887,194,5,Phase 5 - Tournage,1,112,151,56,13,Concentricité 0.01mm
+888,194,6,Phase 6 - Contrôle qualité,6,96,289,10,3,Contrôle dimensionnel
+889,195,1,Phase 1 - Réglement / Montage,7,96,266,6,20,
+890,195,2,Phase 2 - Tournage,5,35,85,43,14,Diamètre ±0.01mm
+891,195,3,Phase 3 - Tournage,7,46,77,40,4,Surface Ra 1.6µm
+892,195,4,Phase 4 - Ébavurage,7,52,356,4,5,Rayon R0.2 max
+893,196,1,Phase 1 - Débit / Tronçonnage,1,120,305,5,2,Planarite 0.3mm
+894,196,2,Phase 2 - Fraisage,6,89,322,10,6,Planéité 0.02mm
+895,196,3,Phase 3 - Tournage,7,150,374,29,8,Diamètre ±0.01mm
+896,196,4,Phase 4 - Rectification,11,139,329,29,6,Surface Ra 0.8µm
+897,196,5,Phase 5 - Fraisage,6,56,144,21,7,Surface Ra 3.2µm
+898,196,6,Phase 6 - Ébavurage,11,99,170,12,5,
+899,197,1,Phase 1 - Débit / Tronçonnage,12,122,108,5,2,Longueur ±1mm
+900,197,2,Phase 2 - Rectification,2,38,74,13,10,Surface Ra 0.8µm
+901,197,3,Phase 3 - Tournage,1,36,262,38,9,Diamètre ±0.01mm
+902,197,4,Phase 4 - Tournage,10,31,124,45,9,Diamètre ±0.01mm
+903,197,5,Phase 5 - Contrôle qualité,8,91,160,15,6,PDT 100%
+904,198,1,Phase 1 - Réglement / Montage,7,43,325,6,9,
+905,198,2,Phase 2 - Fraisage,9,65,351,17,11,Profondeur ±0.05mm
+906,198,3,Phase 3 - Fraisage,6,7,188,39,15,Planéité 0.02mm
+907,198,4,Phase 4 - Contrôle qualité,7,144,98,17,4,Mesure 3 points
+908,199,1,Phase 1 - Réglement / Montage,1,51,227,7,11,Centrage ±0.02mm
+909,199,2,Phase 2 - Fraisage,9,25,189,26,11,Surface Ra 3.2µm
+910,199,3,Phase 3 - Fraisage,6,71,329,40,9,Surface Ra 3.2µm
+911,199,4,Phase 4 - Rectification,10,71,321,9,3,
+912,199,5,Phase 5 - Contrôle qualité,9,117,252,10,5,PDT 100%
+913,200,1,Phase 1 - Débit / Tronçonnage,1,40,362,14,3,Longueur ±1mm
+914,200,2,Phase 2 - Tournage,1,15,228,50,14,Surface Ra 1.6µm
+915,200,3,Phase 3 - Tournage,10,72,100,51,12,Surface Ra 1.6µm
+916,200,4,Phase 4 - Ébavurage,9,82,364,5,5,
+917,201,1,Phase 1 - Réglement / Montage,11,4,341,8,18,Centrage ±0.02mm
+918,201,2,Phase 2 - Tournage,10,38,374,27,4,Cylindricité 0.02mm
+919,201,3,Phase 3 - Fraisage,9,51,353,42,9,Parallélisme 0.03mm
+920,201,4,Phase 4 - Fraisage,6,80,141,45,8,Surface Ra 3.2µm
+921,201,5,Phase 5 - Fraisage,6,145,238,15,4,Surface Ra 3.2µm
+922,201,6,Phase 6 - Ébavurage,2,48,163,12,1,Pas d'arêtes vives
+923,202,1,Phase 1 - Réglement / Montage,7,96,236,3,12,Perpendicularité 0.02mm
+924,202,2,Phase 2 - Perçage,4,34,159,6,8,Alésage H7
+925,202,3,Phase 3 - Tournage,2,145,162,36,6,Cylindricité 0.02mm
+926,202,4,Phase 4 - Tournage,2,46,152,26,14,Diamètre ±0.01mm
+927,202,5,Phase 5 - Ébavurage,8,91,297,8,3,
+928,203,1,Phase 1 - Réglement / Montage,9,44,19,8,9,Parallélisme 0.01mm
+929,203,2,Phase 2 - Rectification,4,89,331,29,7,Cylindricité 0.005mm
+930,203,3,Phase 3 - Fraisage,9,24,263,23,7,Parallélisme 0.03mm
+931,203,4,Phase 4 - Fraisage,6,30,265,50,5,Profondeur ±0.05mm
+932,203,5,Phase 5 - Tournage,10,83,191,46,9,Surface Ra 1.6µm
+933,203,6,Phase 6 - Ébavurage,2,92,5,5,4,Rayon R0.2 max
+934,204,1,Phase 1 - Débit / Tronçonnage,2,48,184,7,3,
+935,204,2,Phase 2 - Fraisage,6,113,316,39,12,Profondeur ±0.05mm
+936,204,3,Phase 3 - Contrôle qualité,8,63,130,16,6,Contrôle dimensionnel
+937,205,1,Phase 1 - Débit / Tronçonnage,4,77,21,6,8,Cote brute ±0.5mm
+938,205,2,Phase 2 - Fraisage,9,148,206,47,3,Parallélisme 0.03mm
+939,205,3,Phase 3 - Fraisage,9,135,102,46,15,Parallélisme 0.03mm
+940,205,4,Phase 4 - Tournage,5,14,47,29,15,Cylindricité 0.02mm
+941,205,5,Phase 5 - Contrôle qualité,8,102,85,19,2,Mesure 3 points
+942,206,1,Phase 1 - Débit / Tronçonnage,5,78,158,4,3,Longueur ±1mm
+943,206,2,Phase 2 - Perçage,11,24,371,12,4,Alésage H7
+944,206,3,Phase 3 - Ébavurage,5,89,52,10,5,
+945,207,1,Phase 1 - Débit / Tronçonnage,7,121,343,9,8,
+946,207,2,Phase 2 - Perçage,3,100,66,15,4,Taraudage M6
+947,207,3,Phase 3 - Contrôle qualité,10,109,306,17,6,PDT 100%
+948,208,1,Phase 1 - Débit / Tronçonnage,12,7,114,12,3,Longueur ±1mm
+949,208,2,Phase 2 - Fraisage,9,129,1,49,12,Profondeur ±0.05mm
+950,208,3,Phase 3 - Rectification,9,59,71,23,6,Surface Ra 0.8µm
+951,208,4,Phase 4 - Tournage,7,24,174,34,13,Cylindricité 0.02mm
+952,208,5,Phase 5 - Ébavurage,10,80,199,10,1,Rayon R0.2 max
+953,209,1,Phase 1 - Réglement / Montage,4,46,84,8,8,
+954,209,2,Phase 2 - Perçage,8,26,336,17,2,Perpendicularité 0.05mm
+955,209,3,Phase 3 - Ébavurage,6,130,197,10,1,Rayon R0.2 max
+956,210,1,Phase 1 - Réglement / Montage,9,103,217,2,14,
+957,210,2,Phase 2 - Tournage,1,116,258,33,15,Diamètre ±0.01mm
+958,210,3,Phase 3 - Perçage,8,29,92,18,10,Taraudage M6
+959,210,4,Phase 4 - Perçage,3,39,4,15,6,Perpendicularité 0.05mm
+960,210,5,Phase 5 - Contrôle qualité,6,117,223,6,5,Contrôle dimensionnel
+961,211,1,Phase 1 - Débit / Tronçonnage,8,118,188,3,6,Planarite 0.3mm
+962,211,2,Phase 2 - Tournage,5,76,393,11,11,Concentricité 0.01mm
+963,211,3,Phase 3 - Tournage,5,107,9,38,8,Concentricité 0.01mm
+964,211,4,Phase 4 - Fraisage,6,92,375,12,11,Profondeur ±0.05mm
+965,211,5,Phase 5 - Ébavurage,2,137,49,5,2,
+966,212,1,Phase 1 - Débit / Tronçonnage,10,89,235,14,6,Longueur ±1mm
+967,212,2,Phase 2 - Rectification,11,146,235,9,4,Parallélisme 0.01mm
+968,212,3,Phase 3 - Ébavurage,5,26,196,11,1,Rayon R0.2 max
+969,213,1,Phase 1 - Réglement / Montage,10,109,206,2,10,Perpendicularité 0.02mm
+970,213,2,Phase 2 - Perçage,3,111,60,11,6,Alésage H7
+971,213,3,Phase 3 - Contrôle qualité,11,63,356,6,4,
+972,214,1,Phase 1 - Débit / Tronçonnage,4,71,383,14,8,Longueur ±1mm
+973,214,2,Phase 2 - Tournage,1,103,93,53,7,Concentricité 0.01mm
+974,214,3,Phase 3 - Ébavurage,7,5,213,5,3,Rayon R0.2 max
+975,215,1,Phase 1 - Débit / Tronçonnage,3,25,114,6,2,Planarite 0.3mm
+976,215,2,Phase 2 - Tournage,10,74,373,55,12,Diamètre ±0.01mm
+977,215,3,Phase 3 - Fraisage,9,139,200,40,11,Surface Ra 3.2µm
+978,215,4,Phase 4 - Ébavurage,3,89,228,5,4,
+979,216,1,Phase 1 - Débit / Tronçonnage,11,44,345,9,4,
+980,216,2,Phase 2 - Tournage,10,21,324,41,11,Concentricité 0.01mm
+981,216,3,Phase 3 - Tournage,10,95,156,28,15,Concentricité 0.01mm
+982,216,4,Phase 4 - Fraisage,9,8,80,49,12,Parallélisme 0.03mm
+983,216,5,Phase 5 - Contrôle qualité,6,111,213,5,8,Contrôle dimensionnel
+984,217,1,Phase 1 - Réglement / Montage,8,61,193,10,9,
+985,217,2,Phase 2 - Fraisage,6,25,203,23,6,Surface Ra 3.2µm
+986,217,3,Phase 3 - Fraisage,6,41,393,35,11,Profondeur ±0.05mm
+987,217,4,Phase 4 - Fraisage,6,108,307,27,8,Planéité 0.02mm
+988,217,5,Phase 5 - Fraisage,9,129,275,44,9,Parallélisme 0.03mm
+989,217,6,Phase 6 - Contrôle qualité,8,119,147,19,3,Mesure 3 points
+990,218,1,Phase 1 - Débit / Tronçonnage,1,137,172,15,5,Longueur ±1mm
+991,218,2,Phase 2 - Perçage,3,99,298,25,8,Taraudage M6
+992,218,3,Phase 3 - Fraisage,6,58,71,49,12,Surface Ra 3.2µm
+993,218,4,Phase 4 - Fraisage,9,6,167,49,6,Parallélisme 0.03mm
+994,218,5,Phase 5 - Contrôle qualité,8,24,190,5,7,
+995,219,1,Phase 1 - Réglement / Montage,7,42,235,7,12,Parallélisme 0.01mm
+996,219,2,Phase 2 - Fraisage,6,83,68,28,4,Surface Ra 3.2µm
+997,219,3,Phase 3 - Ébavurage,8,118,126,12,4,Pas d'arêtes vives
+998,220,1,Phase 1 - Réglement / Montage,8,129,329,3,15,Parallélisme 0.01mm
+999,220,2,Phase 2 - Tournage,1,2,384,12,13,Diamètre ±0.01mm
+1000,220,3,Phase 3 - Perçage,11,99,37,18,6,Diamètre ±0.02mm
+1001,220,4,Phase 4 - Perçage,3,113,247,6,6,Taraudage M6
+1002,220,5,Phase 5 - Perçage,3,94,205,21,9,Taraudage M6
+1003,220,6,Phase 6 - Perçage,3,38,135,23,3,Perpendicularité 0.05mm
+1004,220,7,Phase 7 - Ébavurage,9,87,73,6,4,Pas d'arêtes vives
+1005,221,1,Phase 1 - Débit / Tronçonnage,3,19,235,14,5,Longueur ±1mm
+1006,221,2,Phase 2 - Perçage,8,76,353,19,7,Taraudage M6
+1007,221,3,Phase 3 - Contrôle qualité,6,71,305,6,8,Mesure 3 points
+1008,222,1,Phase 1 - Débit / Tronçonnage,10,7,114,8,6,Planarite 0.3mm
+1009,222,2,Phase 2 - Perçage,8,41,291,25,6,Taraudage M6
+1010,222,3,Phase 3 - Perçage,8,40,381,9,4,Alésage H7
+1011,222,4,Phase 4 - Perçage,8,59,15,11,6,Perpendicularité 0.05mm
+1012,222,5,Phase 5 - Contrôle qualité,10,94,370,17,5,Mesure 3 points
+1013,223,1,Phase 1 - Réglement / Montage,9,40,301,10,15,Perpendicularité 0.02mm
+1014,223,2,Phase 2 - Fraisage,9,44,269,40,5,Profondeur ±0.05mm
+1015,223,3,Phase 3 - Rectification,1,17,176,15,7,Cylindricité 0.005mm
+1016,223,4,Phase 4 - Tournage,5,31,333,22,8,Diamètre ±0.01mm
+1017,223,5,Phase 5 - Ébavurage,9,4,383,11,2,
+1018,224,1,Phase 1 - Débit / Tronçonnage,1,103,321,4,4,Cote brute ±0.5mm
+1019,224,2,Phase 2 - Tournage,10,138,41,13,10,Cylindricité 0.02mm
+1020,224,3,Phase 3 - Tournage,2,63,117,54,14,Diamètre ±0.01mm
+1021,224,4,Phase 4 - Ébavurage,6,69,283,7,1,
+1022,225,1,Phase 1 - Débit / Tronçonnage,2,34,268,7,2,Longueur ±1mm
+1023,225,2,Phase 2 - Tournage,10,149,245,39,4,Surface Ra 1.6µm
+1024,225,3,Phase 3 - Ébavurage,9,19,101,10,1,Rayon R0.2 max
+1025,226,1,Phase 1 - Débit / Tronçonnage,7,26,278,12,3,
+1026,226,2,Phase 2 - Tournage,1,149,221,17,14,Diamètre ±0.01mm
+1027,226,3,Phase 3 - Contrôle qualité,7,117,1,13,8,
+1028,227,1,Phase 1 - Réglement / Montage,8,46,169,10,20,Perpendicularité 0.02mm
+1029,227,2,Phase 2 - Rectification,10,68,273,15,8,Parallélisme 0.01mm
+1030,227,3,Phase 3 - Contrôle qualité,11,80,321,19,2,Mesure 3 points
+1031,228,1,Phase 1 - Débit / Tronçonnage,3,131,241,10,3,Longueur ±1mm
+1032,228,2,Phase 2 - Tournage,7,78,49,38,8,Cylindricité 0.02mm
+1033,228,3,Phase 3 - Tournage,1,60,110,29,11,Concentricité 0.01mm
+1034,228,4,Phase 4 - Tournage,10,121,53,53,7,Cylindricité 0.02mm
+1035,228,5,Phase 5 - Contrôle qualité,5,83,81,11,8,
+1036,229,1,Phase 1 - Réglement / Montage,5,41,167,10,20,
+1037,229,2,Phase 2 - Perçage,8,59,135,20,6,Alésage H7
+1038,229,3,Phase 3 - Tournage,5,91,382,30,10,Concentricité 0.01mm
+1039,229,4,Phase 4 - Fraisage,9,107,3,35,3,Profondeur ±0.05mm
+1040,229,5,Phase 5 - Ébavurage,5,117,393,7,1,
+1041,230,1,Phase 1 - Débit / Tronçonnage,10,76,192,3,4,
+1042,230,2,Phase 2 - Perçage,8,143,287,11,5,Taraudage M6
+1043,230,3,Phase 3 - Perçage,3,20,125,10,7,Taraudage M6
+1044,230,4,Phase 4 - Rectification,6,121,24,29,9,
+1045,230,5,Phase 5 - Ébavurage,6,97,31,4,1,
+1046,231,1,Phase 1 - Débit / Tronçonnage,11,95,225,7,2,
+1047,231,2,Phase 2 - Tournage,1,84,397,56,9,Cylindricité 0.02mm
+1048,231,3,Phase 3 - Perçage,8,147,103,22,3,Taraudage M6
+1049,231,4,Phase 4 - Tournage,10,140,391,52,7,Concentricité 0.01mm
+1050,231,5,Phase 5 - Contrôle qualité,5,18,359,15,8,Contrôle dimensionnel
+1051,232,1,Phase 1 - Réglement / Montage,8,55,95,7,19,Parallélisme 0.01mm
+1052,232,2,Phase 2 - Fraisage,9,51,347,26,7,Surface Ra 3.2µm
+1053,232,3,Phase 3 - Ébavurage,9,106,219,9,4,Pas d'arêtes vives
+1054,233,1,Phase 1 - Réglement / Montage,1,132,192,2,18,Centrage ±0.02mm
+1055,233,2,Phase 2 - Rectification,3,138,252,17,8,Surface Ra 0.8µm
+1056,233,3,Phase 3 - Perçage,3,143,400,8,10,Perpendicularité 0.05mm
+1057,233,4,Phase 4 - Perçage,3,147,240,24,5,Diamètre ±0.02mm
+1058,233,5,Phase 5 - Contrôle qualité,4,71,239,19,7,Mesure 3 points
+1059,234,1,Phase 1 - Réglement / Montage,2,47,332,7,19,
+1060,234,2,Phase 2 - Rectification,4,148,151,8,9,Surface Ra 0.8µm
+1061,234,3,Phase 3 - Ébavurage,3,110,78,7,2,
+1062,235,1,Phase 1 - Réglement / Montage,3,137,235,5,16,Parallélisme 0.01mm
+1063,235,2,Phase 2 - Tournage,2,53,158,21,4,Surface Ra 1.6µm
+1064,235,3,Phase 3 - Fraisage,6,33,277,32,4,Planéité 0.02mm
+1065,235,4,Phase 4 - Perçage,4,54,104,14,4,Taraudage M6
+1066,235,5,Phase 5 - Contrôle qualité,7,56,396,16,2,Mesure 3 points
+1067,236,1,Phase 1 - Réglement / Montage,8,32,193,2,19,Parallélisme 0.01mm
+1068,236,2,Phase 2 - Fraisage,9,113,205,22,6,Profondeur ±0.05mm
+1069,236,3,Phase 3 - Fraisage,6,24,90,42,12,Surface Ra 3.2µm
+1070,236,4,Phase 4 - Ébavurage,7,31,251,12,3,
+1071,237,1,Phase 1 - Réglement / Montage,4,49,108,3,16,
+1072,237,2,Phase 2 - Tournage,1,117,9,10,9,Diamètre ±0.01mm
+1073,237,3,Phase 3 - Fraisage,6,91,185,29,4,Profondeur ±0.05mm
+1074,237,4,Phase 4 - Rectification,9,77,118,30,4,
+1075,237,5,Phase 5 - Contrôle qualité,1,71,374,15,2,Mesure 3 points
+1076,238,1,Phase 1 - Réglement / Montage,5,145,5,4,9,Parallélisme 0.01mm
+1077,238,2,Phase 2 - Perçage,3,16,306,11,6,Alésage H7
+1078,238,3,Phase 3 - Fraisage,6,108,89,21,11,Parallélisme 0.03mm
+1079,238,4,Phase 4 - Perçage,4,94,57,10,2,Taraudage M6
+1080,238,5,Phase 5 - Ébavurage,4,96,136,12,3,Pas d'arêtes vives
+1081,239,1,Phase 1 - Réglement / Montage,3,8,241,2,9,
+1082,239,2,Phase 2 - Tournage,7,135,87,20,4,Surface Ra 1.6µm
+1083,239,3,Phase 3 - Fraisage,6,24,215,14,4,Profondeur ±0.05mm
+1084,239,4,Phase 4 - Fraisage,9,138,226,18,12,Surface Ra 3.2µm
+1085,239,5,Phase 5 - Ébavurage,8,66,66,8,5,Rayon R0.2 max
+1086,240,1,Phase 1 - Réglement / Montage,9,25,245,9,11,Parallélisme 0.01mm
+1087,240,2,Phase 2 - Tournage,2,37,116,52,4,Surface Ra 1.6µm
+1088,240,3,Phase 3 - Perçage,8,27,128,12,6,Perpendicularité 0.05mm
+1089,240,4,Phase 4 - Contrôle qualité,10,85,364,19,7,Contrôle dimensionnel
+1090,241,1,Phase 1 - Réglement / Montage,5,84,217,7,9,Centrage ±0.02mm
+1091,241,2,Phase 2 - Perçage,11,13,102,10,2,Perpendicularité 0.05mm
+1092,241,3,Phase 3 - Fraisage,6,42,204,30,3,Profondeur ±0.05mm
+1093,241,4,Phase 4 - Fraisage,9,49,322,46,9,Profondeur ±0.05mm
+1094,241,5,Phase 5 - Contrôle qualité,8,68,280,19,2,Contrôle dimensionnel
+1095,242,1,Phase 1 - Réglement / Montage,11,87,173,4,13,Perpendicularité 0.02mm
+1096,242,2,Phase 2 - Perçage,11,141,234,8,7,Alésage H7
+1097,242,3,Phase 3 - Ébavurage,3,110,329,3,5,Pas d'arêtes vives
+1098,243,1,Phase 1 - Débit / Tronçonnage,8,29,62,11,7,Planarite 0.3mm
+1099,243,2,Phase 2 - Tournage,5,79,232,37,11,Surface Ra 1.6µm
+1100,243,3,Phase 3 - Contrôle qualité,11,47,204,11,3,Mesure 3 points
+1101,244,1,Phase 1 - Réglement / Montage,7,91,270,4,6,Perpendicularité 0.02mm
+1102,244,2,Phase 2 - Fraisage,6,96,82,16,13,Parallélisme 0.03mm
+1103,244,3,Phase 3 - Fraisage,6,39,277,49,9,Parallélisme 0.03mm
+1104,244,4,Phase 4 - Tournage,7,76,200,43,9,Diamètre ±0.01mm
+1105,244,5,Phase 5 - Ébavurage,5,77,1,4,3,
+1106,245,1,Phase 1 - Réglement / Montage,10,54,376,3,6,
+1107,245,2,Phase 2 - Tournage,7,42,392,25,9,Cylindricité 0.02mm
+1108,245,3,Phase 3 - Fraisage,9,50,128,32,4,Parallélisme 0.03mm
+1109,245,4,Phase 4 - Rectification,10,36,206,11,5,Cylindricité 0.005mm
+1110,245,5,Phase 5 - Ébavurage,9,71,390,8,1,
+1111,246,1,Phase 1 - Débit / Tronçonnage,10,135,53,15,7,
+1112,246,2,Phase 2 - Tournage,7,77,64,44,14,Diamètre ±0.01mm
+1113,246,3,Phase 3 - Tournage,5,70,21,34,7,Surface Ra 1.6µm
+1114,246,4,Phase 4 - Fraisage,9,150,87,41,15,Planéité 0.02mm
+1115,246,5,Phase 5 - Ébavurage,2,23,375,12,5,Rayon R0.2 max
+1116,247,1,Phase 1 - Débit / Tronçonnage,8,111,216,3,7,Cote brute ±0.5mm
+1117,247,2,Phase 2 - Perçage,8,71,129,25,10,Alésage H7
+1118,247,3,Phase 3 - Fraisage,9,92,43,10,4,Profondeur ±0.05mm
+1119,247,4,Phase 4 - Ébavurage,8,57,303,9,3,Pas d'arêtes vives
+1120,248,1,Phase 1 - Réglement / Montage,8,144,311,8,17,Centrage ±0.02mm
+1121,248,2,Phase 2 - Fraisage,6,148,49,17,15,Parallélisme 0.03mm
+1122,248,3,Phase 3 - Fraisage,9,101,368,12,8,Profondeur ±0.05mm
+1123,248,4,Phase 4 - Perçage,3,103,322,18,2,Perpendicularité 0.05mm
+1124,248,5,Phase 5 - Fraisage,6,85,51,28,9,Surface Ra 3.2µm
+1125,248,6,Phase 6 - Contrôle qualité,10,92,350,16,4,Mesure 3 points
+1126,249,1,Phase 1 - Débit / Tronçonnage,1,84,235,14,7,Planarite 0.3mm
+1127,249,2,Phase 2 - Perçage,4,54,286,22,7,Taraudage M6
+1128,249,3,Phase 3 - Perçage,4,128,46,15,7,Perpendicularité 0.05mm
+1129,249,4,Phase 4 - Tournage,5,26,370,15,13,Diamètre ±0.01mm
+1130,249,5,Phase 5 - Tournage,7,48,388,34,6,Concentricité 0.01mm
+1131,249,6,Phase 6 - Contrôle qualité,8,90,173,19,4,Mesure 3 points
+1132,250,1,Phase 1 - Réglement / Montage,3,5,58,5,14,Perpendicularité 0.02mm
+1133,250,2,Phase 2 - Perçage,4,102,317,7,5,Diamètre ±0.02mm
+1134,250,3,Phase 3 - Ébavurage,6,104,135,5,3,
+1135,251,1,Phase 1 - Débit / Tronçonnage,5,99,54,14,8,Planarite 0.3mm
+1136,251,2,Phase 2 - Fraisage,6,83,116,38,3,Parallélisme 0.03mm
+1137,251,3,Phase 3 - Contrôle qualité,9,71,14,20,3,Mesure 3 points
+1138,252,1,Phase 1 - Débit / Tronçonnage,7,113,332,15,3,Longueur ±1mm
+1139,252,2,Phase 2 - Tournage,2,6,314,40,10,Diamètre ±0.01mm
+1140,252,3,Phase 3 - Fraisage,6,106,96,43,12,Profondeur ±0.05mm
+1141,252,4,Phase 4 - Fraisage,9,67,362,33,15,Planéité 0.02mm
+1142,252,5,Phase 5 - Ébavurage,3,61,164,11,3,Pas d'arêtes vives
+1143,253,1,Phase 1 - Réglement / Montage,5,83,360,5,9,Centrage ±0.02mm
+1144,253,2,Phase 2 - Rectification,11,122,275,18,4,Cylindricité 0.005mm
+1145,253,3,Phase 3 - Perçage,4,120,138,23,2,Taraudage M6
+1146,253,4,Phase 4 - Contrôle qualité,8,112,34,10,2,
+1147,254,1,Phase 1 - Réglement / Montage,1,89,245,4,7,Perpendicularité 0.02mm
+1148,254,2,Phase 2 - Tournage,5,146,130,56,3,Diamètre ±0.01mm
+1149,254,3,Phase 3 - Fraisage,6,102,111,38,7,Planéité 0.02mm
+1150,254,4,Phase 4 - Tournage,10,131,209,19,15,Concentricité 0.01mm
+1151,254,5,Phase 5 - Perçage,3,92,301,8,3,Diamètre ±0.02mm
+1152,254,6,Phase 6 - Contrôle qualité,5,50,128,10,8,Mesure 3 points
+1153,255,1,Phase 1 - Débit / Tronçonnage,8,31,170,4,2,
+1154,255,2,Phase 2 - Fraisage,9,105,196,40,5,Planéité 0.02mm
+1155,255,3,Phase 3 - Tournage,5,91,91,55,9,Concentricité 0.01mm
+1156,255,4,Phase 4 - Ébavurage,5,67,206,6,2,Rayon R0.2 max
+1157,256,1,Phase 1 - Réglement / Montage,9,21,174,9,8,Perpendicularité 0.02mm
+1158,256,2,Phase 2 - Tournage,10,16,286,13,13,Concentricité 0.01mm
+1159,256,3,Phase 3 - Tournage,1,136,7,10,8,Diamètre ±0.01mm
+1160,256,4,Phase 4 - Tournage,10,145,192,14,5,Cylindricité 0.02mm
+1161,256,5,Phase 5 - Fraisage,9,47,275,23,8,Surface Ra 3.2µm
+1162,256,6,Phase 6 - Perçage,4,96,294,10,9,Perpendicularité 0.05mm
+1163,256,7,Phase 7 - Contrôle qualité,8,8,319,6,6,PDT 100%
+1164,257,1,Phase 1 - Réglement / Montage,10,75,56,7,10,Parallélisme 0.01mm
+1165,257,2,Phase 2 - Rectification,8,50,309,12,8,
+1166,257,3,Phase 3 - Rectification,11,100,230,11,4,Parallélisme 0.01mm
+1167,257,4,Phase 4 - Tournage,2,62,252,22,15,Diamètre ±0.01mm
+1168,257,5,Phase 5 - Ébavurage,1,123,338,12,1,
+1169,258,1,Phase 1 - Débit / Tronçonnage,3,135,289,12,7,
+1170,258,2,Phase 2 - Perçage,4,73,165,9,9,Perpendicularité 0.05mm
+1171,258,3,Phase 3 - Tournage,7,104,223,34,4,Diamètre ±0.01mm
+1172,258,4,Phase 4 - Tournage,1,83,288,40,12,Diamètre ±0.01mm
+1173,258,5,Phase 5 - Ébavurage,10,15,271,3,2,Pas d'arêtes vives
+1174,259,1,Phase 1 - Débit / Tronçonnage,12,147,278,5,7,Planarite 0.3mm
+1175,259,2,Phase 2 - Perçage,3,13,156,17,5,Alésage H7
+1176,259,3,Phase 3 - Rectification,1,112,379,24,5,Parallélisme 0.01mm
+1177,259,4,Phase 4 - Perçage,3,55,51,19,4,Perpendicularité 0.05mm
+1178,259,5,Phase 5 - Contrôle qualité,2,53,254,11,6,PDT 100%
+1179,260,1,Phase 1 - Débit / Tronçonnage,4,53,353,4,4,Cote brute ±0.5mm
+1180,260,2,Phase 2 - Rectification,9,85,91,20,6,Parallélisme 0.01mm
+1181,260,3,Phase 3 - Rectification,4,12,80,12,6,Parallélisme 0.01mm
+1182,260,4,Phase 4 - Perçage,11,147,364,25,6,Perpendicularité 0.05mm
+1183,260,5,Phase 5 - Rectification,9,70,210,30,3,
+1184,260,6,Phase 6 - Contrôle qualité,4,72,98,20,4,PDT 100%
+1185,261,1,Phase 1 - Réglement / Montage,4,11,357,9,9,Parallélisme 0.01mm
+1186,261,2,Phase 2 - Tournage,1,30,82,60,10,Surface Ra 1.6µm
+1187,261,3,Phase 3 - Tournage,5,43,379,26,13,Diamètre ±0.01mm
+1188,261,4,Phase 4 - Ébavurage,10,73,292,7,1,Pas d'arêtes vives
+1189,262,1,Phase 1 - Débit / Tronçonnage,7,23,285,10,3,Longueur ±1mm
+1190,262,2,Phase 2 - Fraisage,6,121,246,16,4,Parallélisme 0.03mm
+1191,262,3,Phase 3 - Tournage,7,48,43,58,14,Surface Ra 1.6µm
+1192,262,4,Phase 4 - Tournage,10,95,225,57,5,Diamètre ±0.01mm
+1193,262,5,Phase 5 - Fraisage,6,129,393,22,15,Parallélisme 0.03mm
+1194,262,6,Phase 6 - Perçage,3,146,8,9,7,Alésage H7
+1195,262,7,Phase 7 - Contrôle qualité,3,119,103,6,5,
+1196,263,1,Phase 1 - Débit / Tronçonnage,10,130,33,6,3,Longueur ±1mm
+1197,263,2,Phase 2 - Fraisage,9,7,226,14,6,Planéité 0.02mm
+1198,263,3,Phase 3 - Contrôle qualité,5,141,163,6,2,PDT 100%
+1199,264,1,Phase 1 - Débit / Tronçonnage,11,5,317,14,3,Planarite 0.3mm
+1200,264,2,Phase 2 - Fraisage,6,27,351,24,3,Profondeur ±0.05mm
+1201,264,3,Phase 3 - Ébavurage,1,100,394,12,1,Pas d'arêtes vives
+1202,265,1,Phase 1 - Réglement / Montage,1,145,280,3,5,
+1203,265,2,Phase 2 - Rectification,9,99,145,29,9,
+1204,265,3,Phase 3 - Rectification,7,126,314,16,8,
+1205,265,4,Phase 4 - Fraisage,6,117,275,33,6,Parallélisme 0.03mm
+1206,265,5,Phase 5 - Ébavurage,5,100,132,5,3,
+1207,266,1,Phase 1 - Débit / Tronçonnage,10,37,22,10,5,Longueur ±1mm
+1208,266,2,Phase 2 - Rectification,5,91,107,20,9,
+1209,266,3,Phase 3 - Fraisage,9,114,199,39,8,Planéité 0.02mm
+1210,266,4,Phase 4 - Ébavurage,4,35,371,11,2,Pas d'arêtes vives
+1211,267,1,Phase 1 - Débit / Tronçonnage,7,146,100,14,7,Planarite 0.3mm
+1212,267,2,Phase 2 - Rectification,11,105,192,28,7,Cylindricité 0.005mm
+1213,267,3,Phase 3 - Fraisage,9,28,278,38,7,Profondeur ±0.05mm
+1214,267,4,Phase 4 - Ébavurage,7,87,283,5,4,
+1215,268,1,Phase 1 - Débit / Tronçonnage,8,7,356,6,5,Longueur ±1mm
+1216,268,2,Phase 2 - Tournage,10,40,329,35,12,Cylindricité 0.02mm
+1217,268,3,Phase 3 - Tournage,5,120,126,57,5,Diamètre ±0.01mm
+1218,268,4,Phase 4 - Tournage,10,136,377,50,3,Surface Ra 1.6µm
+1219,268,5,Phase 5 - Contrôle qualité,2,6,5,6,4,PDT 100%
+1220,269,1,Phase 1 - Débit / Tronçonnage,3,52,381,5,3,Planarite 0.3mm
+1221,269,2,Phase 2 - Perçage,8,81,299,19,9,Alésage H7
+1222,269,3,Phase 3 - Perçage,8,78,52,22,4,Perpendicularité 0.05mm
+1223,269,4,Phase 4 - Tournage,1,137,317,36,5,Diamètre ±0.01mm
+1224,269,5,Phase 5 - Contrôle qualité,10,64,59,9,5,PDT 100%
+1225,270,1,Phase 1 - Réglement / Montage,5,98,243,8,20,Parallélisme 0.01mm
+1226,270,2,Phase 2 - Perçage,8,113,300,23,4,Taraudage M6
+1227,270,3,Phase 3 - Rectification,8,146,177,18,4,Parallélisme 0.01mm
+1228,270,4,Phase 4 - Tournage,2,77,347,35,5,Surface Ra 1.6µm
+1229,270,5,Phase 5 - Rectification,9,51,325,18,7,Surface Ra 0.8µm
+1230,270,6,Phase 6 - Ébavurage,8,5,319,12,4,Pas d'arêtes vives
+1231,271,1,Phase 1 - Débit / Tronçonnage,10,50,263,7,6,Cote brute ±0.5mm
+1232,271,2,Phase 2 - Fraisage,6,14,333,25,14,Planéité 0.02mm
+1233,271,3,Phase 3 - Ébavurage,4,87,21,7,4,
+1234,272,1,Phase 1 - Débit / Tronçonnage,11,9,67,12,2,Cote brute ±0.5mm
+1235,272,2,Phase 2 - Tournage,2,121,195,34,3,Concentricité 0.01mm
+1236,272,3,Phase 3 - Perçage,8,94,263,18,8,Alésage H7
+1237,272,4,Phase 4 - Tournage,5,67,283,22,10,Concentricité 0.01mm
+1238,272,5,Phase 5 - Tournage,7,22,342,30,11,Surface Ra 1.6µm
+1239,272,6,Phase 6 - Ébavurage,5,28,125,4,2,Rayon R0.2 max
+1240,273,1,Phase 1 - Débit / Tronçonnage,12,61,399,4,8,Cote brute ±0.5mm
+1241,273,2,Phase 2 - Tournage,1,88,317,14,5,Diamètre ±0.01mm
+1242,273,3,Phase 3 - Fraisage,9,28,314,17,3,Parallélisme 0.03mm
+1243,273,4,Phase 4 - Ébavurage,2,48,47,4,1,Rayon R0.2 max
+1244,274,1,Phase 1 - Réglement / Montage,7,54,26,3,17,Perpendicularité 0.02mm
+1245,274,2,Phase 2 - Fraisage,6,122,102,41,12,Parallélisme 0.03mm
+1246,274,3,Phase 3 - Fraisage,6,114,95,42,3,Surface Ra 3.2µm
+1247,274,4,Phase 4 - Tournage,2,68,74,44,12,Cylindricité 0.02mm
+1248,274,5,Phase 5 - Contrôle qualité,2,49,96,15,8,Mesure 3 points
+1249,275,1,Phase 1 - Débit / Tronçonnage,12,76,308,9,6,Planarite 0.3mm
+1250,275,2,Phase 2 - Tournage,5,89,377,25,11,Surface Ra 1.6µm
+1251,275,3,Phase 3 - Contrôle qualité,9,65,145,10,2,PDT 100%
+1252,276,1,Phase 1 - Débit / Tronçonnage,3,16,318,15,8,
+1253,276,2,Phase 2 - Tournage,7,4,382,53,4,Concentricité 0.01mm
+1254,276,3,Phase 3 - Contrôle qualité,3,17,292,13,7,Contrôle dimensionnel
+1255,277,1,Phase 1 - Débit / Tronçonnage,8,95,256,7,8,
+1256,277,2,Phase 2 - Tournage,2,59,301,20,3,Concentricité 0.01mm
+1257,277,3,Phase 3 - Fraisage,9,84,207,39,10,Profondeur ±0.05mm
+1258,277,4,Phase 4 - Tournage,7,108,13,18,15,Concentricité 0.01mm
+1259,277,5,Phase 5 - Fraisage,6,103,188,10,9,Parallélisme 0.03mm
+1260,277,6,Phase 6 - Tournage,2,56,49,11,9,Diamètre ±0.01mm
+1261,277,7,Phase 7 - Ébavurage,3,51,12,10,4,Pas d'arêtes vives
+1262,278,1,Phase 1 - Débit / Tronçonnage,11,72,117,6,5,
+1263,278,2,Phase 2 - Fraisage,6,125,341,13,8,Surface Ra 3.2µm
+1264,278,3,Phase 3 - Tournage,5,123,312,28,5,Cylindricité 0.02mm
+1265,278,4,Phase 4 - Fraisage,9,56,214,41,3,Planéité 0.02mm
+1266,278,5,Phase 5 - Contrôle qualité,3,80,351,18,6,PDT 100%
+1267,279,1,Phase 1 - Réglement / Montage,11,73,175,7,9,Perpendicularité 0.02mm
+1268,279,2,Phase 2 - Fraisage,9,17,10,38,8,Profondeur ±0.05mm
+1269,279,3,Phase 3 - Tournage,5,60,161,50,10,Concentricité 0.01mm
+1270,279,4,Phase 4 - Contrôle qualité,6,85,358,11,3,Contrôle dimensionnel
+1271,280,1,Phase 1 - Réglement / Montage,6,59,363,5,12,
+1272,280,2,Phase 2 - Fraisage,6,81,262,16,9,Parallélisme 0.03mm
+1273,280,3,Phase 3 - Contrôle qualité,2,136,252,19,6,Contrôle dimensionnel
+1274,281,1,Phase 1 - Débit / Tronçonnage,4,50,395,7,7,Longueur ±1mm
+1275,281,2,Phase 2 - Fraisage,6,122,127,24,13,Surface Ra 3.2µm
+1276,281,3,Phase 3 - Tournage,10,124,288,19,15,Concentricité 0.01mm
+1277,281,4,Phase 4 - Rectification,8,81,310,25,6,Cylindricité 0.005mm
+1278,281,5,Phase 5 - Contrôle qualité,6,31,152,6,7,Mesure 3 points
+1279,282,1,Phase 1 - Réglement / Montage,11,73,128,8,18,Centrage ±0.02mm
+1280,282,2,Phase 2 - Tournage,2,37,152,11,3,Diamètre ±0.01mm
+1281,282,3,Phase 3 - Tournage,7,38,229,50,9,Cylindricité 0.02mm
+1282,282,4,Phase 4 - Contrôle qualité,3,28,141,19,4,Mesure 3 points
+1283,283,1,Phase 1 - Réglement / Montage,8,73,84,4,15,Centrage ±0.02mm
+1284,283,2,Phase 2 - Tournage,5,142,245,33,5,Concentricité 0.01mm
+1285,283,3,Phase 3 - Perçage,11,141,14,25,8,Alésage H7
+1286,283,4,Phase 4 - Ébavurage,3,9,330,7,3,
+1287,284,1,Phase 1 - Réglement / Montage,1,131,29,4,20,Centrage ±0.02mm
+1288,284,2,Phase 2 - Rectification,5,39,53,24,5,Cylindricité 0.005mm
+1289,284,3,Phase 3 - Tournage,5,92,174,15,9,Concentricité 0.01mm
+1290,284,4,Phase 4 - Contrôle qualité,8,103,280,6,6,
+1291,285,1,Phase 1 - Réglement / Montage,4,40,281,3,11,
+1292,285,2,Phase 2 - Tournage,5,59,123,13,13,Surface Ra 1.6µm
+1293,285,3,Phase 3 - Tournage,2,123,22,12,6,Cylindricité 0.02mm
+1294,285,4,Phase 4 - Contrôle qualité,5,129,164,15,5,
+1295,286,1,Phase 1 - Débit / Tronçonnage,10,127,13,13,7,
+1296,286,2,Phase 2 - Fraisage,6,52,302,12,6,Parallélisme 0.03mm
+1297,286,3,Phase 3 - Fraisage,6,90,360,15,12,Planéité 0.02mm
+1298,286,4,Phase 4 - Fraisage,6,102,109,19,11,Surface Ra 3.2µm
+1299,286,5,Phase 5 - Contrôle qualité,6,73,137,16,6,
+1300,287,1,Phase 1 - Débit / Tronçonnage,7,66,172,6,4,Planarite 0.3mm
+1301,287,2,Phase 2 - Fraisage,9,116,15,38,12,Profondeur ±0.05mm
+1302,287,3,Phase 3 - Tournage,1,11,199,16,14,Cylindricité 0.02mm
+1303,287,4,Phase 4 - Tournage,10,77,354,53,6,Concentricité 0.01mm
+1304,287,5,Phase 5 - Fraisage,6,59,291,26,6,Surface Ra 3.2µm
+1305,287,6,Phase 6 - Tournage,2,47,171,23,10,Diamètre ±0.01mm
+1306,287,7,Phase 7 - Contrôle qualité,8,101,309,10,5,
+1307,288,1,Phase 1 - Réglement / Montage,10,64,40,3,5,Centrage ±0.02mm
+1308,288,2,Phase 2 - Fraisage,6,71,1,29,10,Profondeur ±0.05mm
+1309,288,3,Phase 3 - Contrôle qualité,5,25,28,16,3,Mesure 3 points
+1310,289,1,Phase 1 - Réglement / Montage,3,20,144,8,5,Perpendicularité 0.02mm
+1311,289,2,Phase 2 - Perçage,3,78,73,13,9,Perpendicularité 0.05mm
+1312,289,3,Phase 3 - Ébavurage,9,8,244,5,1,Pas d'arêtes vives
+1313,290,1,Phase 1 - Débit / Tronçonnage,7,117,297,14,6,Planarite 0.3mm
+1314,290,2,Phase 2 - Tournage,10,123,33,56,14,Cylindricité 0.02mm
+1315,290,3,Phase 3 - Tournage,7,97,16,12,10,Diamètre ±0.01mm
+1316,290,4,Phase 4 - Contrôle qualité,4,45,7,6,7,PDT 100%
+1317,291,1,Phase 1 - Réglement / Montage,10,73,369,9,11,Perpendicularité 0.02mm
+1318,291,2,Phase 2 - Tournage,5,49,121,54,10,Surface Ra 1.6µm
+1319,291,3,Phase 3 - Contrôle qualité,1,145,223,20,8,Mesure 3 points
+1320,292,1,Phase 1 - Réglement / Montage,1,74,187,3,16,
+1321,292,2,Phase 2 - Perçage,4,96,338,16,10,Perpendicularité 0.05mm
+1322,292,3,Phase 3 - Ébavurage,9,89,209,5,5,Rayon R0.2 max
+1323,293,1,Phase 1 - Débit / Tronçonnage,3,75,76,13,8,
+1324,293,2,Phase 2 - Perçage,11,93,222,7,6,Perpendicularité 0.05mm
+1325,293,3,Phase 3 - Tournage,5,120,231,58,11,Cylindricité 0.02mm
+1326,293,4,Phase 4 - Contrôle qualité,3,130,321,9,6,Contrôle dimensionnel
+1327,294,1,Phase 1 - Réglement / Montage,5,147,72,5,17,Centrage ±0.02mm
+1328,294,2,Phase 2 - Perçage,3,129,279,6,10,Diamètre ±0.02mm
+1329,294,3,Phase 3 - Fraisage,9,141,341,20,14,Parallélisme 0.03mm
+1330,294,4,Phase 4 - Perçage,8,126,60,15,7,Taraudage M6
+1331,294,5,Phase 5 - Contrôle qualité,4,57,296,16,7,
+1332,295,1,Phase 1 - Réglement / Montage,2,58,328,9,9,Parallélisme 0.01mm
+1333,295,2,Phase 2 - Perçage,3,127,74,7,6,Perpendicularité 0.05mm
+1334,295,3,Phase 3 - Contrôle qualité,10,54,278,8,8,Mesure 3 points
+1335,296,1,Phase 1 - Débit / Tronçonnage,1,76,62,6,3,Cote brute ±0.5mm
+1336,296,2,Phase 2 - Tournage,7,31,217,32,13,Diamètre ±0.01mm
+1337,296,3,Phase 3 - Tournage,10,77,176,34,8,Cylindricité 0.02mm
+1338,296,4,Phase 4 - Tournage,10,123,326,49,12,Surface Ra 1.6µm
+1339,296,5,Phase 5 - Contrôle qualité,1,128,164,16,2,Contrôle dimensionnel
+1340,297,1,Phase 1 - Réglement / Montage,4,138,395,3,18,Perpendicularité 0.02mm
+1341,297,2,Phase 2 - Rectification,9,126,14,20,3,
+1342,297,3,Phase 3 - Contrôle qualité,2,122,130,7,2,Mesure 3 points
+1343,298,1,Phase 1 - Réglement / Montage,9,25,233,8,15,Parallélisme 0.01mm
+1344,298,2,Phase 2 - Fraisage,9,9,166,29,11,Profondeur ±0.05mm
+1345,298,3,Phase 3 - Tournage,7,25,6,53,5,Surface Ra 1.6µm
+1346,298,4,Phase 4 - Rectification,8,18,258,13,10,Parallélisme 0.01mm
+1347,298,5,Phase 5 - Perçage,11,138,335,6,6,Diamètre ±0.02mm
+1348,298,6,Phase 6 - Contrôle qualité,8,45,232,14,8,Mesure 3 points
+1349,299,1,Phase 1 - Débit / Tronçonnage,12,85,219,4,7,Longueur ±1mm
+1350,299,2,Phase 2 - Rectification,2,51,247,23,6,Surface Ra 0.8µm
+1351,299,3,Phase 3 - Fraisage,6,97,23,29,5,Parallélisme 0.03mm
+1352,299,4,Phase 4 - Ébavurage,9,150,253,6,4,
+1353,300,1,Phase 1 - Réglement / Montage,2,26,85,4,9,Centrage ±0.02mm
+1354,300,2,Phase 2 - Fraisage,9,111,11,43,14,Planéité 0.02mm
+1355,300,3,Phase 3 - Fraisage,6,108,243,12,7,Profondeur ±0.05mm
+1356,300,4,Phase 4 - Fraisage,9,18,34,15,7,Planéité 0.02mm
+1357,300,5,Phase 5 - Fraisage,6,36,62,11,5,Surface Ra 3.2µm
+1358,300,6,Phase 6 - Contrôle qualité,9,51,229,16,6,Contrôle dimensionnel
+1359,301,1,Phase 1 - Débit / Tronçonnage,5,150,212,4,6,Cote brute ±0.5mm
+1360,301,2,Phase 2 - Tournage,2,77,69,57,14,Diamètre ±0.01mm
+1361,301,3,Phase 3 - Ébavurage,1,131,7,4,5,
+1362,302,1,Phase 1 - Débit / Tronçonnage,11,3,156,15,3,Planarite 0.3mm
+1363,302,2,Phase 2 - Rectification,8,55,97,29,10,
+1364,302,3,Phase 3 - Fraisage,6,45,199,45,13,Surface Ra 3.2µm
+1365,302,4,Phase 4 - Tournage,2,131,75,58,4,Diamètre ±0.01mm
+1366,302,5,Phase 5 - Contrôle qualité,2,145,85,12,7,
+1367,303,1,Phase 1 - Réglement / Montage,3,58,135,8,6,
+1368,303,2,Phase 2 - Tournage,5,102,15,22,13,Concentricité 0.01mm
+1369,303,3,Phase 3 - Fraisage,6,33,246,49,15,Profondeur ±0.05mm
+1370,303,4,Phase 4 - Contrôle qualité,9,41,124,14,5,PDT 100%
+1371,304,1,Phase 1 - Débit / Tronçonnage,1,107,34,11,2,Longueur ±1mm
+1372,304,2,Phase 2 - Perçage,3,95,143,17,6,Taraudage M6
+1373,304,3,Phase 3 - Contrôle qualité,3,78,275,15,4,
+1374,305,1,Phase 1 - Réglement / Montage,4,144,350,4,20,Perpendicularité 0.02mm
+1375,305,2,Phase 2 - Tournage,7,88,273,43,12,Surface Ra 1.6µm
+1376,305,3,Phase 3 - Tournage,5,70,148,48,11,Cylindricité 0.02mm
+1377,305,4,Phase 4 - Ébavurage,3,62,290,6,3,Rayon R0.2 max
+1378,306,1,Phase 1 - Débit / Tronçonnage,3,133,347,9,4,Planarite 0.3mm
+1379,306,2,Phase 2 - Fraisage,6,36,395,28,6,Planéité 0.02mm
+1380,306,3,Phase 3 - Perçage,8,53,237,23,10,Perpendicularité 0.05mm
+1381,306,4,Phase 4 - Tournage,5,64,106,48,15,Concentricité 0.01mm
+1382,306,5,Phase 5 - Tournage,7,96,126,35,10,Concentricité 0.01mm
+1383,306,6,Phase 6 - Contrôle qualité,8,138,175,9,4,PDT 100%
+1384,307,1,Phase 1 - Débit / Tronçonnage,4,141,202,3,2,Longueur ±1mm
+1385,307,2,Phase 2 - Perçage,8,127,233,22,6,Taraudage M6
+1386,307,3,Phase 3 - Tournage,1,110,322,41,12,Surface Ra 1.6µm
+1387,307,4,Phase 4 - Ébavurage,4,81,62,5,2,Pas d'arêtes vives
+1388,308,1,Phase 1 - Débit / Tronçonnage,1,11,36,7,2,Planarite 0.3mm
+1389,308,2,Phase 2 - Tournage,1,109,105,12,13,Surface Ra 1.6µm
+1390,308,3,Phase 3 - Ébavurage,3,71,146,9,2,Pas d'arêtes vives
+1391,309,1,Phase 1 - Débit / Tronçonnage,12,147,385,7,6,Planarite 0.3mm
+1392,309,2,Phase 2 - Perçage,4,6,284,23,7,Perpendicularité 0.05mm
+1393,309,3,Phase 3 - Tournage,7,53,278,49,3,Cylindricité 0.02mm
+1394,309,4,Phase 4 - Ébavurage,6,70,249,4,1,Pas d'arêtes vives
+1395,310,1,Phase 1 - Réglement / Montage,7,62,236,4,10,Parallélisme 0.01mm
+1396,310,2,Phase 2 - Tournage,1,62,344,29,9,Diamètre ±0.01mm
+1397,310,3,Phase 3 - Fraisage,6,26,42,36,14,Profondeur ±0.05mm
+1398,310,4,Phase 4 - Fraisage,9,98,12,44,15,Planéité 0.02mm
+1399,310,5,Phase 5 - Tournage,7,112,269,31,8,Surface Ra 1.6µm
+1400,310,6,Phase 6 - Ébavurage,6,100,227,12,2,Rayon R0.2 max
+1401,311,1,Phase 1 - Débit / Tronçonnage,2,97,87,15,5,Longueur ±1mm
+1402,311,2,Phase 2 - Tournage,5,104,141,25,14,Concentricité 0.01mm
+1403,311,3,Phase 3 - Rectification,4,121,13,29,6,Surface Ra 0.8µm
+1404,311,4,Phase 4 - Ébavurage,1,100,293,8,3,Rayon R0.2 max
+1405,312,1,Phase 1 - Débit / Tronçonnage,4,115,218,4,5,Planarite 0.3mm
+1406,312,2,Phase 2 - Fraisage,9,94,134,40,5,Parallélisme 0.03mm
+1407,312,3,Phase 3 - Tournage,10,133,307,43,15,Cylindricité 0.02mm
+1408,312,4,Phase 4 - Perçage,11,94,25,12,3,Perpendicularité 0.05mm
+1409,312,5,Phase 5 - Tournage,10,13,129,15,11,Concentricité 0.01mm
+1410,312,6,Phase 6 - Ébavurage,10,37,224,7,2,Pas d'arêtes vives
+1411,313,1,Phase 1 - Débit / Tronçonnage,5,134,35,6,8,Cote brute ±0.5mm
+1412,313,2,Phase 2 - Fraisage,6,74,281,40,9,Parallélisme 0.03mm
+1413,313,3,Phase 3 - Tournage,2,20,35,59,4,Concentricité 0.01mm
+1414,313,4,Phase 4 - Perçage,4,137,64,19,10,Alésage H7
+1415,313,5,Phase 5 - Perçage,4,137,96,12,2,Alésage H7
+1416,313,6,Phase 6 - Contrôle qualité,10,132,11,6,5,Mesure 3 points
+1417,314,1,Phase 1 - Débit / Tronçonnage,8,40,68,6,8,Planarite 0.3mm
+1418,314,2,Phase 2 - Fraisage,9,119,126,39,5,Surface Ra 3.2µm
+1419,314,3,Phase 3 - Perçage,4,11,35,17,4,Diamètre ±0.02mm
+1420,314,4,Phase 4 - Tournage,10,126,347,58,9,Diamètre ±0.01mm
+1421,314,5,Phase 5 - Contrôle qualité,8,134,182,17,8,Contrôle dimensionnel
+1422,315,1,Phase 1 - Réglement / Montage,4,43,258,9,9,Centrage ±0.02mm
+1423,315,2,Phase 2 - Tournage,10,95,153,17,12,Diamètre ±0.01mm
+1424,315,3,Phase 3 - Fraisage,9,96,13,30,10,Parallélisme 0.03mm
+1425,315,4,Phase 4 - Perçage,4,112,397,25,4,Taraudage M6
+1426,315,5,Phase 5 - Contrôle qualité,5,78,203,12,3,PDT 100%
+1427,316,1,Phase 1 - Réglement / Montage,8,65,250,8,19,
+1428,316,2,Phase 2 - Fraisage,6,119,67,36,3,Parallélisme 0.03mm
+1429,316,3,Phase 3 - Rectification,9,26,152,19,3,Parallélisme 0.01mm
+1430,316,4,Phase 4 - Fraisage,9,111,40,48,7,Planéité 0.02mm
+1431,316,5,Phase 5 - Contrôle qualité,11,123,21,20,2,Contrôle dimensionnel
+1432,317,1,Phase 1 - Débit / Tronçonnage,10,130,85,3,2,Longueur ±1mm
+1433,317,2,Phase 2 - Perçage,8,16,13,21,5,Alésage H7
+1434,317,3,Phase 3 - Tournage,7,86,314,39,8,Concentricité 0.01mm
+1435,317,4,Phase 4 - Tournage,1,133,300,17,10,Diamètre ±0.01mm
+1436,317,5,Phase 5 - Fraisage,6,141,374,46,11,Surface Ra 3.2µm
+1437,317,6,Phase 6 - Rectification,5,97,170,29,10,Parallélisme 0.01mm
+1438,317,7,Phase 7 - Ébavurage,7,24,316,9,3,Rayon R0.2 max
+1439,318,1,Phase 1 - Débit / Tronçonnage,1,78,7,5,3,
+1440,318,2,Phase 2 - Fraisage,9,39,219,45,12,Planéité 0.02mm
+1441,318,3,Phase 3 - Contrôle qualité,7,1,34,10,8,PDT 100%
+1442,319,1,Phase 1 - Débit / Tronçonnage,8,17,113,10,3,
+1443,319,2,Phase 2 - Tournage,7,88,316,56,8,Diamètre ±0.01mm
+1444,319,3,Phase 3 - Contrôle qualité,10,148,286,15,7,Contrôle dimensionnel
+1445,320,1,Phase 1 - Réglement / Montage,9,134,350,6,12,Parallélisme 0.01mm
+1446,320,2,Phase 2 - Perçage,11,124,140,15,10,Alésage H7
+1447,320,3,Phase 3 - Fraisage,9,14,303,29,15,Planéité 0.02mm
+1448,320,4,Phase 4 - Tournage,2,143,115,60,6,Cylindricité 0.02mm
+1449,320,5,Phase 5 - Ébavurage,5,26,358,11,5,Rayon R0.2 max
+1450,321,1,Phase 1 - Débit / Tronçonnage,4,108,291,8,4,Cote brute ±0.5mm
+1451,321,2,Phase 2 - Tournage,10,124,340,14,15,Concentricité 0.01mm
+1452,321,3,Phase 3 - Contrôle qualité,1,112,208,18,3,
+1453,322,1,Phase 1 - Débit / Tronçonnage,1,86,190,4,4,Longueur ±1mm
+1454,322,2,Phase 2 - Fraisage,9,102,302,23,9,Profondeur ±0.05mm
+1455,322,3,Phase 3 - Perçage,8,63,313,10,7,Perpendicularité 0.05mm
+1456,322,4,Phase 4 - Fraisage,9,22,52,15,4,Surface Ra 3.2µm
+1457,322,5,Phase 5 - Ébavurage,4,127,48,5,1,Pas d'arêtes vives
+1458,323,1,Phase 1 - Débit / Tronçonnage,1,35,150,8,7,Planarite 0.3mm
+1459,323,2,Phase 2 - Fraisage,6,11,85,29,8,Surface Ra 3.2µm
+1460,323,3,Phase 3 - Tournage,10,22,21,49,3,Cylindricité 0.02mm
+1461,323,4,Phase 4 - Contrôle qualité,4,126,56,13,6,Contrôle dimensionnel
+1462,324,1,Phase 1 - Réglement / Montage,11,19,314,6,9,Centrage ±0.02mm
+1463,324,2,Phase 2 - Fraisage,9,41,330,42,4,Profondeur ±0.05mm
+1464,324,3,Phase 3 - Contrôle qualité,10,9,202,15,7,Mesure 3 points
+1465,325,1,Phase 1 - Réglement / Montage,8,92,261,6,14,
+1466,325,2,Phase 2 - Fraisage,6,80,342,30,6,Parallélisme 0.03mm
+1467,325,3,Phase 3 - Fraisage,6,10,41,13,12,Surface Ra 3.2µm
+1468,325,4,Phase 4 - Ébavurage,8,33,77,4,3,Rayon R0.2 max
+1469,326,1,Phase 1 - Réglement / Montage,6,62,368,9,18,
+1470,326,2,Phase 2 - Tournage,10,78,364,23,10,Surface Ra 1.6µm
+1471,326,3,Phase 3 - Ébavurage,4,50,177,4,1,Pas d'arêtes vives
+1472,327,1,Phase 1 - Réglement / Montage,10,100,96,9,19,
+1473,327,2,Phase 2 - Perçage,8,116,69,15,8,Alésage H7
+1474,327,3,Phase 3 - Rectification,6,48,4,13,7,
+1475,327,4,Phase 4 - Tournage,5,38,22,18,6,Diamètre ±0.01mm
+1476,327,5,Phase 5 - Contrôle qualité,7,47,214,6,8,PDT 100%
+1477,328,1,Phase 1 - Réglement / Montage,3,96,173,2,8,
+1478,328,2,Phase 2 - Perçage,4,55,76,15,10,Alésage H7
+1479,328,3,Phase 3 - Fraisage,6,112,395,12,10,Planéité 0.02mm
+1480,328,4,Phase 4 - Contrôle qualité,8,12,146,15,2,
+1481,329,1,Phase 1 - Réglement / Montage,2,122,214,9,12,Perpendicularité 0.02mm
+1482,329,2,Phase 2 - Perçage,4,116,136,14,2,Perpendicularité 0.05mm
+1483,329,3,Phase 3 - Perçage,8,102,136,5,10,Perpendicularité 0.05mm
+1484,329,4,Phase 4 - Tournage,7,62,204,10,9,Surface Ra 1.6µm
+1485,329,5,Phase 5 - Contrôle qualité,10,138,280,18,2,Contrôle dimensionnel
+1486,330,1,Phase 1 - Réglement / Montage,9,14,255,5,14,Centrage ±0.02mm
+1487,330,2,Phase 2 - Perçage,11,144,372,15,4,Perpendicularité 0.05mm
+1488,330,3,Phase 3 - Tournage,7,21,169,51,6,Diamètre ±0.01mm
+1489,330,4,Phase 4 - Tournage,2,67,87,52,7,Concentricité 0.01mm
+1490,330,5,Phase 5 - Ébavurage,4,53,374,5,3,Pas d'arêtes vives
+1491,331,1,Phase 1 - Réglement / Montage,10,80,278,10,7,Centrage ±0.02mm
+1492,331,2,Phase 2 - Rectification,2,1,123,10,7,Cylindricité 0.005mm
+1493,331,3,Phase 3 - Tournage,7,87,63,42,15,Diamètre ±0.01mm
+1494,331,4,Phase 4 - Contrôle qualité,8,72,43,16,8,PDT 100%
+1495,332,1,Phase 1 - Débit / Tronçonnage,4,49,280,7,7,Cote brute ±0.5mm
+1496,332,2,Phase 2 - Rectification,6,23,33,13,5,Parallélisme 0.01mm
+1497,332,3,Phase 3 - Tournage,10,50,246,58,13,Concentricité 0.01mm
+1498,332,4,Phase 4 - Tournage,7,111,54,42,15,Diamètre ±0.01mm
+1499,332,5,Phase 5 - Ébavurage,7,124,397,12,1,
+1500,333,1,Phase 1 - Débit / Tronçonnage,8,143,395,10,5,Planarite 0.3mm
+1501,333,2,Phase 2 - Fraisage,6,11,19,38,6,Surface Ra 3.2µm
+1502,333,3,Phase 3 - Fraisage,6,96,333,31,9,Surface Ra 3.2µm
+1503,333,4,Phase 4 - Rectification,8,22,69,11,4,Cylindricité 0.005mm
+1504,333,5,Phase 5 - Ébavurage,11,142,372,8,1,
+1505,334,1,Phase 1 - Réglement / Montage,9,82,126,6,18,Perpendicularité 0.02mm
+1506,334,2,Phase 2 - Tournage,1,15,154,52,5,Concentricité 0.01mm
+1507,334,3,Phase 3 - Perçage,4,72,175,18,3,Alésage H7
+1508,334,4,Phase 4 - Ébavurage,10,77,209,3,1,Rayon R0.2 max
+1509,335,1,Phase 1 - Débit / Tronçonnage,2,36,269,12,6,Cote brute ±0.5mm
+1510,335,2,Phase 2 - Fraisage,6,68,394,31,8,Surface Ra 3.2µm
+1511,335,3,Phase 3 - Tournage,2,150,41,24,3,Concentricité 0.01mm
+1512,335,4,Phase 4 - Ébavurage,11,139,41,11,5,
+1513,336,1,Phase 1 - Réglement / Montage,11,77,52,8,6,Perpendicularité 0.02mm
+1514,336,2,Phase 2 - Rectification,4,24,337,18,7,Surface Ra 0.8µm
+1515,336,3,Phase 3 - Tournage,1,2,55,40,3,Diamètre ±0.01mm
+1516,336,4,Phase 4 - Perçage,11,139,55,13,4,Perpendicularité 0.05mm
+1517,336,5,Phase 5 - Ébavurage,5,48,333,12,1,
+1518,337,1,Phase 1 - Réglement / Montage,8,56,374,4,10,Parallélisme 0.01mm
+1519,337,2,Phase 2 - Rectification,1,134,140,26,6,
+1520,337,3,Phase 3 - Contrôle qualité,1,111,109,17,3,Contrôle dimensionnel
+1521,338,1,Phase 1 - Débit / Tronçonnage,4,106,297,7,4,Longueur ±1mm
+1522,338,2,Phase 2 - Fraisage,6,108,131,48,10,Surface Ra 3.2µm
+1523,338,3,Phase 3 - Rectification,4,49,383,16,5,Cylindricité 0.005mm
+1524,338,4,Phase 4 - Perçage,3,64,68,6,5,Perpendicularité 0.05mm
+1525,338,5,Phase 5 - Perçage,3,102,69,11,6,Diamètre ±0.02mm
+1526,338,6,Phase 6 - Contrôle qualité,9,54,368,8,8,PDT 100%
+1527,339,1,Phase 1 - Débit / Tronçonnage,3,53,229,5,3,Cote brute ±0.5mm
+1528,339,2,Phase 2 - Perçage,8,106,194,21,6,Taraudage M6
+1529,339,3,Phase 3 - Fraisage,6,53,200,32,6,Parallélisme 0.03mm
+1530,339,4,Phase 4 - Ébavurage,10,112,26,7,1,Rayon R0.2 max
+1531,340,1,Phase 1 - Débit / Tronçonnage,1,16,384,10,6,Planarite 0.3mm
+1532,340,2,Phase 2 - Tournage,1,74,73,28,7,Cylindricité 0.02mm
+1533,340,3,Phase 3 - Fraisage,6,122,391,43,4,Profondeur ±0.05mm
+1534,340,4,Phase 4 - Fraisage,6,116,103,27,10,Profondeur ±0.05mm
+1535,340,5,Phase 5 - Tournage,7,57,225,18,3,Cylindricité 0.02mm
+1536,340,6,Phase 6 - Contrôle qualité,4,57,283,9,2,Contrôle dimensionnel
+1537,341,1,Phase 1 - Réglement / Montage,11,66,354,3,13,Perpendicularité 0.02mm
+1538,341,2,Phase 2 - Perçage,3,17,291,8,5,Alésage H7
+1539,341,3,Phase 3 - Tournage,2,143,315,46,15,Cylindricité 0.02mm
+1540,341,4,Phase 4 - Fraisage,6,39,11,30,15,Profondeur ±0.05mm
+1541,341,5,Phase 5 - Contrôle qualité,1,124,100,10,2,Contrôle dimensionnel
+1542,342,1,Phase 1 - Réglement / Montage,4,65,357,6,11,
+1543,342,2,Phase 2 - Perçage,8,25,195,20,5,Perpendicularité 0.05mm
+1544,342,3,Phase 3 - Tournage,5,92,242,58,6,Concentricité 0.01mm
+1545,342,4,Phase 4 - Fraisage,9,144,9,14,4,Parallélisme 0.03mm
+1546,342,5,Phase 5 - Ébavurage,1,53,240,9,5,
+1547,343,1,Phase 1 - Débit / Tronçonnage,11,113,368,5,3,Longueur ±1mm
+1548,343,2,Phase 2 - Tournage,1,10,132,10,12,Diamètre ±0.01mm
+1549,343,3,Phase 3 - Tournage,5,116,108,15,8,Cylindricité 0.02mm
+1550,343,4,Phase 4 - Fraisage,6,65,307,44,14,Parallélisme 0.03mm
+1551,343,5,Phase 5 - Ébavurage,10,139,86,3,4,Pas d'arêtes vives
+1552,344,1,Phase 1 - Réglement / Montage,3,26,46,10,12,Perpendicularité 0.02mm
+1553,344,2,Phase 2 - Tournage,5,92,386,38,11,Cylindricité 0.02mm
+1554,344,3,Phase 3 - Ébavurage,2,147,11,7,2,Pas d'arêtes vives
+1555,345,1,Phase 1 - Réglement / Montage,7,12,376,4,11,Parallélisme 0.01mm
+1556,345,2,Phase 2 - Tournage,5,118,32,52,10,Cylindricité 0.02mm
+1557,345,3,Phase 3 - Fraisage,6,31,372,23,8,Planéité 0.02mm
+1558,345,4,Phase 4 - Perçage,11,40,353,7,4,Taraudage M6
+1559,345,5,Phase 5 - Fraisage,6,96,18,44,5,Profondeur ±0.05mm
+1560,345,6,Phase 6 - Ébavurage,5,55,38,5,4,Pas d'arêtes vives
+1561,346,1,Phase 1 - Débit / Tronçonnage,5,69,366,11,7,Planarite 0.3mm
+1562,346,2,Phase 2 - Perçage,4,137,339,23,5,Taraudage M6
+1563,346,3,Phase 3 - Ébavurage,6,114,143,8,3,
+1564,347,1,Phase 1 - Débit / Tronçonnage,1,51,208,7,5,
+1565,347,2,Phase 2 - Rectification,6,30,356,12,3,Cylindricité 0.005mm
+1566,347,3,Phase 3 - Perçage,3,144,246,17,4,Diamètre ±0.02mm
+1567,347,4,Phase 4 - Fraisage,6,33,124,13,11,Surface Ra 3.2µm
+1568,347,5,Phase 5 - Ébavurage,11,22,174,11,5,Pas d'arêtes vives
+1569,348,1,Phase 1 - Débit / Tronçonnage,3,141,70,5,2,
+1570,348,2,Phase 2 - Fraisage,6,36,113,50,4,Parallélisme 0.03mm
+1571,348,3,Phase 3 - Contrôle qualité,2,109,370,7,7,Contrôle dimensionnel
+1572,349,1,Phase 1 - Débit / Tronçonnage,10,87,16,3,8,Cote brute ±0.5mm
+1573,349,2,Phase 2 - Perçage,3,8,43,15,4,Diamètre ±0.02mm
+1574,349,3,Phase 3 - Tournage,2,124,51,38,15,Concentricité 0.01mm
+1575,349,4,Phase 4 - Tournage,10,7,369,19,8,Concentricité 0.01mm
+1576,349,5,Phase 5 - Ébavurage,2,130,331,7,3,Rayon R0.2 max
+1577,350,1,Phase 1 - Débit / Tronçonnage,11,38,308,13,6,
+1578,350,2,Phase 2 - Tournage,10,20,78,21,15,Concentricité 0.01mm
+1579,350,3,Phase 3 - Fraisage,6,81,195,40,3,Profondeur ±0.05mm
+1580,350,4,Phase 4 - Fraisage,6,13,2,26,6,Profondeur ±0.05mm
+1581,350,5,Phase 5 - Fraisage,9,23,186,43,7,Parallélisme 0.03mm
+1582,350,6,Phase 6 - Ébavurage,6,32,121,9,2,Rayon R0.2 max
+1583,351,1,Phase 1 - Réglement / Montage,3,95,339,2,16,Perpendicularité 0.02mm
+1584,351,2,Phase 2 - Perçage,11,11,283,6,9,Diamètre ±0.02mm
+1585,351,3,Phase 3 - Fraisage,6,106,309,49,11,Profondeur ±0.05mm
+1586,351,4,Phase 4 - Contrôle qualité,1,135,95,9,2,PDT 100%
+1587,352,1,Phase 1 - Débit / Tronçonnage,1,32,201,7,8,Cote brute ±0.5mm
+1588,352,2,Phase 2 - Rectification,11,2,134,28,7,Cylindricité 0.005mm
+1589,352,3,Phase 3 - Contrôle qualité,8,128,128,11,5,Mesure 3 points
+1590,353,1,Phase 1 - Réglement / Montage,2,103,138,5,9,Centrage ±0.02mm
+1591,353,2,Phase 2 - Tournage,7,76,372,20,11,Concentricité 0.01mm
+1592,353,3,Phase 3 - Fraisage,6,6,125,36,15,Parallélisme 0.03mm
+1593,353,4,Phase 4 - Ébavurage,11,111,110,4,3,Rayon R0.2 max
+1594,354,1,Phase 1 - Débit / Tronçonnage,1,100,150,13,5,Longueur ±1mm
+1595,354,2,Phase 2 - Fraisage,9,75,22,21,9,Parallélisme 0.03mm
+1596,354,3,Phase 3 - Contrôle qualité,3,88,279,10,4,Mesure 3 points
+1597,355,1,Phase 1 - Réglement / Montage,1,22,241,8,14,
+1598,355,2,Phase 2 - Perçage,8,132,295,21,10,Diamètre ±0.02mm
+1599,355,3,Phase 3 - Perçage,3,95,124,22,10,Perpendicularité 0.05mm
+1600,355,4,Phase 4 - Perçage,8,85,372,9,9,Diamètre ±0.02mm
+1601,355,5,Phase 5 - Contrôle qualité,3,10,149,6,8,Contrôle dimensionnel
+1602,356,1,Phase 1 - Débit / Tronçonnage,7,54,392,8,3,Planarite 0.3mm
+1603,356,2,Phase 2 - Fraisage,6,102,373,24,15,Parallélisme 0.03mm
+1604,356,3,Phase 3 - Contrôle qualité,2,25,365,19,6,
+1605,357,1,Phase 1 - Réglement / Montage,2,140,25,5,12,Centrage ±0.02mm
+1606,357,2,Phase 2 - Fraisage,6,127,111,18,9,Planéité 0.02mm
+1607,357,3,Phase 3 - Rectification,1,105,18,10,4,
+1608,357,4,Phase 4 - Perçage,8,100,49,19,10,Taraudage M6
+1609,357,5,Phase 5 - Contrôle qualité,11,3,6,10,3,PDT 100%
+1610,358,1,Phase 1 - Réglement / Montage,1,28,172,8,8,Parallélisme 0.01mm
+1611,358,2,Phase 2 - Perçage,3,63,353,17,7,Taraudage M6
+1612,358,3,Phase 3 - Fraisage,9,68,374,28,12,Surface Ra 3.2µm
+1613,358,4,Phase 4 - Contrôle qualité,4,1,318,11,5,Contrôle dimensionnel
+1614,359,1,Phase 1 - Réglement / Montage,3,35,30,3,14,Centrage ±0.02mm
+1615,359,2,Phase 2 - Perçage,8,28,277,14,5,Perpendicularité 0.05mm
+1616,359,3,Phase 3 - Fraisage,9,88,14,47,5,Profondeur ±0.05mm
+1617,359,4,Phase 4 - Ébavurage,5,56,311,12,5,Pas d'arêtes vives
+1618,360,1,Phase 1 - Débit / Tronçonnage,8,71,172,8,5,Cote brute ±0.5mm
+1619,360,2,Phase 2 - Tournage,1,76,67,43,11,Diamètre ±0.01mm
+1620,360,3,Phase 3 - Rectification,1,94,323,8,8,Cylindricité 0.005mm
+1621,360,4,Phase 4 - Fraisage,9,110,223,12,11,Surface Ra 3.2µm
+1622,360,5,Phase 5 - Tournage,2,110,400,11,3,Cylindricité 0.02mm
+1623,360,6,Phase 6 - Contrôle qualité,1,134,105,16,5,
+1624,361,1,Phase 1 - Réglement / Montage,2,7,198,4,19,Centrage ±0.02mm
+1625,361,2,Phase 2 - Tournage,2,26,90,59,6,Concentricité 0.01mm
+1626,361,3,Phase 3 - Contrôle qualité,3,14,221,10,5,PDT 100%
+1627,362,1,Phase 1 - Débit / Tronçonnage,8,109,391,11,7,Longueur ±1mm
+1628,362,2,Phase 2 - Fraisage,9,75,384,12,4,Parallélisme 0.03mm
+1629,362,3,Phase 3 - Tournage,10,2,271,38,15,Cylindricité 0.02mm
+1630,362,4,Phase 4 - Fraisage,6,123,342,45,14,Parallélisme 0.03mm
+1631,362,5,Phase 5 - Ébavurage,7,60,331,8,5,
+1632,363,1,Phase 1 - Débit / Tronçonnage,2,95,232,14,7,Cote brute ±0.5mm
+1633,363,2,Phase 2 - Fraisage,6,130,189,46,12,Surface Ra 3.2µm
+1634,363,3,Phase 3 - Perçage,8,147,94,5,9,Alésage H7
+1635,363,4,Phase 4 - Fraisage,6,104,388,48,14,Profondeur ±0.05mm
+1636,363,5,Phase 5 - Contrôle qualité,6,97,400,14,8,
+1637,364,1,Phase 1 - Débit / Tronçonnage,11,76,75,11,8,Planarite 0.3mm
+1638,364,2,Phase 2 - Fraisage,6,38,170,46,4,Planéité 0.02mm
+1639,364,3,Phase 3 - Tournage,10,80,292,49,15,Cylindricité 0.02mm
+1640,364,4,Phase 4 - Contrôle qualité,7,28,95,12,4,Mesure 3 points
+1641,365,1,Phase 1 - Réglement / Montage,4,104,289,10,6,
+1642,365,2,Phase 2 - Fraisage,6,143,243,19,9,Surface Ra 3.2µm
+1643,365,3,Phase 3 - Fraisage,9,8,329,38,5,Parallélisme 0.03mm
+1644,365,4,Phase 4 - Tournage,2,134,311,24,8,Concentricité 0.01mm
+1645,365,5,Phase 5 - Fraisage,6,144,388,11,7,Surface Ra 3.2µm
+1646,365,6,Phase 6 - Rectification,4,31,73,30,9,Parallélisme 0.01mm
+1647,365,7,Phase 7 - Ébavurage,5,104,303,8,5,
+1648,366,1,Phase 1 - Débit / Tronçonnage,10,24,282,9,6,
+1649,366,2,Phase 2 - Fraisage,6,56,8,45,10,Profondeur ±0.05mm
+1650,366,3,Phase 3 - Tournage,2,49,271,30,12,Concentricité 0.01mm
+1651,366,4,Phase 4 - Contrôle qualité,2,65,99,13,5,Mesure 3 points
+1652,367,1,Phase 1 - Débit / Tronçonnage,10,131,140,13,2,Cote brute ±0.5mm
+1653,367,2,Phase 2 - Perçage,4,123,386,12,2,Diamètre ±0.02mm
+1654,367,3,Phase 3 - Perçage,11,101,200,7,2,Diamètre ±0.02mm
+1655,367,4,Phase 4 - Perçage,11,129,104,7,3,Perpendicularité 0.05mm
+1656,367,5,Phase 5 - Perçage,8,7,25,7,8,Diamètre ±0.02mm
+1657,367,6,Phase 6 - Contrôle qualité,10,21,151,7,8,Contrôle dimensionnel
+1658,368,1,Phase 1 - Débit / Tronçonnage,4,46,323,11,3,
+1659,368,2,Phase 2 - Fraisage,6,13,374,33,6,Planéité 0.02mm
+1660,368,3,Phase 3 - Ébavurage,8,113,227,12,3,Rayon R0.2 max
+1661,369,1,Phase 1 - Débit / Tronçonnage,8,36,372,9,8,
+1662,369,2,Phase 2 - Perçage,4,89,10,22,3,Taraudage M6
+1663,369,3,Phase 3 - Perçage,11,99,25,10,3,Alésage H7
+1664,369,4,Phase 4 - Tournage,10,137,135,14,6,Cylindricité 0.02mm
+1665,369,5,Phase 5 - Ébavurage,7,23,68,8,3,
+1666,370,1,Phase 1 - Réglement / Montage,7,89,206,3,19,Centrage ±0.02mm
+1667,370,2,Phase 2 - Fraisage,6,43,348,16,4,Parallélisme 0.03mm
+1668,370,3,Phase 3 - Tournage,1,57,385,37,6,Concentricité 0.01mm
+1669,370,4,Phase 4 - Ébavurage,8,140,294,8,4,Pas d'arêtes vives
+1670,371,1,Phase 1 - Débit / Tronçonnage,8,20,342,11,4,Planarite 0.3mm
+1671,371,2,Phase 2 - Tournage,1,44,297,30,3,Cylindricité 0.02mm
+1672,371,3,Phase 3 - Contrôle qualité,10,131,23,8,5,Contrôle dimensionnel
+1673,372,1,Phase 1 - Débit / Tronçonnage,1,61,232,6,7,Planarite 0.3mm
+1674,372,2,Phase 2 - Perçage,11,121,274,8,4,Taraudage M6
+1675,372,3,Phase 3 - Perçage,11,132,88,10,3,Diamètre ±0.02mm
+1676,372,4,Phase 4 - Perçage,3,126,302,22,4,Diamètre ±0.02mm
+1677,372,5,Phase 5 - Contrôle qualité,10,133,215,10,6,Contrôle dimensionnel
+1678,373,1,Phase 1 - Réglement / Montage,8,113,120,8,12,Parallélisme 0.01mm
+1679,373,2,Phase 2 - Perçage,4,140,349,15,8,Diamètre ±0.02mm
+1680,373,3,Phase 3 - Fraisage,9,6,253,47,11,Profondeur ±0.05mm
+1681,373,4,Phase 4 - Ébavurage,2,117,245,3,4,Rayon R0.2 max
+1682,374,1,Phase 1 - Débit / Tronçonnage,4,133,400,15,3,Cote brute ±0.5mm
+1683,374,2,Phase 2 - Fraisage,6,97,277,19,4,Parallélisme 0.03mm
+1684,374,3,Phase 3 - Tournage,5,84,346,20,4,Diamètre ±0.01mm
+1685,374,4,Phase 4 - Contrôle qualité,9,94,8,15,6,
+1686,375,1,Phase 1 - Réglement / Montage,9,68,208,4,7,Parallélisme 0.01mm
+1687,375,2,Phase 2 - Tournage,10,36,168,46,9,Diamètre ±0.01mm
+1688,375,3,Phase 3 - Perçage,3,143,303,22,6,Perpendicularité 0.05mm
+1689,375,4,Phase 4 - Ébavurage,6,139,148,11,1,Pas d'arêtes vives
+1690,376,1,Phase 1 - Débit / Tronçonnage,1,85,18,12,7,Longueur ±1mm
+1691,376,2,Phase 2 - Fraisage,9,65,260,28,13,Parallélisme 0.03mm
+1692,376,3,Phase 3 - Tournage,10,87,377,49,11,Surface Ra 1.6µm
+1693,376,4,Phase 4 - Fraisage,9,89,232,50,11,Profondeur ±0.05mm
+1694,376,5,Phase 5 - Rectification,1,113,47,19,5,Cylindricité 0.005mm
+1695,376,6,Phase 6 - Contrôle qualité,4,115,200,20,3,Mesure 3 points
+1696,377,1,Phase 1 - Débit / Tronçonnage,12,116,141,9,8,Cote brute ±0.5mm
+1697,377,2,Phase 2 - Rectification,2,119,254,27,10,
+1698,377,3,Phase 3 - Contrôle qualité,6,148,224,20,7,Mesure 3 points
+1699,378,1,Phase 1 - Réglement / Montage,5,82,265,5,20,Centrage ±0.02mm
+1700,378,2,Phase 2 - Perçage,8,135,1,17,4,Perpendicularité 0.05mm
+1701,378,3,Phase 3 - Fraisage,9,8,340,33,15,Profondeur ±0.05mm
+1702,378,4,Phase 4 - Fraisage,9,117,292,12,3,Surface Ra 3.2µm
+1703,378,5,Phase 5 - Tournage,10,46,399,57,8,Concentricité 0.01mm
+1704,378,6,Phase 6 - Ébavurage,5,135,202,10,5,Rayon R0.2 max
+1705,379,1,Phase 1 - Débit / Tronçonnage,3,76,96,13,3,Longueur ±1mm
+1706,379,2,Phase 2 - Perçage,8,101,114,11,10,Diamètre ±0.02mm
+1707,379,3,Phase 3 - Fraisage,6,67,41,30,5,Planéité 0.02mm
+1708,379,4,Phase 4 - Perçage,11,46,176,17,4,Perpendicularité 0.05mm
+1709,379,5,Phase 5 - Fraisage,6,57,176,43,12,Planéité 0.02mm
+1710,379,6,Phase 6 - Ébavurage,11,28,287,9,3,Rayon R0.2 max
+1711,380,1,Phase 1 - Débit / Tronçonnage,8,133,135,9,8,Planarite 0.3mm
+1712,380,2,Phase 2 - Tournage,5,125,396,53,7,Concentricité 0.01mm
+1713,380,3,Phase 3 - Tournage,2,79,322,49,4,Surface Ra 1.6µm
+1714,380,4,Phase 4 - Rectification,2,124,307,23,5,Surface Ra 0.8µm
+1715,380,5,Phase 5 - Ébavurage,3,149,121,7,1,Pas d'arêtes vives
+1716,381,1,Phase 1 - Réglement / Montage,7,101,158,3,15,Perpendicularité 0.02mm
+1717,381,2,Phase 2 - Fraisage,9,84,104,16,6,Parallélisme 0.03mm
+1718,381,3,Phase 3 - Fraisage,6,108,244,43,4,Parallélisme 0.03mm
+1719,381,4,Phase 4 - Contrôle qualité,8,82,24,5,6,Contrôle dimensionnel
+1720,382,1,Phase 1 - Réglement / Montage,5,28,146,3,6,Perpendicularité 0.02mm
+1721,382,2,Phase 2 - Tournage,7,136,63,54,12,Diamètre ±0.01mm
+1722,382,3,Phase 3 - Contrôle qualité,6,34,388,20,2,Contrôle dimensionnel
+1723,383,1,Phase 1 - Débit / Tronçonnage,7,132,270,11,8,Planarite 0.3mm
+1724,383,2,Phase 2 - Fraisage,6,85,286,37,9,Surface Ra 3.2µm
+1725,383,3,Phase 3 - Rectification,6,130,213,22,10,Parallélisme 0.01mm
+1726,383,4,Phase 4 - Ébavurage,5,36,253,8,5,Rayon R0.2 max
+1727,384,1,Phase 1 - Réglement / Montage,9,72,278,7,18,Perpendicularité 0.02mm
+1728,384,2,Phase 2 - Perçage,8,74,92,21,4,Alésage H7
+1729,384,3,Phase 3 - Rectification,2,22,355,21,8,Surface Ra 0.8µm
+1730,384,4,Phase 4 - Tournage,1,11,22,19,15,Concentricité 0.01mm
+1731,384,5,Phase 5 - Ébavurage,7,60,38,6,2,
+1732,385,1,Phase 1 - Réglement / Montage,2,84,163,3,11,Centrage ±0.02mm
+1733,385,2,Phase 2 - Tournage,7,9,268,23,13,Diamètre ±0.01mm
+1734,385,3,Phase 3 - Fraisage,6,26,146,29,7,Profondeur ±0.05mm
+1735,385,4,Phase 4 - Fraisage,9,37,256,24,9,Profondeur ±0.05mm
+1736,385,5,Phase 5 - Rectification,8,75,330,21,5,Surface Ra 0.8µm
+1737,385,6,Phase 6 - Ébavurage,11,43,189,7,2,Pas d'arêtes vives
+1738,386,1,Phase 1 - Réglement / Montage,5,140,55,4,11,Centrage ±0.02mm
+1739,386,2,Phase 2 - Tournage,10,37,331,10,13,Concentricité 0.01mm
+1740,386,3,Phase 3 - Fraisage,6,97,379,10,4,Parallélisme 0.03mm
+1741,386,4,Phase 4 - Fraisage,9,41,105,45,10,Planéité 0.02mm
+1742,386,5,Phase 5 - Ébavurage,5,121,207,11,1,
+1743,387,1,Phase 1 - Débit / Tronçonnage,5,90,246,10,4,Planarite 0.3mm
+1744,387,2,Phase 2 - Perçage,8,144,322,13,9,Perpendicularité 0.05mm
+1745,387,3,Phase 3 - Fraisage,6,84,73,49,4,Profondeur ±0.05mm
+1746,387,4,Phase 4 - Fraisage,6,27,201,13,11,Parallélisme 0.03mm
+1747,387,5,Phase 5 - Perçage,3,121,90,7,9,Perpendicularité 0.05mm
+1748,387,6,Phase 6 - Ébavurage,7,145,336,12,2,Pas d'arêtes vives
+1749,388,1,Phase 1 - Débit / Tronçonnage,5,40,296,12,6,Longueur ±1mm
+1750,388,2,Phase 2 - Perçage,4,26,376,18,7,Diamètre ±0.02mm
+1751,388,3,Phase 3 - Fraisage,6,142,282,19,6,Parallélisme 0.03mm
+1752,388,4,Phase 4 - Ébavurage,3,63,296,11,2,Rayon R0.2 max
+1753,389,1,Phase 1 - Réglement / Montage,10,69,214,3,20,
+1754,389,2,Phase 2 - Perçage,11,57,83,17,6,Perpendicularité 0.05mm
+1755,389,3,Phase 3 - Rectification,6,86,134,16,10,Surface Ra 0.8µm
+1756,389,4,Phase 4 - Tournage,7,150,225,10,5,Cylindricité 0.02mm
+1757,389,5,Phase 5 - Ébavurage,5,15,170,6,5,Rayon R0.2 max
+1758,390,1,Phase 1 - Réglement / Montage,8,29,110,9,15,Parallélisme 0.01mm
+1759,390,2,Phase 2 - Fraisage,6,34,77,11,15,Surface Ra 3.2µm
+1760,390,3,Phase 3 - Tournage,5,102,374,60,14,Surface Ra 1.6µm
+1761,390,4,Phase 4 - Fraisage,6,10,23,26,15,Profondeur ±0.05mm
+1762,390,5,Phase 5 - Contrôle qualité,9,120,266,19,4,Mesure 3 points
+1763,391,1,Phase 1 - Réglement / Montage,3,132,183,4,12,
+1764,391,2,Phase 2 - Rectification,1,52,9,16,7,Cylindricité 0.005mm
+1765,391,3,Phase 3 - Contrôle qualité,9,21,294,15,2,
+1766,392,1,Phase 1 - Débit / Tronçonnage,5,54,373,12,8,Cote brute ±0.5mm
+1767,392,2,Phase 2 - Tournage,2,148,86,59,14,Concentricité 0.01mm
+1768,392,3,Phase 3 - Fraisage,6,78,102,40,7,Parallélisme 0.03mm
+1769,392,4,Phase 4 - Ébavurage,7,2,296,9,4,Pas d'arêtes vives
+1770,393,1,Phase 1 - Débit / Tronçonnage,12,128,48,12,2,Longueur ±1mm
+1771,393,2,Phase 2 - Fraisage,6,39,60,23,5,Surface Ra 3.2µm
+1772,393,3,Phase 3 - Perçage,11,105,239,9,2,Diamètre ±0.02mm
+1773,393,4,Phase 4 - Fraisage,6,30,58,34,9,Surface Ra 3.2µm
+1774,393,5,Phase 5 - Tournage,2,11,62,49,14,Surface Ra 1.6µm
+1775,393,6,Phase 6 - Ébavurage,3,136,390,10,2,Pas d'arêtes vives
+1776,394,1,Phase 1 - Réglement / Montage,7,10,151,5,18,
+1777,394,2,Phase 2 - Fraisage,6,46,234,29,15,Surface Ra 3.2µm
+1778,394,3,Phase 3 - Tournage,5,46,52,15,7,Surface Ra 1.6µm
+1779,394,4,Phase 4 - Contrôle qualité,9,102,321,9,4,PDT 100%
+1780,395,1,Phase 1 - Réglement / Montage,3,35,77,6,17,Parallélisme 0.01mm
+1781,395,2,Phase 2 - Tournage,10,50,359,33,8,Diamètre ±0.01mm
+1782,395,3,Phase 3 - Perçage,3,1,110,23,7,Perpendicularité 0.05mm
+1783,395,4,Phase 4 - Perçage,11,5,398,8,5,Taraudage M6
+1784,395,5,Phase 5 - Ébavurage,10,49,218,8,5,Rayon R0.2 max
+1785,396,1,Phase 1 - Réglement / Montage,4,79,391,4,11,Centrage ±0.02mm
+1786,396,2,Phase 2 - Tournage,1,40,14,19,10,Surface Ra 1.6µm
+1787,396,3,Phase 3 - Ébavurage,3,42,246,6,5,Rayon R0.2 max
+1788,397,1,Phase 1 - Débit / Tronçonnage,5,16,227,14,7,Cote brute ±0.5mm
+1789,397,2,Phase 2 - Fraisage,6,106,117,18,5,Planéité 0.02mm
+1790,397,3,Phase 3 - Fraisage,6,88,164,26,5,Surface Ra 3.2µm
+1791,397,4,Phase 4 - Tournage,5,9,128,13,4,Surface Ra 1.6µm
+1792,397,5,Phase 5 - Contrôle qualité,4,128,289,19,4,
+1793,398,1,Phase 1 - Réglement / Montage,10,17,190,9,16,Perpendicularité 0.02mm
+1794,398,2,Phase 2 - Tournage,2,64,129,40,4,Cylindricité 0.02mm
+1795,398,3,Phase 3 - Perçage,8,119,223,5,3,Diamètre ±0.02mm
+1796,398,4,Phase 4 - Contrôle qualité,2,132,63,6,3,PDT 100%
+1797,399,1,Phase 1 - Réglement / Montage,4,142,118,3,19,
+1798,399,2,Phase 2 - Tournage,1,126,83,37,11,Surface Ra 1.6µm
+1799,399,3,Phase 3 - Fraisage,6,94,230,16,5,Surface Ra 3.2µm
+1800,399,4,Phase 4 - Contrôle qualité,2,88,361,6,5,PDT 100%
+1801,400,1,Phase 1 - Débit / Tronçonnage,1,105,232,4,3,Cote brute ±0.5mm
+1802,400,2,Phase 2 - Fraisage,6,86,41,13,7,Planéité 0.02mm
+1803,400,3,Phase 3 - Rectification,10,126,154,14,9,Cylindricité 0.005mm
+1804,400,4,Phase 4 - Tournage,2,7,9,46,9,Cylindricité 0.02mm
+1805,400,5,Phase 5 - Fraisage,9,115,219,37,12,Planéité 0.02mm
+1806,400,6,Phase 6 - Fraisage,6,31,288,10,8,Parallélisme 0.03mm
+1807,400,7,Phase 7 - Contrôle qualité,7,104,81,19,4,
+1808,401,1,Phase 1 - Réglement / Montage,4,39,41,7,7,Parallélisme 0.01mm
+1809,401,2,Phase 2 - Perçage,11,5,17,6,6,Taraudage M6
+1810,401,3,Phase 3 - Fraisage,6,80,170,50,12,Surface Ra 3.2µm
+1811,401,4,Phase 4 - Perçage,3,13,229,23,9,Taraudage M6
+1812,401,5,Phase 5 - Ébavurage,10,10,11,7,5,Pas d'arêtes vives
+1813,402,1,Phase 1 - Réglement / Montage,11,18,367,6,5,Perpendicularité 0.02mm
+1814,402,2,Phase 2 - Tournage,1,82,89,12,7,Surface Ra 1.6µm
+1815,402,3,Phase 3 - Perçage,8,128,203,24,10,Taraudage M6
+1816,402,4,Phase 4 - Fraisage,6,51,238,47,10,Surface Ra 3.2µm
+1817,402,5,Phase 5 - Contrôle qualité,4,143,384,14,2,
+1818,403,1,Phase 1 - Réglement / Montage,2,39,111,9,14,Centrage ±0.02mm
+1819,403,2,Phase 2 - Fraisage,9,64,120,21,15,Planéité 0.02mm
+1820,403,3,Phase 3 - Fraisage,6,132,343,47,12,Planéité 0.02mm
+1821,403,4,Phase 4 - Fraisage,6,115,8,14,14,Planéité 0.02mm
+1822,403,5,Phase 5 - Ébavurage,4,36,14,6,4,Pas d'arêtes vives
+1823,404,1,Phase 1 - Réglement / Montage,11,44,55,3,18,Centrage ±0.02mm
+1824,404,2,Phase 2 - Perçage,3,67,49,22,3,Perpendicularité 0.05mm
+1825,404,3,Phase 3 - Fraisage,9,38,58,15,10,Surface Ra 3.2µm
+1826,404,4,Phase 4 - Perçage,8,131,16,7,10,Taraudage M6
+1827,404,5,Phase 5 - Rectification,10,137,71,13,4,
+1828,404,6,Phase 6 - Contrôle qualité,3,134,263,12,6,
+1829,405,1,Phase 1 - Réglement / Montage,3,113,6,10,10,Centrage ±0.02mm
+1830,405,2,Phase 2 - Perçage,8,139,24,18,9,Alésage H7
+1831,405,3,Phase 3 - Ébavurage,2,47,97,9,5,Pas d'arêtes vives
+1832,406,1,Phase 1 - Débit / Tronçonnage,4,24,392,13,7,Cote brute ±0.5mm
+1833,406,2,Phase 2 - Rectification,11,128,346,26,7,Cylindricité 0.005mm
+1834,406,3,Phase 3 - Fraisage,9,144,259,19,10,Profondeur ±0.05mm
+1835,406,4,Phase 4 - Fraisage,9,13,137,12,12,Planéité 0.02mm
+1836,406,5,Phase 5 - Ébavurage,2,67,46,12,4,Pas d'arêtes vives
+1837,407,1,Phase 1 - Débit / Tronçonnage,1,127,283,13,3,Longueur ±1mm
+1838,407,2,Phase 2 - Fraisage,6,86,371,34,8,Surface Ra 3.2µm
+1839,407,3,Phase 3 - Perçage,11,149,338,25,8,Perpendicularité 0.05mm
+1840,407,4,Phase 4 - Tournage,1,108,360,50,7,Diamètre ±0.01mm
+1841,407,5,Phase 5 - Ébavurage,7,68,314,9,1,Rayon R0.2 max
+1842,408,1,Phase 1 - Débit / Tronçonnage,10,39,34,10,2,Longueur ±1mm
+1843,408,2,Phase 2 - Fraisage,6,99,73,20,8,Parallélisme 0.03mm
+1844,408,3,Phase 3 - Perçage,11,71,278,22,4,Diamètre ±0.02mm
+1845,408,4,Phase 4 - Fraisage,6,69,274,35,11,Parallélisme 0.03mm
+1846,408,5,Phase 5 - Contrôle qualité,4,36,133,17,5,Mesure 3 points
+1847,409,1,Phase 1 - Réglement / Montage,11,114,309,3,18,Centrage ±0.02mm
+1848,409,2,Phase 2 - Fraisage,6,23,154,14,6,Surface Ra 3.2µm
+1849,409,3,Phase 3 - Contrôle qualité,7,92,339,10,8,Mesure 3 points
+1850,410,1,Phase 1 - Réglement / Montage,2,60,110,9,18,Centrage ±0.02mm
+1851,410,2,Phase 2 - Fraisage,6,12,131,30,11,Surface Ra 3.2µm
+1852,410,3,Phase 3 - Fraisage,6,43,185,27,15,Planéité 0.02mm
+1853,410,4,Phase 4 - Ébavurage,10,32,316,4,4,Rayon R0.2 max
+1854,411,1,Phase 1 - Réglement / Montage,7,75,141,2,18,
+1855,411,2,Phase 2 - Perçage,11,124,383,7,10,Perpendicularité 0.05mm
+1856,411,3,Phase 3 - Perçage,3,140,278,5,8,Taraudage M6
+1857,411,4,Phase 4 - Perçage,4,25,140,7,9,Alésage H7
+1858,411,5,Phase 5 - Fraisage,6,58,168,49,5,Profondeur ±0.05mm
+1859,411,6,Phase 6 - Contrôle qualité,10,140,217,12,7,
+1860,412,1,Phase 1 - Réglement / Montage,11,113,160,10,17,Perpendicularité 0.02mm
+1861,412,2,Phase 2 - Perçage,3,84,175,23,6,Alésage H7
+1862,412,3,Phase 3 - Perçage,3,29,64,24,4,Perpendicularité 0.05mm
+1863,412,4,Phase 4 - Tournage,7,93,127,54,9,Surface Ra 1.6µm
+1864,412,5,Phase 5 - Ébavurage,2,122,41,9,1,Pas d'arêtes vives
+1865,413,1,Phase 1 - Réglement / Montage,11,143,203,5,18,Perpendicularité 0.02mm
+1866,413,2,Phase 2 - Tournage,2,26,264,47,7,Concentricité 0.01mm
+1867,413,3,Phase 3 - Ébavurage,1,98,249,3,1,Pas d'arêtes vives
+1868,414,1,Phase 1 - Réglement / Montage,9,147,155,4,14,Perpendicularité 0.02mm
+1869,414,2,Phase 2 - Tournage,5,97,193,53,7,Diamètre ±0.01mm
+1870,414,3,Phase 3 - Fraisage,9,13,168,37,7,Parallélisme 0.03mm
+1871,414,4,Phase 4 - Tournage,5,81,217,33,10,Diamètre ±0.01mm
+1872,414,5,Phase 5 - Fraisage,6,147,231,29,15,Planéité 0.02mm
+1873,414,6,Phase 6 - Contrôle qualité,7,130,312,5,5,Mesure 3 points
+1874,415,1,Phase 1 - Débit / Tronçonnage,3,67,208,9,8,Longueur ±1mm
+1875,415,2,Phase 2 - Perçage,4,108,173,14,2,Diamètre ±0.02mm
+1876,415,3,Phase 3 - Ébavurage,3,89,118,3,1,
+1877,416,1,Phase 1 - Réglement / Montage,4,42,96,3,10,Parallélisme 0.01mm
+1878,416,2,Phase 2 - Tournage,7,110,245,54,13,Diamètre ±0.01mm
+1879,416,3,Phase 3 - Tournage,2,81,314,14,9,Surface Ra 1.6µm
+1880,416,4,Phase 4 - Ébavurage,5,72,364,4,1,Rayon R0.2 max
+1881,417,1,Phase 1 - Réglement / Montage,11,65,274,10,17,Centrage ±0.02mm
+1882,417,2,Phase 2 - Tournage,10,4,56,40,12,Diamètre ±0.01mm
+1883,417,3,Phase 3 - Fraisage,9,144,66,22,4,Parallélisme 0.03mm
+1884,417,4,Phase 4 - Contrôle qualité,3,114,7,13,5,Mesure 3 points
+1885,418,1,Phase 1 - Réglement / Montage,4,68,85,8,7,Parallélisme 0.01mm
+1886,418,2,Phase 2 - Perçage,4,14,105,21,6,Perpendicularité 0.05mm
+1887,418,3,Phase 3 - Perçage,11,88,117,18,7,Taraudage M6
+1888,418,4,Phase 4 - Perçage,3,119,284,16,4,Alésage H7
+1889,418,5,Phase 5 - Contrôle qualité,11,45,159,9,2,Mesure 3 points
+1890,419,1,Phase 1 - Réglement / Montage,10,93,386,6,6,Centrage ±0.02mm
+1891,419,2,Phase 2 - Perçage,11,66,157,25,7,Alésage H7
+1892,419,3,Phase 3 - Fraisage,9,38,101,14,4,Parallélisme 0.03mm
+1893,419,4,Phase 4 - Contrôle qualité,5,115,147,20,7,PDT 100%
+1894,420,1,Phase 1 - Débit / Tronçonnage,4,53,125,13,4,Longueur ±1mm
+1895,420,2,Phase 2 - Fraisage,6,50,285,44,9,Parallélisme 0.03mm
+1896,420,3,Phase 3 - Perçage,11,91,366,5,10,Diamètre ±0.02mm
+1897,420,4,Phase 4 - Perçage,3,100,127,6,6,Alésage H7
+1898,420,5,Phase 5 - Contrôle qualité,7,9,198,12,4,Mesure 3 points
+1899,421,1,Phase 1 - Débit / Tronçonnage,7,85,118,7,2,Cote brute ±0.5mm
+1900,421,2,Phase 2 - Perçage,3,132,36,17,9,Taraudage M6
+1901,421,3,Phase 3 - Contrôle qualité,11,18,218,16,3,Contrôle dimensionnel
+1902,422,1,Phase 1 - Débit / Tronçonnage,3,67,135,9,2,Longueur ±1mm
+1903,422,2,Phase 2 - Perçage,8,17,244,24,5,Taraudage M6
+1904,422,3,Phase 3 - Perçage,3,4,329,25,7,Perpendicularité 0.05mm
+1905,422,4,Phase 4 - Fraisage,6,38,275,39,11,Planéité 0.02mm
+1906,422,5,Phase 5 - Perçage,11,146,297,18,10,Perpendicularité 0.05mm
+1907,422,6,Phase 6 - Contrôle qualité,6,16,157,15,5,Mesure 3 points
+1908,423,1,Phase 1 - Réglement / Montage,2,71,231,4,13,
+1909,423,2,Phase 2 - Tournage,1,139,383,34,14,Concentricité 0.01mm
+1910,423,3,Phase 3 - Tournage,2,53,286,51,6,Diamètre ±0.01mm
+1911,423,4,Phase 4 - Ébavurage,7,61,291,4,2,Pas d'arêtes vives
+1912,424,1,Phase 1 - Réglement / Montage,9,141,256,2,17,Parallélisme 0.01mm
+1913,424,2,Phase 2 - Rectification,6,54,89,24,3,Cylindricité 0.005mm
+1914,424,3,Phase 3 - Tournage,1,12,60,10,5,Cylindricité 0.02mm
+1915,424,4,Phase 4 - Ébavurage,1,5,33,11,4,Rayon R0.2 max
+1916,425,1,Phase 1 - Débit / Tronçonnage,2,12,16,11,8,
+1917,425,2,Phase 2 - Perçage,3,3,281,7,6,Perpendicularité 0.05mm
+1918,425,3,Phase 3 - Fraisage,6,74,32,25,11,Planéité 0.02mm
+1919,425,4,Phase 4 - Rectification,9,63,329,10,3,
+1920,425,5,Phase 5 - Ébavurage,11,36,100,8,3,Rayon R0.2 max
+1921,426,1,Phase 1 - Réglement / Montage,6,81,347,3,6,Centrage ±0.02mm
+1922,426,2,Phase 2 - Tournage,1,118,385,35,5,Surface Ra 1.6µm
+1923,426,3,Phase 3 - Ébavurage,10,85,381,12,4,Rayon R0.2 max
+1924,427,1,Phase 1 - Réglement / Montage,3,6,353,2,18,
+1925,427,2,Phase 2 - Rectification,9,100,217,16,4,Surface Ra 0.8µm
+1926,427,3,Phase 3 - Tournage,7,95,154,15,14,Surface Ra 1.6µm
+1927,427,4,Phase 4 - Perçage,4,73,1,19,10,Alésage H7
+1928,427,5,Phase 5 - Ébavurage,6,69,396,12,4,Pas d'arêtes vives
+1929,428,1,Phase 1 - Réglement / Montage,1,95,396,10,11,
+1930,428,2,Phase 2 - Fraisage,6,76,284,19,9,Profondeur ±0.05mm
+1931,428,3,Phase 3 - Tournage,10,118,8,43,6,Diamètre ±0.01mm
+1932,428,4,Phase 4 - Contrôle qualité,11,145,61,20,6,
+1933,429,1,Phase 1 - Réglement / Montage,2,94,16,7,18,Parallélisme 0.01mm
+1934,429,2,Phase 2 - Fraisage,6,146,233,34,3,Parallélisme 0.03mm
+1935,429,3,Phase 3 - Tournage,1,34,221,54,15,Concentricité 0.01mm
+1936,429,4,Phase 4 - Ébavurage,9,134,296,11,2,Rayon R0.2 max
+1937,430,1,Phase 1 - Débit / Tronçonnage,2,142,3,15,6,Planarite 0.3mm
+1938,430,2,Phase 2 - Rectification,2,119,185,18,8,Surface Ra 0.8µm
+1939,430,3,Phase 3 - Fraisage,9,75,362,15,13,Parallélisme 0.03mm
+1940,430,4,Phase 4 - Fraisage,9,48,39,16,11,Parallélisme 0.03mm
+1941,430,5,Phase 5 - Ébavurage,6,104,71,9,3,Pas d'arêtes vives
+1942,431,1,Phase 1 - Débit / Tronçonnage,12,123,172,11,6,Cote brute ±0.5mm
+1943,431,2,Phase 2 - Fraisage,9,94,137,18,4,Planéité 0.02mm
+1944,431,3,Phase 3 - Contrôle qualité,3,125,24,15,5,Mesure 3 points
+1945,432,1,Phase 1 - Débit / Tronçonnage,12,37,65,8,5,Cote brute ±0.5mm
+1946,432,2,Phase 2 - Perçage,3,13,33,25,8,Perpendicularité 0.05mm
+1947,432,3,Phase 3 - Contrôle qualité,3,105,141,6,5,Mesure 3 points
+1948,433,1,Phase 1 - Débit / Tronçonnage,5,72,241,5,6,Longueur ±1mm
+1949,433,2,Phase 2 - Rectification,6,84,370,16,3,Surface Ra 0.8µm
+1950,433,3,Phase 3 - Tournage,10,133,94,20,14,Concentricité 0.01mm
+1951,433,4,Phase 4 - Perçage,4,24,70,18,3,Taraudage M6
+1952,433,5,Phase 5 - Rectification,11,96,4,23,4,Surface Ra 0.8µm
+1953,433,6,Phase 6 - Contrôle qualité,11,16,47,8,6,Contrôle dimensionnel
+1954,434,1,Phase 1 - Réglement / Montage,6,46,238,3,7,Perpendicularité 0.02mm
+1955,434,2,Phase 2 - Tournage,1,12,381,33,6,Diamètre ±0.01mm
+1956,434,3,Phase 3 - Tournage,10,35,103,12,3,Diamètre ±0.01mm
+1957,434,4,Phase 4 - Tournage,7,81,349,10,3,Diamètre ±0.01mm
+1958,434,5,Phase 5 - Tournage,1,130,294,60,7,Concentricité 0.01mm
+1959,434,6,Phase 6 - Contrôle qualité,7,37,291,19,5,Mesure 3 points
+1960,435,1,Phase 1 - Réglement / Montage,4,89,68,6,13,
+1961,435,2,Phase 2 - Perçage,11,23,320,21,4,Taraudage M6
+1962,435,3,Phase 3 - Tournage,5,138,43,23,15,Surface Ra 1.6µm
+1963,435,4,Phase 4 - Tournage,5,12,79,32,15,Diamètre ±0.01mm
+1964,435,5,Phase 5 - Ébavurage,5,18,240,7,2,
+1965,436,1,Phase 1 - Débit / Tronçonnage,10,135,392,6,4,Longueur ±1mm
+1966,436,2,Phase 2 - Fraisage,6,104,140,44,9,Surface Ra 3.2µm
+1967,436,3,Phase 3 - Perçage,11,50,302,22,5,Alésage H7
+1968,436,4,Phase 4 - Rectification,11,129,100,25,7,Cylindricité 0.005mm
+1969,436,5,Phase 5 - Ébavurage,7,98,323,7,4,Pas d'arêtes vives
+1970,437,1,Phase 1 - Réglement / Montage,3,86,28,9,19,Perpendicularité 0.02mm
+1971,437,2,Phase 2 - Perçage,11,93,230,24,7,Alésage H7
+1972,437,3,Phase 3 - Tournage,7,41,106,46,5,Surface Ra 1.6µm
+1973,437,4,Phase 4 - Fraisage,9,84,55,12,10,Planéité 0.02mm
+1974,437,5,Phase 5 - Contrôle qualité,9,27,120,8,2,PDT 100%
+1975,438,1,Phase 1 - Débit / Tronçonnage,11,100,49,12,7,Cote brute ±0.5mm
+1976,438,2,Phase 2 - Tournage,5,114,350,34,3,Cylindricité 0.02mm
+1977,438,3,Phase 3 - Tournage,1,104,368,49,8,Cylindricité 0.02mm
+1978,438,4,Phase 4 - Ébavurage,10,22,350,5,1,Pas d'arêtes vives
+1979,439,1,Phase 1 - Réglement / Montage,5,113,161,7,6,Centrage ±0.02mm
+1980,439,2,Phase 2 - Tournage,7,13,41,30,4,Concentricité 0.01mm
+1981,439,3,Phase 3 - Tournage,2,89,336,53,13,Concentricité 0.01mm
+1982,439,4,Phase 4 - Fraisage,9,9,225,28,3,Profondeur ±0.05mm
+1983,439,5,Phase 5 - Ébavurage,8,49,67,10,5,
+1984,440,1,Phase 1 - Débit / Tronçonnage,3,94,330,3,3,Cote brute ±0.5mm
+1985,440,2,Phase 2 - Tournage,7,74,347,49,6,Concentricité 0.01mm
+1986,440,3,Phase 3 - Perçage,3,53,354,23,3,Diamètre ±0.02mm
+1987,440,4,Phase 4 - Tournage,2,9,110,37,3,Concentricité 0.01mm
+1988,440,5,Phase 5 - Ébavurage,11,77,321,12,1,Pas d'arêtes vives
+1989,441,1,Phase 1 - Réglement / Montage,3,45,280,7,16,Parallélisme 0.01mm
+1990,441,2,Phase 2 - Rectification,9,146,175,12,3,Parallélisme 0.01mm
+1991,441,3,Phase 3 - Fraisage,6,16,209,41,12,Surface Ra 3.2µm
+1992,441,4,Phase 4 - Fraisage,9,147,220,45,3,Surface Ra 3.2µm
+1993,441,5,Phase 5 - Fraisage,9,123,135,12,15,Parallélisme 0.03mm
+1994,441,6,Phase 6 - Contrôle qualité,11,69,356,9,7,Mesure 3 points
+1995,442,1,Phase 1 - Réglement / Montage,6,74,158,7,12,Centrage ±0.02mm
+1996,442,2,Phase 2 - Tournage,7,118,194,58,5,Concentricité 0.01mm
+1997,442,3,Phase 3 - Tournage,2,42,325,32,3,Surface Ra 1.6µm
+1998,442,4,Phase 4 - Fraisage,9,81,131,18,9,Parallélisme 0.03mm
+1999,442,5,Phase 5 - Ébavurage,8,138,131,5,5,Pas d'arêtes vives
+2000,443,1,Phase 1 - Réglement / Montage,9,147,360,4,12,Parallélisme 0.01mm
+2001,443,2,Phase 2 - Tournage,1,18,8,57,15,Surface Ra 1.6µm
+2002,443,3,Phase 3 - Contrôle qualité,9,108,347,6,4,Mesure 3 points
+2003,444,1,Phase 1 - Débit / Tronçonnage,11,143,212,11,4,Longueur ±1mm
+2004,444,2,Phase 2 - Tournage,1,23,197,35,10,Cylindricité 0.02mm
+2005,444,3,Phase 3 - Perçage,3,73,348,15,9,Alésage H7
+2006,444,4,Phase 4 - Perçage,11,83,290,10,3,Perpendicularité 0.05mm
+2007,444,5,Phase 5 - Contrôle qualité,6,109,160,10,5,PDT 100%
+2008,445,1,Phase 1 - Débit / Tronçonnage,7,108,344,15,3,Cote brute ±0.5mm
+2009,445,2,Phase 2 - Perçage,4,118,190,16,10,Perpendicularité 0.05mm
+2010,445,3,Phase 3 - Tournage,7,119,13,54,12,Cylindricité 0.02mm
+2011,445,4,Phase 4 - Tournage,7,30,47,32,5,Cylindricité 0.02mm
+2012,445,5,Phase 5 - Contrôle qualité,11,2,93,11,5,Mesure 3 points
+2013,446,1,Phase 1 - Débit / Tronçonnage,12,44,35,8,6,Cote brute ±0.5mm
+2014,446,2,Phase 2 - Fraisage,9,2,352,33,12,Surface Ra 3.2µm
+2015,446,3,Phase 3 - Fraisage,6,129,224,23,11,Planéité 0.02mm
+2016,446,4,Phase 4 - Ébavurage,11,21,374,12,3,
+2017,447,1,Phase 1 - Réglement / Montage,8,43,361,3,17,Centrage ±0.02mm
+2018,447,2,Phase 2 - Perçage,8,61,246,22,5,Diamètre ±0.02mm
+2019,447,3,Phase 3 - Fraisage,9,40,261,47,10,Parallélisme 0.03mm
+2020,447,4,Phase 4 - Perçage,8,85,160,6,3,Perpendicularité 0.05mm
+2021,447,5,Phase 5 - Tournage,7,42,1,13,5,Cylindricité 0.02mm
+2022,447,6,Phase 6 - Fraisage,6,59,70,19,3,Planéité 0.02mm
+2023,447,7,Phase 7 - Ébavurage,10,125,143,6,2,
+2024,448,1,Phase 1 - Réglement / Montage,2,17,216,7,11,Centrage ±0.02mm
+2025,448,2,Phase 2 - Perçage,3,33,19,25,5,Diamètre ±0.02mm
+2026,448,3,Phase 3 - Tournage,2,57,68,18,14,Diamètre ±0.01mm
+2027,448,4,Phase 4 - Fraisage,6,27,125,33,14,Parallélisme 0.03mm
+2028,448,5,Phase 5 - Tournage,2,129,48,36,8,Surface Ra 1.6µm
+2029,448,6,Phase 6 - Fraisage,9,51,2,13,8,Parallélisme 0.03mm
+2030,448,7,Phase 7 - Contrôle qualité,8,117,236,16,5,PDT 100%
+2031,449,1,Phase 1 - Réglement / Montage,7,34,394,3,5,Parallélisme 0.01mm
+2032,449,2,Phase 2 - Rectification,2,107,350,29,4,
+2033,449,3,Phase 3 - Tournage,10,11,82,47,14,Cylindricité 0.02mm
+2034,449,4,Phase 4 - Tournage,1,68,127,57,11,Concentricité 0.01mm
+2035,449,5,Phase 5 - Ébavurage,4,101,84,5,5,Pas d'arêtes vives
+2036,450,1,Phase 1 - Réglement / Montage,7,31,215,9,5,Centrage ±0.02mm
+2037,450,2,Phase 2 - Fraisage,9,107,202,39,15,Surface Ra 3.2µm
+2038,450,3,Phase 3 - Fraisage,9,40,44,46,11,Profondeur ±0.05mm
+2039,450,4,Phase 4 - Fraisage,6,78,298,28,15,Planéité 0.02mm
+2040,450,5,Phase 5 - Ébavurage,1,113,221,9,2,
+2041,451,1,Phase 1 - Débit / Tronçonnage,7,58,291,9,4,Cote brute ±0.5mm
+2042,451,2,Phase 2 - Tournage,10,97,86,39,6,Cylindricité 0.02mm
+2043,451,3,Phase 3 - Perçage,11,35,223,8,3,Alésage H7
+2044,451,4,Phase 4 - Rectification,10,56,211,29,5,Parallélisme 0.01mm
+2045,451,5,Phase 5 - Contrôle qualité,11,83,137,9,2,PDT 100%
+2046,452,1,Phase 1 - Réglement / Montage,8,26,379,8,9,Parallélisme 0.01mm
+2047,452,2,Phase 2 - Perçage,3,147,350,17,6,Perpendicularité 0.05mm
+2048,452,3,Phase 3 - Tournage,5,62,69,56,7,Diamètre ±0.01mm
+2049,452,4,Phase 4 - Rectification,5,94,342,9,8,Cylindricité 0.005mm
+2050,452,5,Phase 5 - Tournage,5,52,18,54,6,Surface Ra 1.6µm
+2051,452,6,Phase 6 - Ébavurage,3,136,256,9,1,Rayon R0.2 max
+2052,453,1,Phase 1 - Réglement / Montage,10,95,240,8,13,
+2053,453,2,Phase 2 - Tournage,7,103,301,55,14,Concentricité 0.01mm
+2054,453,3,Phase 3 - Perçage,8,52,185,12,8,Alésage H7
+2055,453,4,Phase 4 - Contrôle qualité,10,101,198,17,8,PDT 100%
+2056,454,1,Phase 1 - Débit / Tronçonnage,10,33,41,5,4,Planarite 0.3mm
+2057,454,2,Phase 2 - Fraisage,6,147,171,49,7,Surface Ra 3.2µm
+2058,454,3,Phase 3 - Perçage,4,103,306,9,7,Alésage H7
+2059,454,4,Phase 4 - Fraisage,9,78,229,21,4,Parallélisme 0.03mm
+2060,454,5,Phase 5 - Ébavurage,10,35,123,8,5,Pas d'arêtes vives
+2061,455,1,Phase 1 - Débit / Tronçonnage,4,32,147,3,7,Planarite 0.3mm
+2062,455,2,Phase 2 - Fraisage,6,64,81,36,4,Planéité 0.02mm
+2063,455,3,Phase 3 - Perçage,8,55,368,6,9,Taraudage M6
+2064,455,4,Phase 4 - Tournage,7,58,54,53,3,Surface Ra 1.6µm
+2065,455,5,Phase 5 - Contrôle qualité,9,32,254,16,3,Mesure 3 points
+2066,456,1,Phase 1 - Réglement / Montage,2,95,374,10,19,Centrage ±0.02mm
+2067,456,2,Phase 2 - Rectification,11,72,163,13,6,Parallélisme 0.01mm
+2068,456,3,Phase 3 - Perçage,8,46,222,21,9,Alésage H7
+2069,456,4,Phase 4 - Tournage,7,13,58,41,6,Cylindricité 0.02mm
+2070,456,5,Phase 5 - Perçage,3,136,211,15,4,Perpendicularité 0.05mm
+2071,456,6,Phase 6 - Contrôle qualité,8,116,68,18,5,Contrôle dimensionnel
+2072,457,1,Phase 1 - Débit / Tronçonnage,7,120,2,4,4,Cote brute ±0.5mm
+2073,457,2,Phase 2 - Fraisage,6,92,79,38,11,Surface Ra 3.2µm
+2074,457,3,Phase 3 - Ébavurage,3,84,333,11,1,Pas d'arêtes vives
+2075,458,1,Phase 1 - Débit / Tronçonnage,5,124,350,5,7,Longueur ±1mm
+2076,458,2,Phase 2 - Tournage,2,82,238,52,6,Surface Ra 1.6µm
+2077,458,3,Phase 3 - Fraisage,9,59,294,17,15,Parallélisme 0.03mm
+2078,458,4,Phase 4 - Contrôle qualité,11,23,254,10,2,Mesure 3 points
+2079,459,1,Phase 1 - Débit / Tronçonnage,4,89,180,14,3,
+2080,459,2,Phase 2 - Tournage,1,48,295,56,13,Diamètre ±0.01mm
+2081,459,3,Phase 3 - Contrôle qualité,3,33,369,16,6,Contrôle dimensionnel
+2082,460,1,Phase 1 - Réglement / Montage,9,55,121,4,10,Parallélisme 0.01mm
+2083,460,2,Phase 2 - Fraisage,9,59,359,49,6,Parallélisme 0.03mm
+2084,460,3,Phase 3 - Tournage,5,122,354,54,15,Cylindricité 0.02mm
+2085,460,4,Phase 4 - Perçage,4,34,117,18,8,Diamètre ±0.02mm
+2086,460,5,Phase 5 - Contrôle qualité,1,121,204,7,2,
+2087,461,1,Phase 1 - Débit / Tronçonnage,5,100,311,10,8,Cote brute ±0.5mm
+2088,461,2,Phase 2 - Perçage,4,52,196,6,3,Diamètre ±0.02mm
+2089,461,3,Phase 3 - Fraisage,6,102,52,32,13,Parallélisme 0.03mm
+2090,461,4,Phase 4 - Rectification,11,144,324,13,4,
+2091,461,5,Phase 5 - Contrôle qualité,9,112,363,13,6,Contrôle dimensionnel
+2092,462,1,Phase 1 - Réglement / Montage,8,52,167,9,13,Parallélisme 0.01mm
+2093,462,2,Phase 2 - Tournage,2,40,73,20,14,Surface Ra 1.6µm
+2094,462,3,Phase 3 - Fraisage,9,65,79,32,11,Parallélisme 0.03mm
+2095,462,4,Phase 4 - Perçage,4,46,376,16,8,Diamètre ±0.02mm
+2096,462,5,Phase 5 - Fraisage,9,55,191,13,9,Parallélisme 0.03mm
+2097,462,6,Phase 6 - Contrôle qualité,9,123,126,7,8,PDT 100%
+2098,463,1,Phase 1 - Réglement / Montage,10,102,351,9,13,Centrage ±0.02mm
+2099,463,2,Phase 2 - Perçage,3,125,343,15,5,Alésage H7
+2100,463,3,Phase 3 - Perçage,8,39,7,7,5,Taraudage M6
+2101,463,4,Phase 4 - Tournage,1,131,147,52,9,Cylindricité 0.02mm
+2102,463,5,Phase 5 - Contrôle qualité,8,94,198,7,4,Contrôle dimensionnel
+2103,464,1,Phase 1 - Réglement / Montage,1,93,164,6,7,Parallélisme 0.01mm
+2104,464,2,Phase 2 - Rectification,9,18,189,10,9,Parallélisme 0.01mm
+2105,464,3,Phase 3 - Tournage,10,88,169,37,7,Surface Ra 1.6µm
+2106,464,4,Phase 4 - Fraisage,6,148,370,34,12,Parallélisme 0.03mm
+2107,464,5,Phase 5 - Contrôle qualité,8,141,255,16,8,Mesure 3 points
+2108,465,1,Phase 1 - Débit / Tronçonnage,1,36,10,7,3,
+2109,465,2,Phase 2 - Rectification,9,4,37,27,10,Surface Ra 0.8µm
+2110,465,3,Phase 3 - Tournage,1,39,158,14,6,Cylindricité 0.02mm
+2111,465,4,Phase 4 - Contrôle qualité,4,104,237,19,5,PDT 100%
+2112,466,1,Phase 1 - Réglement / Montage,11,122,111,3,10,
+2113,466,2,Phase 2 - Fraisage,9,60,41,48,15,Parallélisme 0.03mm
+2114,466,3,Phase 3 - Tournage,7,8,236,31,14,Diamètre ±0.01mm
+2115,466,4,Phase 4 - Fraisage,9,91,122,50,6,Planéité 0.02mm
+2116,466,5,Phase 5 - Ébavurage,6,24,323,9,3,Rayon R0.2 max
+2117,467,1,Phase 1 - Débit / Tronçonnage,11,149,327,8,3,Longueur ±1mm
+2118,467,2,Phase 2 - Tournage,1,41,62,47,4,Concentricité 0.01mm
+2119,467,3,Phase 3 - Perçage,8,125,194,13,6,Taraudage M6
+2120,467,4,Phase 4 - Contrôle qualité,10,123,4,6,2,Mesure 3 points
+2121,468,1,Phase 1 - Débit / Tronçonnage,11,119,203,7,4,
+2122,468,2,Phase 2 - Fraisage,9,147,230,47,10,Planéité 0.02mm
+2123,468,3,Phase 3 - Perçage,3,108,104,17,7,Taraudage M6
+2124,468,4,Phase 4 - Contrôle qualité,1,66,170,6,2,
+2125,469,1,Phase 1 - Débit / Tronçonnage,3,57,241,6,2,
+2126,469,2,Phase 2 - Rectification,6,110,316,13,10,
+2127,469,3,Phase 3 - Tournage,10,92,71,46,14,Diamètre ±0.01mm
+2128,469,4,Phase 4 - Tournage,2,13,356,33,12,Diamètre ±0.01mm
+2129,469,5,Phase 5 - Contrôle qualité,5,95,180,8,3,Mesure 3 points
+2130,470,1,Phase 1 - Débit / Tronçonnage,7,110,154,6,2,Planarite 0.3mm
+2131,470,2,Phase 2 - Fraisage,9,101,179,28,9,Profondeur ±0.05mm
+2132,470,3,Phase 3 - Tournage,5,68,150,57,6,Concentricité 0.01mm
+2133,470,4,Phase 4 - Contrôle qualité,2,79,314,8,5,Mesure 3 points
+2134,471,1,Phase 1 - Réglement / Montage,7,67,142,9,14,Parallélisme 0.01mm
+2135,471,2,Phase 2 - Fraisage,9,105,136,11,11,Parallélisme 0.03mm
+2136,471,3,Phase 3 - Ébavurage,1,85,257,9,2,
+2137,472,1,Phase 1 - Réglement / Montage,7,148,343,10,13,Centrage ±0.02mm
+2138,472,2,Phase 2 - Tournage,1,3,390,46,10,Cylindricité 0.02mm
+2139,472,3,Phase 3 - Tournage,2,30,246,58,3,Diamètre ±0.01mm
+2140,472,4,Phase 4 - Tournage,10,90,99,28,13,Diamètre ±0.01mm
+2141,472,5,Phase 5 - Ébavurage,8,150,68,5,1,Pas d'arêtes vives
+2142,473,1,Phase 1 - Débit / Tronçonnage,10,72,291,9,8,Planarite 0.3mm
+2143,473,2,Phase 2 - Fraisage,6,38,371,49,6,Surface Ra 3.2µm
+2144,473,3,Phase 3 - Perçage,4,92,55,9,3,Perpendicularité 0.05mm
+2145,473,4,Phase 4 - Perçage,11,86,202,16,10,Taraudage M6
+2146,473,5,Phase 5 - Tournage,10,87,322,53,10,Surface Ra 1.6µm
+2147,473,6,Phase 6 - Contrôle qualité,4,21,294,11,2,Contrôle dimensionnel
+2148,474,1,Phase 1 - Réglement / Montage,11,77,97,6,15,
+2149,474,2,Phase 2 - Fraisage,6,19,115,44,11,Planéité 0.02mm
+2150,474,3,Phase 3 - Tournage,2,76,94,22,9,Cylindricité 0.02mm
+2151,474,4,Phase 4 - Contrôle qualité,5,9,128,11,4,
+2152,475,1,Phase 1 - Débit / Tronçonnage,10,105,107,13,2,Cote brute ±0.5mm
+2153,475,2,Phase 2 - Tournage,7,149,213,42,14,Diamètre ±0.01mm
+2154,475,3,Phase 3 - Perçage,3,9,283,25,7,Perpendicularité 0.05mm
+2155,475,4,Phase 4 - Fraisage,9,98,386,47,3,Parallélisme 0.03mm
+2156,475,5,Phase 5 - Contrôle qualité,9,23,332,20,5,Contrôle dimensionnel
+2157,476,1,Phase 1 - Débit / Tronçonnage,10,49,20,7,3,Planarite 0.3mm
+2158,476,2,Phase 2 - Tournage,2,138,188,13,5,Cylindricité 0.02mm
+2159,476,3,Phase 3 - Perçage,8,109,201,15,4,Taraudage M6
+2160,476,4,Phase 4 - Perçage,4,51,103,9,10,Perpendicularité 0.05mm
+2161,476,5,Phase 5 - Contrôle qualité,7,3,70,5,3,Contrôle dimensionnel
+2162,477,1,Phase 1 - Débit / Tronçonnage,2,56,105,3,3,Cote brute ±0.5mm
+2163,477,2,Phase 2 - Tournage,5,105,240,38,4,Surface Ra 1.6µm
+2164,477,3,Phase 3 - Perçage,11,117,187,5,9,Taraudage M6
+2165,477,4,Phase 4 - Tournage,7,89,385,30,6,Surface Ra 1.6µm
+2166,477,5,Phase 5 - Ébavurage,9,95,108,3,1,Pas d'arêtes vives
+2167,478,1,Phase 1 - Réglement / Montage,6,143,395,6,20,Parallélisme 0.01mm
+2168,478,2,Phase 2 - Tournage,2,70,367,60,5,Surface Ra 1.6µm
+2169,478,3,Phase 3 - Tournage,5,118,35,47,15,Surface Ra 1.6µm
+2170,478,4,Phase 4 - Ébavurage,5,42,339,5,3,Pas d'arêtes vives
+2171,479,1,Phase 1 - Réglement / Montage,1,113,370,8,13,
+2172,479,2,Phase 2 - Perçage,3,122,329,25,9,Alésage H7
+2173,479,3,Phase 3 - Contrôle qualité,4,28,319,10,4,PDT 100%
+2174,480,1,Phase 1 - Débit / Tronçonnage,11,59,275,10,3,
+2175,480,2,Phase 2 - Fraisage,9,130,33,21,5,Planéité 0.02mm
+2176,480,3,Phase 3 - Fraisage,9,99,202,44,7,Planéité 0.02mm
+2177,480,4,Phase 4 - Rectification,5,64,249,15,6,
+2178,480,5,Phase 5 - Contrôle qualité,2,48,52,9,2,PDT 100%
+2179,481,1,Phase 1 - Réglement / Montage,2,136,235,10,6,Parallélisme 0.01mm
+2180,481,2,Phase 2 - Perçage,11,13,343,7,9,Diamètre ±0.02mm
+2181,481,3,Phase 3 - Perçage,11,75,356,6,5,Perpendicularité 0.05mm
+2182,481,4,Phase 4 - Ébavurage,6,65,356,8,2,
+2183,482,1,Phase 1 - Débit / Tronçonnage,2,127,53,5,3,Longueur ±1mm
+2184,482,2,Phase 2 - Rectification,4,66,128,15,10,Cylindricité 0.005mm
+2185,482,3,Phase 3 - Tournage,5,75,77,19,4,Diamètre ±0.01mm
+2186,482,4,Phase 4 - Ébavurage,9,83,351,7,5,
+2187,483,1,Phase 1 - Débit / Tronçonnage,7,50,379,14,2,Longueur ±1mm
+2188,483,2,Phase 2 - Tournage,5,76,155,38,3,Concentricité 0.01mm
+2189,483,3,Phase 3 - Fraisage,9,131,307,47,8,Surface Ra 3.2µm
+2190,483,4,Phase 4 - Tournage,1,43,6,33,12,Diamètre ±0.01mm
+2191,483,5,Phase 5 - Contrôle qualité,9,90,37,15,3,
+2192,484,1,Phase 1 - Débit / Tronçonnage,12,47,204,9,7,Longueur ±1mm
+2193,484,2,Phase 2 - Tournage,10,82,213,24,7,Cylindricité 0.02mm
+2194,484,3,Phase 3 - Fraisage,9,122,164,20,5,Planéité 0.02mm
+2195,484,4,Phase 4 - Contrôle qualité,1,108,42,17,4,PDT 100%
+2196,485,1,Phase 1 - Débit / Tronçonnage,12,35,15,13,4,Longueur ±1mm
+2197,485,2,Phase 2 - Tournage,5,30,37,30,15,Diamètre ±0.01mm
+2198,485,3,Phase 3 - Tournage,2,82,162,58,13,Diamètre ±0.01mm
+2199,485,4,Phase 4 - Ébavurage,7,119,343,5,4,Pas d'arêtes vives
+2200,486,1,Phase 1 - Réglement / Montage,10,47,22,8,17,Centrage ±0.02mm
+2201,486,2,Phase 2 - Fraisage,9,132,14,45,8,Surface Ra 3.2µm
+2202,486,3,Phase 3 - Tournage,1,58,336,44,15,Surface Ra 1.6µm
+2203,486,4,Phase 4 - Tournage,10,137,115,55,5,Surface Ra 1.6µm
+2204,486,5,Phase 5 - Perçage,3,46,78,8,4,Diamètre ±0.02mm
+2205,486,6,Phase 6 - Fraisage,9,131,340,17,14,Planéité 0.02mm
+2206,486,7,Phase 7 - Contrôle qualité,4,140,214,20,5,Contrôle dimensionnel
+2207,487,1,Phase 1 - Réglement / Montage,2,150,57,10,15,Perpendicularité 0.02mm
+2208,487,2,Phase 2 - Fraisage,6,100,159,29,15,Parallélisme 0.03mm
+2209,487,3,Phase 3 - Perçage,3,11,199,10,10,Taraudage M6
+2210,487,4,Phase 4 - Ébavurage,11,123,126,8,5,Rayon R0.2 max
+2211,488,1,Phase 1 - Réglement / Montage,4,103,145,8,14,Centrage ±0.02mm
+2212,488,2,Phase 2 - Fraisage,6,56,152,21,4,Parallélisme 0.03mm
+2213,488,3,Phase 3 - Perçage,11,38,92,7,5,Perpendicularité 0.05mm
+2214,488,4,Phase 4 - Tournage,1,12,146,20,12,Concentricité 0.01mm
+2215,488,5,Phase 5 - Contrôle qualité,2,73,376,20,6,PDT 100%
+2216,489,1,Phase 1 - Débit / Tronçonnage,12,115,79,15,5,Planarite 0.3mm
+2217,489,2,Phase 2 - Fraisage,6,42,264,22,4,Surface Ra 3.2µm
+2218,489,3,Phase 3 - Tournage,7,109,210,11,14,Cylindricité 0.02mm
+2219,489,4,Phase 4 - Contrôle qualité,1,2,179,11,7,Mesure 3 points
+2220,490,1,Phase 1 - Réglement / Montage,7,140,203,5,8,Centrage ±0.02mm
+2221,490,2,Phase 2 - Tournage,1,84,92,27,6,Cylindricité 0.02mm
+2222,490,3,Phase 3 - Contrôle qualité,1,91,284,10,5,Mesure 3 points
+2223,491,1,Phase 1 - Réglement / Montage,6,16,31,9,17,
+2224,491,2,Phase 2 - Tournage,7,112,125,24,5,Cylindricité 0.02mm
+2225,491,3,Phase 3 - Perçage,11,53,110,20,8,Diamètre ±0.02mm
+2226,491,4,Phase 4 - Fraisage,6,139,385,35,5,Profondeur ±0.05mm
+2227,491,5,Phase 5 - Ébavurage,7,112,283,7,1,Pas d'arêtes vives
+2228,492,1,Phase 1 - Réglement / Montage,7,40,340,10,10,Parallélisme 0.01mm
+2229,492,2,Phase 2 - Rectification,6,40,51,29,6,Parallélisme 0.01mm
+2230,492,3,Phase 3 - Rectification,8,17,271,23,8,Surface Ra 0.8µm
+2231,492,4,Phase 4 - Fraisage,9,127,198,16,13,Surface Ra 3.2µm
+2232,492,5,Phase 5 - Ébavurage,9,95,298,5,1,
+2233,493,1,Phase 1 - Réglement / Montage,11,134,52,6,12,Centrage ±0.02mm
+2234,493,2,Phase 2 - Fraisage,9,114,210,17,10,Surface Ra 3.2µm
+2235,493,3,Phase 3 - Fraisage,9,149,274,25,11,Planéité 0.02mm
+2236,493,4,Phase 4 - Ébavurage,8,46,377,3,2,
+2237,494,1,Phase 1 - Débit / Tronçonnage,3,103,274,9,8,Longueur ±1mm
+2238,494,2,Phase 2 - Fraisage,9,148,49,18,8,Profondeur ±0.05mm
+2239,494,3,Phase 3 - Ébavurage,6,130,304,12,2,Rayon R0.2 max
+2240,495,1,Phase 1 - Débit / Tronçonnage,12,70,344,9,7,Cote brute ±0.5mm
+2241,495,2,Phase 2 - Perçage,8,35,297,24,2,Taraudage M6
+2242,495,3,Phase 3 - Tournage,7,37,392,49,9,Diamètre ±0.01mm
+2243,495,4,Phase 4 - Fraisage,9,17,392,38,12,Profondeur ±0.05mm
+2244,495,5,Phase 5 - Fraisage,6,142,305,39,7,Profondeur ±0.05mm
+2245,495,6,Phase 6 - Ébavurage,3,147,146,9,3,Pas d'arêtes vives
+2246,496,1,Phase 1 - Réglement / Montage,7,130,155,3,18,
+2247,496,2,Phase 2 - Tournage,7,133,323,31,6,Diamètre ±0.01mm
+2248,496,3,Phase 3 - Perçage,3,98,150,23,10,Diamètre ±0.02mm
+2249,496,4,Phase 4 - Ébavurage,3,3,310,5,5,Rayon R0.2 max
+2250,497,1,Phase 1 - Réglement / Montage,3,44,61,2,10,
+2251,497,2,Phase 2 - Tournage,7,11,204,35,7,Surface Ra 1.6µm
+2252,497,3,Phase 3 - Tournage,10,46,139,44,7,Concentricité 0.01mm
+2253,497,4,Phase 4 - Fraisage,6,1,285,44,12,Parallélisme 0.03mm
+2254,497,5,Phase 5 - Perçage,3,85,248,14,10,Perpendicularité 0.05mm
+2255,497,6,Phase 6 - Contrôle qualité,8,68,381,8,6,Contrôle dimensionnel
+2256,498,1,Phase 1 - Débit / Tronçonnage,7,4,77,10,8,Planarite 0.3mm
+2257,498,2,Phase 2 - Rectification,1,1,109,9,8,
+2258,498,3,Phase 3 - Perçage,11,27,304,24,7,Perpendicularité 0.05mm
+2259,498,4,Phase 4 - Ébavurage,3,100,150,4,5,Rayon R0.2 max
+2260,499,1,Phase 1 - Réglement / Montage,7,113,278,6,18,
+2261,499,2,Phase 2 - Fraisage,9,5,335,17,11,Profondeur ±0.05mm
+2262,499,3,Phase 3 - Ébavurage,9,9,16,4,2,Rayon R0.2 max
+2263,500,1,Phase 1 - Débit / Tronçonnage,2,13,119,7,4,Planarite 0.3mm
+2264,500,2,Phase 2 - Rectification,10,34,308,27,3,
+2265,500,3,Phase 3 - Fraisage,9,109,287,35,8,Parallélisme 0.03mm
+2266,500,4,Phase 4 - Tournage,1,97,73,60,15,Cylindricité 0.02mm
+2267,500,5,Phase 5 - Ébavurage,3,112,245,5,3,Rayon R0.2 max

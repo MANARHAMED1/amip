@@ -1,0 +1,85 @@
+/* ── Cool Blue Spectrum Design System ── */
+
+:root {
+  /* Dark backgrounds (Deep blue-black) */
+  --color-graphite: #0A1628;
+  --color-graphite-light: #0F1F35;
+  --color-graphite-border: rgba(255,255,255,0.07);
+
+  /* Main content background (Cool blue-gray) */
+  --color-bg-warm: #F4F6F9;
+
+  /* Card surfaces */
+  --color-card-bg: #FFFFFF;
+  --color-card-border: #D1D5DB;
+  --color-card-shadow: rgba(0,0,0,0.07);
+
+  /* Primary accent — Vivid Cool Blue */
+  --color-copper: #2563EB;
+  --color-copper-light: #38BDF8;
+  --color-copper-dark: #1D4ED8;
+  --color-copper-glow: rgba(37,99,235,0.35);
+  --color-copper-glow-soft: rgba(37,99,235,0.18);
+  --color-copper-bg: rgba(37,99,235,0.06);
+
+  /* Secondary — Cool gray / slate */
+  --color-steel: #64748B;
+  --color-steel-light: #94A3B8;
+
+  /* Text on light backgrounds */
+  --color-text-primary: #0F172A;
+  --color-text-secondary: #475569;
+  --color-text-muted: #94A3B8;
+  --color-text-warm: #64748B;
+
+  /* Text on dark backgrounds */
+  --color-text-on-dark: #E2E8F0;
+  --color-text-on-dark-muted: #94A3B8;
+  --color-text-on-dark-secondary: #38BDF8;
+
+  /* Status colors (semantic only — green/amber/red for alerts/thresholds only) */
+  --color-success: #22C55E;
+  --color-success-bg: rgba(34,197,94,0.06);
+  --color-success-border: rgba(34,197,94,0.15);
+  --color-success-glow: rgba(34,197,94,0.5);
+
+  --color-warning: #F59E0B;
+  --color-warning-bg: rgba(245,158,11,0.06);
+  --color-warning-border: rgba(245,158,11,0.15);
+  --color-warning-glow: rgba(245,158,11,0.5);
+
+  --color-danger: #DC2626;
+  --color-danger-bg: rgba(220,38,38,0.06);
+  --color-danger-border: rgba(220,38,38,0.15);
+  --color-danger-glow: rgba(220,38,38,0.5);
+
+  --color-info: #64748B;
+  --color-info-bg: rgba(100,116,139,0.06);
+  --color-info-border: rgba(100,116,139,0.15);
+  --color-info-glow: rgba(100,116,139,0.5);
+
+  /* Gradients */
+  --gradient-copper: linear-gradient(135deg, #2563EB, #38BDF8);
+  --gradient-copper-subtle: linear-gradient(135deg, rgba(37,99,235,0.15), rgba(56,189,248,0.08));
+  --gradient-header: linear-gradient(90deg, #0A1628, #0F1F35);
+  --gradient-divider: linear-gradient(90deg, #D1D5DB, transparent);
+
+  /* Borders */
+  --border-color: #D1D5DB;
+  --border-warm: #E2E8F0;
+
+  /* Surfaces */
+  --surface-row-alt: #EDF0F5;
+  --surface-hover: #E2E6ED;
+  --surface-progress-track: #D1D5DB;
+
+  /* Charts — Vivid blue primary, sky blue secondary, slate gray comparison */
+  --chart-primary: #2563EB;
+  --chart-primary-light: #38BDF8;
+  --chart-secondary: #64748B;
+  --chart-tertiary: #1D4ED8;
+  --chart-quaternary: #0A1628;
+
+  /* Glow filters */
+  --glow-copper: drop-shadow(0 0 3px rgba(37,99,235,0.4));
+}

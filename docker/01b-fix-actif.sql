@@ -1,0 +1,8 @@
+-- Fix: cast BOOLEAN columns to INTEGER (schema defines as BOOLEAN, data uses 0/1)
+ALTER TABLE operateur ALTER COLUMN actif DROP DEFAULT;
+ALTER TABLE operateur ALTER COLUMN actif TYPE INTEGER USING actif::INTEGER;
+ALTER TABLE operateur ALTER COLUMN actif SET DEFAULT 1;
+
+ALTER TABLE outil ALTER COLUMN disponible DROP DEFAULT;
+ALTER TABLE outil ALTER COLUMN disponible TYPE INTEGER USING disponible::INTEGER;
+ALTER TABLE outil ALTER COLUMN disponible SET DEFAULT 1;

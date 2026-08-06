@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-[var(--color-bg-warm)] text-[var(--color-text-primary)] font-sans;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg-warm);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-steel);
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-[var(--color-card-bg)] border border-[var(--color-card-border)] rounded-lg shadow-sm transition-all duration-200;
+  }
+  .card:hover {
+    @apply shadow-md;
+  }
+  .card-lift {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .card-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px -4px var(--color-card-shadow);
+  }
+  .btn-primary {
+    @apply bg-gradient-to-r from-[var(--color-copper)] to-[var(--color-copper-light)] text-white font-semibold rounded-lg px-5 py-2.5
+           transition-all duration-200 shadow-sm hover:shadow-md hover:from-[var(--color-copper-dark)] hover:to-[var(--color-copper)]
+           active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .input-field {
+    @apply w-full px-3.5 py-2.5 bg-white border border-[var(--border-color)] rounded-lg text-[var(--color-text-primary)]
+           text-sm transition-all duration-200 placeholder:text-[var(--color-steel-light)]
+           focus:outline-none focus:border-[var(--color-copper)] focus:ring-2 focus:ring-[var(--color-copper-glow-soft)];
+  }
+  .label {
+    @apply block text-[var(--color-text-secondary)] text-xs font-semibold uppercase tracking-wider mb-1.5;
+  }
+  .badge {
+    @apply inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold border;
+  }
+}

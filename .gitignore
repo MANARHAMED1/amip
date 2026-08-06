@@ -1,0 +1,43 @@
+# ── Python ─────────────────────────────────────────────
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ── Node / Frontend ────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.log
+frontend/tsconfig.tsbuildinfo
+*.tsbuildinfo
+
+# ── Secrets / Environment ──────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Logs ───────────────────────────────────────────────
+*.log
+backend_log.txt
+
+# ── Data generators (kept out of the repo) ─────────────
+generator/
+
+# ── Generated / large files ────────────────────────────
+database/data_inserts.sql
+test_export.xlsx
+test_export*.xlsx
+docs/*_export.xlsx
+
+# ── IDE / OS ───────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

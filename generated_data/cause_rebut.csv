@@ -1,0 +1,13 @@
+cause_rebut_id,code,categorie,description
+1,C01,Materiel,Defaut matiere premiere
+2,C02,Materiel,Non-conformite nuance
+3,C03,Outil,Usure outil excessive
+4,C04,Outil,Cassage foret
+5,C05,Machine,Defaut machine
+6,C06,Machine,Vibration excessive
+7,C07,Programmation,Programme errone
+8,C08,Programmation,Offset incorrect
+9,C09,Operateur,Erreur manipulation
+10,C10,Operateur,Reglage incorrect
+11,C11,Autre,Contamination
+12,C12,Autre,Autre cause

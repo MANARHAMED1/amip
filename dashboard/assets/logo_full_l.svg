@@ -1,0 +1,30 @@
+<svg width="200" height="70" viewBox="0 0 200 70" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2545"/>
+      <stop offset="100%" stop-color="#5B7B9A"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(0,5)">
+    <path d="M9 57 L23 8 L37 57"
+          stroke="url(#logoGrad)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M37 57 L37 57
+          M37 38 L37 38"
+          stroke="none"/>
+    <line x1="13" y1="38" x2="31" y2="38"
+          stroke="url(#logoGrad)" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="23" cy="38" r="2" fill="#5B7B9A"/>
+    <path d="M37 14 L41 10 L41 17 Z"
+          fill="#5B7B9A" opacity="0.6"/>
+    <path d="M37 24 L42 19 L42 29 Z"
+          fill="#5B7B9A" opacity="0.4"/>
+    <path d="M37 38 L43 32 L43 44 Z"
+          fill="#5B7B9A" opacity="0.25"/>
+  </g>
+  <text x="50" y="36"
+        font-family="system-ui,-apple-system,sans-serif" font-size="28" font-weight="800"
+        fill="#0B2545" letter-spacing="-0.03">AMIP</text>
+  <text x="50" y="54"
+        font-family="system-ui,-apple-system,sans-serif" font-size="9" font-weight="600"
+        fill="#5A6872" letter-spacing="0.12">ADVANCED MANUFACTURING INTELLIGENCE</text>
+</svg>

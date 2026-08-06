@@ -1,0 +1,42 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Node
+frontend/node_modules/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Docker (avoid recursive copies)
+docker-compose.yml
+.env
+.env.*
+
+# Data (mounted as volumes, not baked in)
+generated_data/
+database/data_inserts.sql
+
+# Warehouse & ETL (mounted into DB container, not needed in backend)
+warehouse/
+etl/
+generator/
+
+# Docs
+docs/
+*.md
+tests/
+dashboard/
